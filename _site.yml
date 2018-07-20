@@ -4,6 +4,7 @@ output_dir: "docs"
 output:  
   html_document:  
     self_contained: no  
-    theme: flatly  
-navbar:  
+    theme: flatly
+    toc: yes
+navbar:
   title: "My First Webpage" 
