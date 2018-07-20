@@ -2,11 +2,8 @@ name: "Linguistics Course"
 author: "Nick Riches"  
 output_dir: "docs"  
 output:  
-  html_notebook:
-    number_sections: yes
-    toc: yes
-    toc_float:
-      collapsed: yes
+  html_document:  
+    self_contained: no  
     theme: flatly  
 navbar:  
-  title: "My First Webpage"
+  title: "My First Webpage" 
