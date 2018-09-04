@@ -1,0 +1,192 @@
+
+%*******CHANGE THESE VALUES**********************
+
+\def\doctype{1} % 1 = Student Handout, 2 = Lecturer sheet, 3 = slides
+
+\def\slides{1} % slides per sheet = 1, 4, or 8. Note; routine for creating handouts needs to access 'handoutWithNotes.sty'
+
+%*******OPTIONS FOR DIFFERENT DOC TYPES**********
+
+\if\doctype1
+   \documentclass[a4paper,11pt]{article}
+	\usepackage[a4paper, portrait, margin=1.3cm, rmargin = 3cm]{geometry}
+   \usepackage{beamerarticle}
+\fi
+
+
+\if\doctype2
+   \documentclass[a4paper,11pt]{article}
+   \usepackage[a4paper, portrait, margin=1.3cm, rmargin = 5cm]{geometry}
+   \usepackage{beamerarticle}
+\fi
+
+
+\if\doctype3
+
+	\if\slides1
+	\documentclass{beamer}
+	\fi
+
+	\if\slides4
+	\documentclass[xcolor=svgnames,smaller,ignorenonframetext, 12pt,table, handout]{beamer}
+	\usepackage{handoutWithNotes}
+	\usepackage{pgfpages}
+	\pgfpagesuselayout{4 on 1 with notes}[a4paper, border shrink=5mm]
+	\fi
+
+	\if\slides8
+	\documentclass[xcolor=svgnames,smaller, ignorenonframetext, 12pt, table, handout]{beamer}
+	\usepackage{handoutWithNotes}
+	\usepackage{pgfpages}
+	\pgfpagesuselayout{8 on 1}[a4paper,border shrink=5mm]
+	\fi
+
+\fi
+
+
+
+
+
+%**** Options for presentation ******
+
+\if\doctype3
+
+
+	\usetheme{Goettingen}
+	\usecolortheme{seahorse}
+	\setbeamertemplate{navigation symbols}{} %remove navigation symbols
+
+	% Ensure that title of slide corresponds to name of current subsection
+
+	\addtobeamertemplate{frametitle}{\let\insertframetitle\insertsubsection}{}
+
+	% Insert a table of contents slide at the beginning of each section
+
+	\AtBeginSection[]
+	{
+	 \begin{frame}<handout:0>[noframenumbering]{Outline}
+	   \tableofcontents[currentsection
+	   , hideallsubsections]
+	 \end{frame}
+	}
+
+	% Reduce gaps in Table of Contents slides
+
+	%\makeatletter
+	%\patchcmd{\beamer@sectionintoc}{\vskip1.5em}{\vskip0.5em}{}{}
+	%\makeatother
+
+\fi
+
+% Packages ==============================
+
+\usepackage{tipa}
+
+\usepackage{amsfonts}
+\usepackage[misc]{ifsym}
+\usepackage{ulem}
+\usepackage{dashrule}
+
+\usepackage{adjustbox}
+\usepackage{wrapfig}
+\usepackage{rotating}
+
+\usepackage{comment}
+
+\usepackage{xspace}
+
+\usepackage{array}
+
+\usepackage{xtab}
+\usepackage{ragged2e}
+\usepackage{amssymb,amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+
+\usepackage{etoolbox}
+
+\usepackage{float}
+%\usepackage{makeidx}
+\usepackage{enumitem}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes, positioning, shadows, trees}
+\usepackage{calc}
+\usepackage[latin1]{inputenc}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{tikz-dependency}
+\usepackage{tikz-qtree}
+%\usepackage{titlesec}
+\usepackage{linguex}
+
+\usepackage{ifthen}
+
+\usepackage{relsize}
+
+\usepackage{subfiles}
+
+\usepackage{enumerate}
+\usepackage{enumitem}
+
+%\usepackage{dialogue}
+
+\usepackage{epstopdf}
+\DeclareGraphicsExtensions{.eps, .jpg}
+
+
+
+
+% Set break between paragraphs
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0em}
+
+
+\setbeamertemplate{footline}[frame number]
+
+
+\input{mymacros_v3}
+
+
+\begin{document}
+
+
+% Setting information on titlepage ======================
+
+\title{Title}
+\author{Nick Riches}
+\institute{Newcastle University}
+\date{\today}
+
+\mode<presentation>{
+\begin{frame}
+\maketitle
+\end{frame}
+}
+
+\hypertarget{what-is-a-morpheme}{%
+\section{What is a morpheme}\label{what-is-a-morpheme}}
+
+A morpheme is a morpheme
+
+\hypertarget{different-types-of-morpheme}{%
+\subsection{Different types of
+morpheme}\label{different-types-of-morpheme}}
+
+This is really cool
+
+\hypertarget{the-past-tense-in-english}{%
+\subsection{The past tense in English}\label{the-past-tense-in-english}}
+
+-ed
+
+allomorph
+
+
+\end{document}
+
+
+
+
+

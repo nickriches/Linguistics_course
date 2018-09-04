@@ -1,0 +1,48 @@
+---
+name: "Linguistics Course - Resources"  
+author: "Nick Riches"  
+output:  
+  html_document:  
+    number_sections: yes
+    toc: yes
+    toc_float:
+      collapsed: yes
+---
+
+# 01 - Introduction to Linguistic Theory
+
+[Gretchen McCulloch podcast on 'Kids these days aren’t ruining language'](https://lingthusiasm.com/post/159796192161/lingthusiasm-episode-7-kids-these-days-arent)
+
+[Article on the use of double negatives in the Economist](https://www.economist.com/prospero/2018/07/18/a-grammatical-analysis-of-donald-trumps-double-negatives)
+
+[Good blog on African American Vernacular English](http://www.languagejones.com/blog-1/2014/6/8/what-is-aave)
+
+[Bill Cosby's famous speech criticism AAV English](https://en.wikipedia.org/wiki/Pound_Cake_speech)
+
+[Article in the Daily Mail reporting head teacher who bans local slang](http://www.dailymail.co.uk/news/article-3177901/Struggling-school-turns-round-fortune-banning-slang-words-innit-ain-t-coz-woz.html), [and another...](http://www.dailymail.co.uk/news/article-3565133/Shut-Geezer-runs-Essex-school-like-pupils-stop-speaking-Towie.html) and [a response by Rob Drummond (Manchester University) in the academic magazine 'the Conversation'](https://theconversation.com/slang-shouldnt-be-banned-it-should-be-celebrated-innit-58672) (P.S. the Daily Mail articles are clearly nonsense!!)
+
+[A good article on hyper-correction](https://www.thoughtco.com/hypercorrection-grammar-and-pronunciation-1690937)
+
+[Steven Pinker on prescriptive grammar](http://www.youtube.com/watch?v=Q-B_ONJIEcE&t=5m28s)
+
+# 02 - Word Classes
+
+[Gretchen McCulloch podcast on 'Getting into, up, for, and down with prepositions') ](https://lingthusiasm.com/post/167572233831/lingthusiasm-episode-14-getting-into-up-for-and)
+
+[A YouTube video on lexical gaps](https://www.youtube.com/watch?v=Zw5WctmULD8)
+
+# 05 - Morphological representation / processing
+
+[Gretchen McCulloch podcast on 'Learning parts of words: morphemes and the wug test'](https://lingthusiasm.com/post/169866479416/lingthusiasm-episode-16-learning-parts-of-words)
+
+# 06 - Phrases
+
+[Gretchen McCulloch podcast on 'Constituency'](https://lingthusiasm.com/post/161859273886/lingthusiasm-episode-9-the-bridge-between-words)
+
+
+[Article on how the passive voice is used to report conflict](https://www.theguardian.com/commentisfree/2018/may/16/israel-palestine-us-news-headlines-mysterious-deaths?CMP=Share_iOSApp_Other), but are the supposed examples of the 'passive' really the passive?
+
+
+# Theories of language
+
+[Steven Pinker on the Argument from the Poverty of the Stimulus](http://www.youtube.com/watch?v=Q-B_ONJIEcE&t=27m0s)

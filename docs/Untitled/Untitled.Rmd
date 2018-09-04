@@ -1,5 +1,5 @@
 ---
-title: "01 Introduction"
+title: "Untitled"
 output:
   html_document:
     css: webex.css
@@ -15,38 +15,6 @@ if (!requireNamespace("webex")) {
   library("webex")
 }
 ```
-
-# Varieties of English
-
-1. He couldn't wouldn't have worked.
-
-DIALECT = `r mcq(c("Southern US English", "Yorkshire English", "Liverpool English", "Bengali English", "Indian English", answer = "Geordie English", "American English"))`
-
-`r hide("Show answer")`
-`Standard English - He didn’t go to college to do that. This example is from _Geordie English / Northumberland English_. There are many local variations here; didn’t → divn’t, go → gan, tiv → to, do → di.`
-`r unhide()`
-
-2. She was having many dresses
-
-3. I like that you're unpredictable
-
-4. He divn't gan tiv a college ti di that, man!
-
-5. He went out to lunch and had one sandwich
-
-6. I told thee that it were right good!
-
-7. She been married a long time.
-
-8. What are youse doing?
-
-9. What are y'all doing?
-
-10. He's a good block, innit?
-
-New exercise
-
-All you need is `r mcq(c("hope", "joy", "suffering", answer = "love"))`
 
 This is a Web Exercise template created by the [psychology teaching team at the University of Glasgow](http://www.psy.gla.ac.ukUniversity of Glasgow), based on ideas by [Software Carpentry](https://software-carpentry.org/lessons/). This template enables instructors to easily create web documents that students can use in self-assessment.
 
