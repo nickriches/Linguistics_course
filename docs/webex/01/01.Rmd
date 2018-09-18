@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "01 - Introduction"
 output:
   html_document:
     css: webex.css
@@ -16,63 +16,121 @@ if (!requireNamespace("webex")) {
 }
 ```
 
-This is a Web Exercise template created by the [psychology teaching team at the University of Glasgow](http://www.psy.gla.ac.ukUniversity of Glasgow), based on ideas by [Software Carpentry](https://software-carpentry.org/lessons/). This template enables instructors to easily create web documents that students can use in self-assessment.
+# Concept-checking
 
-The webex package provides a number of functions that you use in [inline R code](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) to create HTML widgets (text boxes, pull down menus, buttons that reveal hidden content). Examples are provided in this document. Knit this file to HTML to see how it works.
+Fill the blanks:
 
-*NOTE: If the widgets don't work for you in the built-in RStudio browser, open the HTML file in a different browser.*
+S`r fitb("yntax", ignore_case = TRUE, width = "15")` is the study of language structure. S`r fitb("emantics", ignore_case = TRUE, width = "15")` is the study of linguistic meaning. Pr`r fitb("agmatics", ignore_case = TRUE, width = "15")` is the study of language in context. Ph`r fitb("onology", ignore_case = TRUE, width = "15")` is the study of the sound system of language.
 
-## Fill-In-The-Blanks (`fitb()`)
+D`r fitb("escriptive", ignore_case = TRUE, width = "15")` grammar describes the utterances people produce. M`r fitb("escriptive", ignore_case = TRUE)` describes the underlying system of rules in our minds which are used to derive sentences.  P`r fitb("rescriptive", ignore_case = TRUE)` grammars describe how we should / shouldn't use language.
 
-Create fill-in-the-blank questions using `fitb()`, providing the answer as the first argument.
+Hyp`r fitb("ercorrection", ignore_case = TRUE)` happens when there is a conflict between prescriptive grammars and our mental grammar, and we prioritise our prescriptive grammars.
 
-- 2 + 2 is `r fitb("4")`
+According to Weinreich, a language is  d`r fitb("ialect", ignore_case = TRUE)` with an  a`r fitb("rmy", ignore_case = TRUE)` and a  n`r fitb("avy", ignore_case = TRUE)`
 
-You can also create these questions dynamically, using variables from your R session.
+# Varieties of English
 
-```{r echo = FALSE}
-x <- sample(2:8, 1)
-```
+For the following sentences from non-standard varieties of English (a) how would you say them in standard English (b) which non-standard variety do they come from?
+ 
+1. He couldn't wouldn't have worked.
 
-- The square root of `r x^2` is: `r fitb(x)`
+DIALECT = `r mcq(c("Indian English", "Bengali English", answer = "Geordie English", "Yorkshire English", "Liverpool English", "American English", "Southern US English", "African American Vernacular English"))`
 
-The blanks are case-sensitive; if you don't care about case, use the argument `ignore_case = TRUE`.
+`r hide("Show answer")`
 
-- What is the letter after D? `r fitb("E", ignore_case = TRUE)`
+Standard English - He wasn’t able to work. This example is from _Geordie English_. Speakers make combinations of modal auxiliary verbs which are not permissible in standard English (Modal verbs are covered in Lecture 9 this semester)
 
-If you want to ignore differences in whitespace use, use the argument `ignore_ws = TRUE` and include spaces in your answer anywhere they could be acceptable..
+`r unhide()` <br>
 
-- How do you load the tidyverse package? `r fitb("library( tidyverse )", ignore_case = TRUE, width = "20")`
+2. She was having many dresses
 
-You can set more than one possible correct answer by setting the answers as a vector.
+DIALECT = `r mcq(c(answer = "Indian English", "Bengali English", "Geordie English", "Yorkshire English", "Liverpool English", "American English", "Southern US English", "African American Vernacular English"))`
 
-- Type a vowel: `r fitb(c("A", "E", "I", "O" , "U"), ignore_case = TRUE)`
+`r hide("Show answer")`
 
-## Multiple Choice (`mcq()`)
+Standard English - _She had many dresses_. This example is from Indian English. Progressive aspect (shown by -ing) is used with the verb have. Whereas in English have cannot take progressive aspect, in Indian English it can. Aspect will be covered later in the course.
 
-- "Never gonna give you up, never gonna: `r mcq(c("let you go", "turn you down", "run away", answer = "let you down"))`"
-- "I `r mcq(c(answer = "bless the rains", "guess it rains", "sense the rain"))` down in Africa" -Toto
+`r unhide()` <br>
 
-## True or False (`torf()`)
+3. I like that you're unpredictable
 
-- You can permute values in a vector using `sample()`. `r torf(TRUE)`
+DIALECT = `r mcq(c("Indian English", "Bengali English", "Geordie English", "Yorkshire English", "Liverpool English", answer = "American English", "Southern US English", "African American Vernacular English"))`
 
-## Hidden solutions and hints (`hide()` and `unhide()`)
+`r hide("Show answer")`
 
-- Recreate the scatterplot below, using the built-in `cars` dataset.
+In UK standard English we use like and then a noun, e.g. I like the fact that you’re unpredictable, or maybe I like it that you’re unpredictable. However, the above structure, where we use like plus a "clause" (a mini-sentence introduced by that) is becoming more common in standard English. To me it sounds a bit weird, but to you it may sound fairly normal. This expression is extremely common in American English and has probably "crossed the pond"
 
-```{r echo = FALSE}
-with(cars, plot(speed, dist))
-```
+`r unhide()` <br>
 
-`r hide("I need a hint")`
-`?plot`
-`r unhide()`
 
-`r hide()`
-```{r eval = FALSE}
-with(cars, plot(speed, dist))
-```
-`r unhide()`
+4. He divn't gan tiv a college ti di that, man!
 
-*Don't forget to `unhide()` after the solution!*
+DIALECT = `r mcq(c("Indian English", "Bengali English", answer = "Geordie English", "Yorkshire English", "Liverpool English", "American English", "Southern US English", "African American Vernacular English"))`
+
+`r hide("Show answer")`
+
+Standard English - He didn’t go to college to do that. This example is from _Geordie English / Northumberland English_. There are many local variations here; didn’t → divn’t, go → gan, tiv → to, do → di.
+
+`r unhide()` <br>
+
+5. He went out to lunch and had one sandwich
+
+DIALECT = `r mcq(c(answer = "Indian English", "Bengali English", "Geordie English", "Yorkshire English", "Liverpool English", "American English", "Southern US English", "African American Vernacular English"))`
+
+`r hide("Show answer")`
+
+Standard English - _He went out to lunch and had a sandwich_. The example is from _Indian English_. Determiner _One_ is used instead of a. This is due to transfer from Hindi where _one_ and _a_ are the same word
+
+`r unhide()` <br>
+
+6. I told thee that it were right good!
+
+DIALECT = `r mcq(c("Indian English", "Bengali English", "Geordie English", answer = "Yorkshire English", "Liverpool English", "American English", "Southern US English", "African American Vernacular English"))`
+
+`r hide("Show answer")`
+
+Standard English - I told you that it was really good. This is from Yorkshire English. Thee is used for second person singular pronoun. Were is used as the third person singular past tense form of the verb to be. Right is used as an intensifier (a type of adverb).
+
+`r unhide()` <br>
+
+7. She been married a long time.
+
+DIALECT = `r mcq(c("Indian English", "Bengali English", "Geordie English","Yorkshire English", "Liverpool English", "American English", "Southern US English", answer =  "African American Vernacular English"))`
+
+`r hide("Show answer")`
+
+Standard English - _She has been married for a long time_. The example is from _African American Vernacular English_. The use of _been_ has a very specific meaning, to show that the event has lasted for a long time. So while conservative commentators in the US have argued that AAVE is a "corrupted" form of English, this example shows us that so-called "incorrect" sentences actually have very sophisticated meanings. It is actually more sophisticated than Standard English, which does not make this distinction.
+
+`r unhide()` <br>
+
+8. What are youse doing?
+
+DIALECT = `r mcq(c("Indian English", "Bengali English", "Geordie English","Yorkshire English", answer = "Liverpool English", "American English", "Southern US English", "African American Vernacular English"))`
+
+`r hide("Show answer")`
+
+Standard English - What are you doing? Youse is used as a plural form in a number of English dialects including Liverpool English
+
+`r unhide()` <br>
+
+9. What are y'all doing?
+
+DIALECT = `r mcq(c("Indian English", "Bengali English", "Geordie English","Yorkshire English", "Liverpool English", "American English", answer = "Southern US English", "African American Vernacular English"))`
+
+`r hide("Show answer")`
+
+Standard English - What are you doing? _Y’all_ is used as a plural form in a number of Southern US dialects
+
+`r unhide()` <br>
+
+10. He's a good block, innit?
+
+DIALECT = `r mcq(c("Indian English", answer = "Bengali English", "Geordie English","Yorkshire English", "Liverpool English", "American English", "Southern US English", "African American Vernacular English"))`
+
+`r hide("Show answer")`
+
+Standard English - He’s a good bloke, isn’t he? _Innit_ is used as a tag question in central London and other urban areas in the UK. It may have originated from Bengali English.
+
+`r unhide()` <br>
+
+

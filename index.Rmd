@@ -46,7 +46,7 @@ Semester 1
 
  <table style="width:100%">
   <tr><th>Week</th><th>Topic</th><th>Materials</th>
-  <tr><th>01</th><th>Introduction to Linguistic Theory</th><th>![slides]() | [handout]() | [web exs](webex/01/01.html) | [resources]()</th>
+  <tr><th>01</th><th>Introduction to Linguistic Theory</th><th>[slides](slides/01 - Introduction.pdf) | [handout](handouts_word/01_-_Introduction.docx) | [handout (web)](handouts_html/01_-_Introduction.html) | [web exs](webex/01/01.html) | [resources]()</th>
   <tr><th>02</th><th>Word classes</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
   <tr><th>03</th><th>Lexical representation</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
   <tr><th>04</th><th>Morphemes</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
