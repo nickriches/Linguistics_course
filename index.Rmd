@@ -17,7 +17,7 @@ Welcome to the course in Linguistics!
 
 ## Accessing this web page
 
-You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to [https://nickriches.github.io/linguistics_course/](https://nickriches.github.io/linguistics_course/)
+You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to https://nickriches.github.io/linguistics_course/ (please copy and paste into your address bar). This is a better way to view the website if you are using a mobile phone or tablet. Also the menu system (on the left) will only work if you view the website outside of Blackboard.
 
 # Teaching materials
 
@@ -46,7 +46,7 @@ Semester 1
 
  <table style="width:100%">
   <tr><th>Week</th><th>Topic</th><th>Materials</th>
-  <tr><th>01</th><th>Introduction to Linguistic Theory</th><th>[slides](slides/01 - Introduction.pdf) | [handout](handouts_word/01_-_Introduction.docx) | [handout (web)](handouts_html/01_-_Introduction.html) | [web exs](webex/01/01.html) | [resources]()</th>
+  <tr><th>01</th><th>Introduction to Linguistic Theory</th><th>[slides](slides/01 - Introduction.pdf) | [handout](handouts_word/01_-_Introduction.docx) | [handout (web)]( handouts_html/01_-_Introduction.html) | [web exs](webex/01/01.html) | [resources]()</th>
   <tr><th>02</th><th>Word classes</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
   <tr><th>03</th><th>Lexical representation</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
   <tr><th>04</th><th>Morphemes</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
@@ -61,7 +61,8 @@ Semester 1
 
 
 
+##Tables
 
-The Linguistics component covers the following topics:(Semester 1:(Week 1- Introduction to Linguistic Theory; sub-branches of linguistics. Different levels of representation; proposition> sentence> utterance(Week 2- Words; how to identify word classes(Week 3- Lexical representation; Lexical relationships, eg hyponymy, synonymy. Lexical errors & implications for the lexicon(Week 4- Morphemes; Identifying derivational & inflectional morphemes. Phenomenon of agreement(Week 5- Morphological representation & processing; Ullman’s dual route model & its implication for inflection. Storage of derived forms (eg whole-entry versus compositional)(Week 6- Phrases; How to identify syntactic phrases(Week 7- Syntactic functions; Covering all functions in the Cambridge Grammar of English/grammatical analysis framework. Phenomenon of case-marking(Week 8- ‘Verbs in the driving seat’; Standard theories of argument structure(Week 9- Complementation versus modification; Discussing the difference between complementation & modification,& the different types of modifying phrases (adverbials + relative clauses)(Week 10- The Garrett Model of sentence production(Week 11- ‘Verbs in the passenger seat’. Looking at sentences where structure is not determined by verb lemma, & its implications for syntactic theory. This leads into a discussion of construction grammar(Semester 2:(Week 1- Semantics of time. Tense & grammatical aspect(Week 2- Syntax of time; Syntactic expression of tense & grammatical aspect(Week 3- Hierarchical structure; An introduction to syntactic trees, & why they are a useful formulism(Week 4- Clauses I; Adverbial clauses(Week 5- Clauses II; Other types of dependent clause, e.g. clauses in Subject, Complement & Postmodifier position.(Week 6- Modality(Week 7- Mood & voice(Week 8- Sentence comprehension I; Discussion of the garden path model, constraint-based models, the goodenough model(Week 9- Sentence comprehension II; Looking at how syntactic & discourse factors influence processing complexity(Week 10- Dealing with formulaicity; Discussion of formulaic/idiomatic language, & where it fits into linguistic models(Week 11- Linguistics in the clinic; using linguistic theory to diagnose & treat language disorders
+Here are some links to interactive tables which are used to demonstrate linguistic concepts. There are tables on [word classes](html/word_classes.html)
 
 
