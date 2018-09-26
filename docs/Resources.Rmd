@@ -9,7 +9,7 @@ output:
       collapsed: yes
 ---
 
-# 01 - Introduction to Linguistic Theory
+# Introduction to Linguistic Theory
 
 READINGS:
 
@@ -43,7 +43,7 @@ OTHER RESOURCES:
 
 [Steven Pinker on prescriptive grammar](http://www.youtube.com/watch?v=Q-B_ONJIEcE&t=5m28s)
 
-# 02 - Word Classes
+# Word Classes
 
 READINGS:
 
@@ -59,7 +59,7 @@ OTHER MATERIALS:
 
 [Cool cartoon on the arbitrariness of words](images/names are arbitrary t-rex.png) (remember, arbitrariness is a key characteristics of symbols)
 
-# 05 - Morphological representation / processing
+# Morphological representation / processing
 
 READINGS:
 
@@ -69,7 +69,7 @@ OTHER MATERIALS:
 
 [Gretchen McCulloch podcast on 'Learning parts of words: morphemes and the wug test'](https://lingthusiasm.com/post/169866479416/lingthusiasm-episode-16-learning-parts-of-words)
 
-# 06 - Phrases
+# Phrases
 
 READINGS:
 
@@ -81,9 +81,8 @@ Borjars & Burridge, Chapter 2 (2.3 onwards)
 [Article on how the passive voice is used to report conflict](https://www.theguardian.com/commentisfree/2018/may/16/israel-palestine-us-news-headlines-mysterious-deaths?CMP=Share_iOSApp_Other), but are the supposed examples of the 'passive' really the passive?
 
 
-# Theories of language
 
-[Steven Pinker on the Argument from the Poverty of the Stimulus](http://www.youtube.com/watch?v=Q-B_ONJIEcE&t=27m0s)
+<!-- [Steven Pinker on the Argument from the Poverty of the Stimulus](http://www.youtube.com/watch?v=Q-B_ONJIEcE&t=27m0s) -->
 
 
 
