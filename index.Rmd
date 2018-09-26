@@ -17,7 +17,49 @@ Welcome to the course in Linguistics!
 
 ## Accessing this web page
 
-You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to https://nickriches.github.io/linguistics_course/ (please copy and paste into your address bar). This is a better way to view the website if you are using a mobile phone or tablet. Also the menu system (on the left) will only work if you view the website outside of Blackboard.
+You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to <!-- --> https://nickriches.github.io/linguistics_course/#01_linguistics <!-- --> (please copy and paste into your address bar). This is a better way to view the website if you are using a mobile phone or tablet. Also the menu system (on the left) will only work if you view the website outside of Blackboard.
+
+# Reading materials
+
+## Main reading materials
+
+The main text is **Borjars, K., & Burridge, K. (2010). Introducing English Grammar (2nd ed.). Hodder Education.** [(this link will take you to the library website where you can see available copies)](https://libsearch.ncl.ac.uk/primo-explore/fulldisplay?docid=NCL_ALMA2162237630002411&context=L&vid=NEWUI&lang=en_US&search_scope=NotPC&adaptor=Local%20Search%20Engine&isFrbr=true&tab=default_tab&query=any,contains,borjars%20burridge&sortby=date&facet=frbrgroupid,include,1443135978&offset=0)
+
+There is also an excellent book on linguistics which is written for speech and language therapists **McAllister, J., & Miller. J (2012). Introductory Linguistics for Speech and Language Therapy Practice. Wiley-Blackwell.**  [(library link)](https://libsearch.ncl.ac.uk/primo-explore/fulldisplay?docid=NCL_ALMA2161387180002411&context=L&vid=NEWUI&lang=en_US&search_scope=NotPC&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,mcallister%20miller&sortby=rank&offset=0)
+
+**Crystal, P. D. (2004). Rediscover Grammar (2nd ed.). Longman.** is a good reference book for learning grammatical, but be warned, occasionally his use of terminology is slightly idiosyncratic [(library link)](https://libsearch.ncl.ac.uk/primo-explore/fulldisplay?docid=NCL_ALMA2156538420002411&context=L&vid=NEWUI&lang=en_US&search_scope=NotPC&adaptor=Local%20Search%20Engine&isFrbr=true&tab=default_tab&query=any,contains,crystal%20rediscover&sortby=date&facet=frbrgroupid,include,1443230234&offset=0)
+
+## Secondary readings
+
+The library has a wide range of introductory books on linguistics.
+
+_Black, M., & Chiat, S. (2003). Linguistics for Clinicians A Practical Introduction. Hodder Education_ is specifically designed for clinicians, so you might wish to take a look at this. However, the book does involve a fairly steep learning curve.
+
+The following two books are good introduction to generative (Chomskyan) linguistic theory. Be warned, they contain lots of syntactic trees, which we will cover only briefly in the course. The Carnie is exception- ally readable, and probably the best introduction to generative linguistic theory I have come across.
+
+1. _Carnie, A. (2002). Syntax a generative introduction. Blackwell Pub._
+2. _Haegeman,L. (1994). Introduction to Government and Binding Theory (2nd ed.). Wiley-Blackwell._
+
+_Burton-Roberts, P. N. (2010). Analysing Sentences Introduction to English Syntax (3rd ed.). Pearson Longman._ is another good introduction, written broadly within the generative framework. Again, it contains trees!
+
+## Further reading
+
+_Pinker, S. (1994). The Language Instinct. The Penguin Group._
+is probably the best all-round introduction to linguistics and language psychology. It is written with real verve and panache, and is immensely readable. However, Pinker is sometimes guilty of simplifying facts to suit has argument (it is popular science after all).
+
+If you wish to read about non-generative approaches, Adele Goldberg has written a couple of great books, but some mind find them difficult.
+
+1. _Goldberg, A. E. (1995). Constructions a Construction Grammar approach to argument structure. University of Chicago Press._
+2. _Goldberg, A. E. (2006). Constructions at Work The Nature of Generalization in Language. Oxford, UK: Oxford University Press._
+
+## Main readings for topics in semantics
+
+The two main semantics texts are;
+
+1. _Saeed, J. I. (2010). Semantics. John Wiley & Sons._ [library link](https://libsearch.ncl.ac.uk/primo-explore/fulldisplay?docid=NCL_ALMA21122130560002411&context=L&vid=NEWUI&lang=en_US&search_scope=NotPC&adaptor=Local%20Search%20Engine&isFrbr=true&tab=default_tab&query=any,contains,semantics&sortby=date&facet=frbrgroupid,include,1443482684&offset=0)
+2. _Cruse, A. (2010). Meaning in Language An Introduction to Semantics and Pragmatics: OUP Oxford._ [library link](https://libsearch.ncl.ac.uk/primo-explore/fulldisplay?docid=NCL_ALMA2159351000002411&context=L&vid=NEWUI&lang=en_US&search_scope=NotPC&adaptor=Local%20Search%20Engine&isFrbr=true&tab=default_tab&query=any,contains,cruse%20meaning&sortby=date&facet=frbrgroupid,include,1443131633&offset=0)
+
+The Saeed book is better for topics in sentence meaning, e.g. propositions, arguments, tense and aspect. The Cruse book is better on lexical semantics (word meaning)
 
 # Teaching materials
 
@@ -47,7 +89,7 @@ Semester 1
  <table style="width:100%">
   <tr><th>Week</th><th>Topic</th><th>Materials</th>
   <tr><th>01</th><th>Introduction to Linguistic Theory</th><th>[slides](slides/01 - Introduction.pdf) | [handout](handouts_word/01_-_Introduction.docx) | [handout (web)]( handouts_html/01_-_Introduction.html) | [web exs](webex/01/01.html) | [resources]()</th>
-  <tr><th>02</th><th>Word classes</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
+  <tr><th>02</th><th>Word classes</th><th>[slides]() | [handout]() | [web exs](docs/webex/02/02.html) | [resources]()</th>
   <tr><th>03</th><th>Lexical representation</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
   <tr><th>04</th><th>Morphemes</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
   <tr><th>05</th><th>Morphological representation / processing</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
@@ -61,7 +103,7 @@ Semester 1
 
 
 
-##Tables
+## Tables
 
 Here are some links to interactive tables which are used to demonstrate linguistic concepts. There are tables on [word classes](html/word_classes.html)
 

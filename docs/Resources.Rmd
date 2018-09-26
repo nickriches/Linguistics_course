@@ -11,31 +11,69 @@ output:
 
 # 01 - Introduction to Linguistic Theory
 
+READINGS:
+
+Borjars & Burridge, Chapter 1
+
+Steven Pinker’s The Language Instinct, Chapter 12, The Language Mavens This is a brilliant demolition of prescriptive grammars.
+
+Pullum, G. (1999) [African American Vernacular English is not standard English with mistakes](www.stanford.edu/~zwicky/aave-is-not-se-with-mistakes.pdf). In R. S. Wheeler (Ed.), The workings of language From prescriptions to perspectives (pp. 39-58). Westport, CT Praeger.
+
+OTHER RESOURCES:
+
 [Gretchen McCulloch podcast on 'Kids these days aren’t ruining language'](https://lingthusiasm.com/post/159796192161/lingthusiasm-episode-7-kids-these-days-arent)
 
 [Article on the use of double negatives in the Economist](https://www.economist.com/prospero/2018/07/18/a-grammatical-analysis-of-donald-trumps-double-negatives)
 
 [Good blog on African American Vernacular English](http://www.languagejones.com/blog-1/2014/6/8/what-is-aave)
 
-[Bill Cosby's famous speech criticism AAV English](https://en.wikipedia.org/wiki/Pound_Cake_speech)
+[Wikipedia article on Bill Cosby's famous speech criticising AAV English](https://en.wikipedia.org/wiki/Pound_Cake_speech)
 
 [Article in the Daily Mail reporting head teacher who bans local slang](http://www.dailymail.co.uk/news/article-3177901/Struggling-school-turns-round-fortune-banning-slang-words-innit-ain-t-coz-woz.html), [and another...](http://www.dailymail.co.uk/news/article-3565133/Shut-Geezer-runs-Essex-school-like-pupils-stop-speaking-Towie.html) and [a response by Rob Drummond (Manchester University) in the academic magazine 'the Conversation'](https://theconversation.com/slang-shouldnt-be-banned-it-should-be-celebrated-innit-58672) (P.S. the Daily Mail articles are clearly nonsense!!)
 
+[A further article on a school which tries to ban the local Black Country  dialect](https://www.theguardian.com/education/2013/nov/14/black-country-headteacher-banning-dialect)
+
+[And another school in London](https://www.theguardian.com/uk-news/2013/oct/15/london-school-bans-pupils-slang-innit) which has attempted to ban certain linguistic features from the local dialect.
+
+[Here are some poor Bostonians trying to shed their local accent](https://www.youtube.com/watch?feature=player_embedded&v=ketrhWr58wA)
+
 [A good article on hyper-correction](https://www.thoughtco.com/hypercorrection-grammar-and-pronunciation-1690937)
+
+[Great Mitchell and Webb sketch which riffs on a prescriptive approach to language (be warned, cartoonish violence involving blood)](https://www.youtube.com/watch?v=j4hvh5e8-nw)
 
 [Steven Pinker on prescriptive grammar](http://www.youtube.com/watch?v=Q-B_ONJIEcE&t=5m28s)
 
 # 02 - Word Classes
 
+READINGS:
+
+Borjars & Burridge, Chapter 3
+
+OTHER MATERIALS:
+
 [Gretchen McCulloch podcast on 'Getting into, up, for, and down with prepositions') ](https://lingthusiasm.com/post/167572233831/lingthusiasm-episode-14-getting-into-up-for-and)
+
+[English has a new preposition!](https://www.theatlantic.com/technology/archive/2013/11/english-has-a-new-preposition-because-internet/281601/)
 
 [A YouTube video on lexical gaps](https://www.youtube.com/watch?v=Zw5WctmULD8)
 
+[Cool cartoon on the arbitrariness of words](images/names are arbitrary t-rex.png) (remember, arbitrariness is a key characteristics of symbols)
+
 # 05 - Morphological representation / processing
+
+READINGS:
+
+Borjars & Burridge, Chapter 2 (sections 2.1 and 2.2)
+
+OTHER MATERIALS:
 
 [Gretchen McCulloch podcast on 'Learning parts of words: morphemes and the wug test'](https://lingthusiasm.com/post/169866479416/lingthusiasm-episode-16-learning-parts-of-words)
 
 # 06 - Phrases
+
+READINGS:
+
+Borjars & Burridge, Chapter 2 (2.3 onwards)
 
 [Gretchen McCulloch podcast on 'Constituency'](https://lingthusiasm.com/post/161859273886/lingthusiasm-episode-9-the-bridge-between-words)
 
@@ -46,3 +84,7 @@ output:
 # Theories of language
 
 [Steven Pinker on the Argument from the Poverty of the Stimulus](http://www.youtube.com/watch?v=Q-B_ONJIEcE&t=27m0s)
+
+
+
+<!-- THE BIG BAN THEORY https://www.youtube.com/watch?v=NiylEdcIZ2Q -->

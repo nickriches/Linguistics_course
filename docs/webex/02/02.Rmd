@@ -1,0 +1,122 @@
+---
+title: "Week 2 - word classes"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+ 
+ 
+ 
+# Concept-checking
+
+There are 3 tests to determine the word class of a word:
+
+1. The f`r fitb("unctional", ignore_case = TRUE, width = "15")` test: what meaning does it express?
+2. The p`r fitb("ositional", ignore_case = TRUE, width = "15")` test: where does the word come in a sentence? What is its distribution?
+3. The m`r fitb("orphological", ignore_case = TRUE, width = "15")` test: does the word have any particular form? e.g. if it ends -ly it is likely to be adverb
+
+The most reliable test of word class is the
+`r mcq(c("functional", answer = "positional", "morphological"))` test.
+
+Word classes such as Noun and Verb, which allow lots of members, are called `r fitb("open class", ignore_case = TRUE, ignore_ws = TRUE, width = "15")` words, while word classes such as Prepositions and Determiners, which do not allow new members, are called `r fitb("closed class", ignore_case = TRUE, ignore_ws = TRUE, width = "15")` words.
+
+# Open and closed class versions of the same category
+
+Open class nominals (words referring the things) are called Nouns. There is also a category of closed class nominals called `r fitb("pronouns", ignore_case = TRUE, width = "15")`.
+
+While verbs are open class, there is a special kind of verb, an `r fitb("auxiliary", ignore_case = TRUE, width = "15")` verb, which is a closed class category. This is found in the verb complex and plays a 'supporting' role.
+
+# Modifying words
+
+There are two types of modifying words a`r fitb("djectives", ignore_case = TRUE, ignore_ws = TRUE, width = "15")` and a`r fitb("dverbs", ignore_case = TRUE, ignore_ws = TRUE, width = "15")`.
+
+While adjectives modify `r fitb("nouns", ignore_case = TRUE, ignore_ws = TRUE, width = "15")`, adverbs modify v`r fitb("erbs", ignore_case = TRUE, ignore_ws = TRUE, width = "15")`, a`r fitb("djectives", ignore_case = TRUE, ignore_ws = TRUE, width = "15")` or entire s`r fitb("entences", ignore_case = TRUE, ignore_ws = TRUE, width = "15")`
+
+# Linking words
+
+There are two types of linking words c`r fitb("onjunctions", ignore_case = TRUE, ignore_ws = TRUE, width = "15")`, and a`r fitb("dverbs", ignore_case = TRUE, ignore_ws = TRUE, width = "15")` (the type we use to modify sentences)
+
+# Prepositions
+
+Prepositions come before n`r fitb("oun", ignore_case = TRUE, ignore_ws = TRUE, width = "15")` phrases, e.g. _she is on the bus_. They often express loc`r fitb("ation", ignore_case = TRUE, ignore_ws = TRUE, width = "15")` but can have a variety of different functions.
+
+`r hide("Show all answers")`
+
+# Concept-checking
+
+There are 3 tests to determine the word class of a word:
+
+1. The FUNCTIONAL test: what meaning does it express?
+2. The POSITIONAL test: where does the word come in a sentence? What is its distribution?
+3. The MORPHOLOGICAL test: does the word have any particular form? e.g. if it ends -ly it is likely to be adverb
+
+The most reliable test of word class is the POSITIONAL test.
+
+Word classes such as Noun and Verb, which allow lots of members, are called OPEN CLASS words, while word classes such as Prepositions and Determiners, which do not allow new members, are called CLOSED CLASS words
+
+# Open and closed class versions of the same category
+
+Open class nominals (words referring the things) are called Nouns. There is also a category of closed class nominals called PRONOUNS
+
+While verbs are open class, there is a special kind of verb, an AUXILIARY verb, which is a closed class category. This is found in the verb complex and plays a 'supporting' role.
+
+# Modifying words
+
+There are two types of modifying words ADJECTIVES and ADVERBS.
+
+While adjectives modify NOUNS, adverbs modify VERBS, ADVERBS or entire SENTENCES.
+
+# Linking words
+
+There are two types of linking words CONJUNCTIONS, and ADVERBS (the type we use to modify sentences)
+
+# Prepositions
+
+Prepositions come before NOUN phrases, e.g. _she is on the bus_. They often express LOCATION but can have a variety of different functions.
+
+`r unhide()`
+
+# Identifying word classes
+
+When doing this exercise, think about the word endings, and what they tell you about the class of the word.
+
+Which of these is not a verb? `r mcq(c("hypnotise", "salivate", answer = "extravagant", "harden"))`
+`r hide()`
+The -ise, -ate, and -en endings are all typical of verbs, e.g. _itemise_, _regurgitate_, _soften_.
+`r unhide()` <br>
+
+Which of these is not a noun? `r mcq(c(answer = "capitulate", "fullness", "spinsterhood", "gardener"))`
+`r hide()`
+The -ness, -hood, and -er endings are all typical of nouns, e.g. _wellness_, _neighbourhood_, _cleaner_.
+`r unhide()` <br>
+
+Which of these is not an adjective? `r mcq(c("slothful", "touchy-feely", "barbarous", answer = "cornucopia" ))`
+`r hide()`
+The -ful, -y, and -ous endings are all typical of adjectives, e.g. _beautiful_, _smelly_, _frivolous_
+`r unhide()` <br>
+
+Which of these is not an adverb? `r mcq(c("apparently", answer = "because", "honestly", "however"))`
+`r hide()`
+_Because_ is a conjunction. Unlike adverbs, it is able to join two sentences. The -ly ending is typical of adverbs, but note that _however_ does not have an ending typical of adverbs.
+`r unhide()` <br>
+
+Which of these is not a preposition? `r mcq(c("on", "over", "with", "out", answer = "straight"))`
+`r hide()`
+All prepositions can be inserted in front of a Noun Phrase, e.g. _on the bus_, _over the moon_, _with a smile on his face_, _out the door_
+`r unhide()` <br>
+
+Which of these is not a determiner? `r mcq(c("the", answer = "them", "a", "many", "these"))`
+`r hide()`
+All can be followed by a noun except _them_ (well, actually, in some dialects, _them_ acts as a determiner, e.g. _could you give me them things_, but in Standard English it is not a determiner)
+`r unhide()`
