@@ -6,14 +6,23 @@ output: html_document
 
 ![](images/two_heads.jpg)
 
+<a href="https://twitter.com/intent/tweet?button_hashtag=newspling&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #newspling</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 # Introduction
 
 ## Brief overview of the course
 
-This course covers fu
+The course covers topics in syntax (sentence structure) and semantics (linguistic meaning) with a clinical focus. It adopts a mainly descriptive approach, describing language structure rather than trying to explain it. Nonetheless there will be brief introductions to linguistic theories (Construction Grammar and Chomskyan Generative Linguistics).
 
-Welcome to the course in Linguistics!
+## Getting help
 
+I can be contacted on <a href="mailto:nick.riches@newcastle.ac.uk">nick.riches@newcastle.ac.uk</a>
+
+I have three drop-in sessions:
+
+1. Monday 12 - 1 (slot available for MScs only)
+2. Tuesday 12 - 1 (slot available for BScs only)
+3. Tuesday 4 - 5 (slot available for Mscs and BScs)
 
 ## Accessing this web page
 
@@ -61,13 +70,42 @@ The two main semantics texts are;
 
 The Saeed book is better for topics in sentence meaning, e.g. propositions, arguments, tense and aspect. The Cruse book is better on lexical semantics (word meaning)
 
+# Assessment
+
+## BScs
+
+There will be **two one-hour exams**, one at the end of Semester 1 (January, 2019), and one at the end of Semester 2 (May 2019)
+
+## MScs
+
+MScs will do the **exam in Semester 2 only** (May 2019). At the end of Semester 1, you will do a **Semantic Analysis exercise** (analysing the argument atructure of sentences in clinical data). The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam.
+
+## Exam content
+
+The Semester 1 exam will contain questions on the following topics.
+
+1. Labelling syntactic functions using LARSP
+2. Labelling semantic relations (argument structure)
+3. Discussing psycholinguistic models and data
+4. Discussing clinical materials and data
+5. A mini-essay question on any topic which we have covered.
+
+The Semester 2 exam will contain questions on the following topics.
+
+1. Labelling syntactic functions using LARSP
+2. Labelling dependent clauses
+3. Labelling tense, aspect and voice
+4. Discussing psycholinguistic models and data
+5. Discussing clinical materials and data
+6. A mini-essay question on any topic which we have covered.
+
+Later this semester, I will post up example questions for you to look at.
+
 # Teaching materials
 
 The topics are described below, with links to teaching materials and other resources.
 
-## Linguistics
-
-### Semester 1
+## Semester 1
 
 <style>
 
@@ -101,10 +139,12 @@ Semester 1
   <tr><th>11</th><th>'Verbs in the passenger seat'</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
 </table> 
 
+# Semester 2
 
+TO BE ADDED
 
 ## Tables
 
-Here are some links to interactive tables which are used to demonstrate linguistic concepts. There are tables on [word classes](html/word_classes.html)
+This section is for links to interactive tables which are used to demonstrate linguistic concepts. There is a table on [word classes](html/word_classes.html), and I may make some more!
 
 
