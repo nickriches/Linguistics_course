@@ -38,7 +38,7 @@ DIALECT = `r mcq(c("Indian English", "Bengali English", answer = "Geordie Englis
 
 `r hide("Show answer")`
 
-Standard English - He wasn’t able to work. This example is from _Geordie English_. Speakers make combinations of modal auxiliary verbs which are not permissible in standard English (Modal verbs are covered in Lecture 9 this semester)
+Standard English - He wasn’t able to work. This example is from _Geordie English_. Speakers make combinations of modal auxiliary verbs which are not permissible in standard English (Modal verbs are covered in Lecture 6 next semester)
 
 `r unhide()` <br>
 
