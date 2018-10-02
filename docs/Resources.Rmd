@@ -11,7 +11,7 @@ output:
 
 # Introduction to Linguistic Theory
 
-READINGS:
+__READINGS:__
 
 Borjars & Burridge, Chapter 1
 
@@ -19,7 +19,9 @@ Steven Pinker’s The Language Instinct, Chapter 12, The Language Mavens This is
 
 Pullum, G. (1999) [African American Vernacular English is not standard English with mistakes](www.stanford.edu/~zwicky/aave-is-not-se-with-mistakes.pdf). In R. S. Wheeler (Ed.), The workings of language From prescriptions to perspectives (pp. 39-58). Westport, CT Praeger.
 
-OTHER RESOURCES:
+In addition you can read [this chapter](old chapters/1_introduction_reduced.pdf) from a book I wrote to accompany last year's course. I will no longer be using this book, as the course structure has changed quite a lot, but when certain chapters are relevant I will provide links to them.
+
+__OTHER RESOURCES:__
 
 [Gretchen McCulloch podcast on 'Kids these days aren’t ruining language'](https://lingthusiasm.com/post/159796192161/lingthusiasm-episode-7-kids-these-days-arent)
 
@@ -45,11 +47,13 @@ OTHER RESOURCES:
 
 # Word Classes
 
-READINGS:
+__READINGS:__
 
 Borjars & Burridge, Chapter 3
 
-OTHER MATERIALS:
+Here is a [link](old chapters/2_building_blocks_reduced.pdf) the relevant chapter in the old handbook
+
+__OTHER RESOURCES:__
 
 [Gretchen McCulloch podcast on 'Getting into, up, for, and down with prepositions') ](https://lingthusiasm.com/post/167572233831/lingthusiasm-episode-14-getting-into-up-for-and)
 
@@ -71,12 +75,11 @@ OTHER MATERIALS:
 
 # Phrases
 
-READINGS:
+__READINGS:__
 
 Borjars & Burridge, Chapter 2 (2.3 onwards)
 
 [Gretchen McCulloch podcast on 'Constituency'](https://lingthusiasm.com/post/161859273886/lingthusiasm-episode-9-the-bridge-between-words)
-
 
 [Article on how the passive voice is used to report conflict](https://www.theguardian.com/commentisfree/2018/may/16/israel-palestine-us-news-headlines-mysterious-deaths?CMP=Share_iOSApp_Other), but are the supposed examples of the 'passive' really the passive?
 

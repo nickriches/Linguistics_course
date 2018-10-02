@@ -26,7 +26,7 @@ Please feel free to just 'drop in' (but please also contact me in advance if at 
 
 ## Accessing this web page
 
-You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to <!-- --> https://nickriches.github.io/linguistics_course/#01_linguistics <!-- --> (please copy and paste into your address bar). This is a better way to view the website if you are using a mobile phone or tablet. Also the menu system (on the left) will only work if you view the website outside of Blackboard.
+You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to <!-- --> https://nickriches.github.io/linguistics_course/#01_linguistics <!-- --> (please right click, and select 'open link new window', or else copy and paste into the address bar of your browser). This is a better way to view the website if you are using a mobile phone or tablet. Also the menu system (on the left) will only work if you view the website outside of Blackboard.
 
 # Reading materials
 
@@ -125,16 +125,16 @@ th, td {
  <table style="width:100%">
   <tr><th>Week</th><th>Topic</th><th>Materials</th>
   <tr><th>01</th><th>Introduction to Linguistic Theory</th><th>[slides](slides/01 - Introduction.pdf) | [handout](handouts_word/01_-_Introduction.docx) | [handout (web)](handouts_html/01_-_Introduction.html) | [web exs](webex/01/01.html) | [resources](Resources.html#1)</th>
-  <tr><th>02</th><th>Word classes</th><th>[slides]() | [handout]() | [web exs](docs/webex/02/02.html) | [resources](Resources.html#2)</th>
-  <tr><th>03</th><th>Lexical representation</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
-  <tr><th>04</th><th>Morphemes</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
-  <tr><th>05</th><th>Morphological representation / processing</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
-  <tr><th>06</th><th>Phrases</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
-  <tr><th>07</th><th>Syntactic functions</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
-  <tr><th>08</th><th>'Verbs in the driving seat' (argument structure)</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
-  <tr><th>09</th><th>Complementation versus modification</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
-  <tr><th>10</th><th>Sentence production</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
-  <tr><th>11</th><th>'Verbs in the passenger seat'</th><th>[slides]() | [handout]() | [web exs]() | [resources]()</th>
+  <tr><th>02</th><th>Word classes</th><th>[slides](slides/02 - Word Classes.pdf) | [handout](handouts_html/02_-_Word_Classes.html) | [web exs](webex/02/02.html) | [resources](Resources.html#2)</th>
+  <tr><th>03</th><th>Lexical representation</th><th>slides | handout | web exs | resources</th>
+  <tr><th>04</th><th>Morphemes</th><th>slides | handout | web exs | resources</th>
+  <tr><th>05</th><th>Morphological representation / processing</th><th>slides | handout | web exs | resources</th>
+  <tr><th>06</th><th>Phrases</th><th>slides | handout | web exs | resources</th>
+  <tr><th>07</th><th>Syntactic functions</th><th>slides | handout | web exs | resources</th>
+  <tr><th>08</th><th>'Verbs in the driving seat' (argument structure)</th><th>slides | handout | web exs | resources</th>
+  <tr><th>09</th><th>Complementation versus modification</th><th>slides | handout | web exs | resources</th>
+  <tr><th>10</th><th>Sentence production</th><th>slides | handout | web exs | resources</th>
+  <tr><th>11</th><th>'Verbs in the passenger seat'</th><th>slides | handout | web exs | resources</th>
 </table> 
 
 # Semester 2
