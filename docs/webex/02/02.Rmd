@@ -22,7 +22,7 @@ if (!requireNamespace("webex")) {
 
 There are 3 tests to determine the word class of a word:
 
-1. The f`r fitb("unctional", ignore_case = TRUE, width = "15")` test: what meaning does it express?
+1. The s`r fitb("emantic", ignore_case = TRUE, width = "15")` test: what meaning does it express?
 2. The p`r fitb("ositional", ignore_case = TRUE, width = "15")` test: where does the word come in a sentence? What is its distribution?
 3. The m`r fitb("orphological", ignore_case = TRUE, width = "15")` test: does the word have any particular form? e.g. if it ends -ly it is likely to be adverb
 
