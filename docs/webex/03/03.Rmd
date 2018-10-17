@@ -1,0 +1,140 @@
+---
+title: "03 - Lexical Representation"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+# Relationships between words
+
+
+Words often exist in a 3-way hierarchy. In the middle is the b`r fitb("asic", width = "8")` category, e.g. _flower_, _chair_. The hyp`r fitb("eronym", width = "8")` or s`r fitb("uperordinate", width = "8")` category is _plant_ or _furniture_, while the hyp`r fitb("onym", width = "8")` or sub`r fitb("ordinate", width = "8")` category s _daisy_ or _stool_. These three levels may be defined in terms of their definition (the in`r fitb("tension", width = "8")`), or the objects they refer to (their ex`r fitb("tension", width = "8")`).
+
+Words with different forms, but the same meaning are called syn`r fitb("onyms", width = "8")`. There are very few genuine syn`r fitb("onyms", width = "8")` because language adopts a principle whereby different forms signal different meanings, a phenomenon called the principle of c`r fitb("ontrast", width = "8")`.
+
+Words with opposite meanings are called ant`r fitb("onyms", width = "8")`.
+
+Words with the same form, but different unrelated meanings are called hom`r fitb("onyms", width = "8")`. Often they are derived from different r`r fitb("oots", width = "8")`, and therefore identical forms are the result hist`r fitb("orical", width = "8")` acc`r fitb("ident", width = "8")`
+
+A l`r fitb("exical", width = "8")` g`r fitb("ap", width = "8")` refers to a concept which does not have a corresponding word. An example is the opposite of _bald_ or the inside of an elbow.
+
+Words with the same form, and distinct but related meanings are p`r fitb("olysemes", width = "8")` (examples of the phenomenon of p`r fitb("olysemy", width = "8")`). The subtly different meanings are referred to as s`r fitb("enses", width = "8")`
+
+H`r fitb("omographs", width = "8")` are words with the same written form, but different spoken forms, e.g. _He *wore* a bow tie_, _She *bowed* when she met the Queen_
+
+H`r fitb("omophones", width = "8")` are words with the same spoken form, but different written forms, e.g. _sight_ and _site_.
+
+Examples of lexical speech errors are b`r fitb("lends", width = "8")`, e.g. _misunderestimate_, ph`r fitb("onological", width = "8")` sub`r fitb("stitutions", width = "8")`, e.g. _concubines -> porcupines_, sem`r fitb("antic", width = "8")` sub`r fitb("stitutions", width = "8")`, e.g. _hammer -> screwdriver_, and Tip of the T`r fitb("ongue", width = "8")` EFFECTS.
+
+Lexical errors can best be explained in terms of a two-stage model, whereby the s`r fitb("emantics", width = "8")` of a word are stored at the l`r fitb("emma", width = "8")` level, and the word form is stored at the l`r fitb("exeme", width = "8")` level.
+
+
+
+`r hide("Answers to Part One")`
+
+Words often exist in a 3-way hierarchy. In the middle is BASIC category, e.g. _flower_, _chair_. The HYPERONYM or SUPERORDINATE category is _plant_ or _furniture_, while the HYPONYM or SUBORDINATE category s _daisy_ or _stool_. These three levels may be defined in terms of their definition (the INTENSION), or the objects they refer to (their EXTENSION).
+
+Words with different forms, but the same meaning are called SYNONYMS. There are very few genuine SYNONYMS because language adopts a principle whereby different forms signal different meanings, a phenomenon called the principle of CONTRAST.
+
+Words with opposite meanings are called ANTONYMS.
+
+Words with the same form, but different unrelated meanings are called HOMONYMS. Often they are derived from different ROOTS, and therefore identical forms are the result HISTORICAL ACCIDENT.
+
+A LEXICAL GAP refers to a concept which does not have a corresponding word. An example is the opposite of _bald_ or the inside of an elbow.
+
+Words with the same form, and distinct but related meanings are POLYSEMES (examples of the phenomenon of POLYSEMY). The subtly different meanings are referred to as SENSES.
+
+HOMOGRAPHS are words with the same written form, but different spoken forms, e.g. _He *wore* a bow tie_, _She *bowed* when she met the Queen_
+
+HOMOPHONES are words with the same spoken form, but different written forms, e.g. _sight_ and _site_.
+
+Examples of lexical speech errors are BLENDS, e.g. _misunderestimate_, PHONOLOGICAL SUBSTITUTIONS, e.g. _concubines -> porcupines_, SEMANTIC SUBSTITUTIONS, e.g. _hammer -> screwdriver_, and TIP OF THE TONGUE EFFECTS.
+
+Lexical errors can best be explained in terms of a two-stage model, whereby the SEMANTICS of a word are stored at the LEXICAL level, and the word form is stored at the LEXEME level.
+
+`r unhide()`
+
+# Word classes - Spotlight on Prepositions
+
+Remember, a preposition is word which comes before a Noun Phrase. It typically, but not always, expresses location.
+
+For each of the sentences below, write the preposition in the box, describe its meaning, and then provide a motivation for using the preposition in this particular position.
+
+1. She doesn't believe in God.
+PREPOSITION: `r fitb("in", width = "8", ignore_case = TRUE)`
+MEANING: `r mcq(c(answer = "Does not really have one in this context", "Spatial meaning", "Contradiction", "Temporal meaning", "Contrast"))`
+MOTIVATION: `r mcq(c(answer = "The preposition Noun Phrase is added to show a spatial relationship","The preposition + Noun Phrases is added to show a logical relationship", "The preposition + Noun Phrases is added to provide temporal information", "Preposition exists as part of an idiomatic expression (stored phrase with special meaning)", answer = "It is chosen by the Verb", "It is chosen by the adjective", "It is chosen by the Noun"))`
+
+2. They bought a nice house opposite the park entrance.
+PREPOSITION: `r fitb("opposite", width = "8", ignore_case = TRUE)`
+MEANING: `r mcq(c("Does not really have one in this context", answer = "Spatial meaning", "Contradiction", "Temporal meaning", "Contrast"))`
+MOTIVATION: `r mcq(c(answer = "The preposition + Noun Phrase is added to show a spatial relationship","The preposition + Noun Phrases is added to show a logical relationship", "The preposition + Noun Phrases is added to provide temporal information", "Preposition exists as part of an idiomatic expression (stored phrase with special meaning)", "It is chosen by the Verb", "It is chosen by the adjective", "It is chosen by the Noun"))`
+
+
+3. Samantha's in love.
+PREPOSITION: `r fitb("in", width = "8", ignore_case = TRUE)`
+MEANING: `r mcq(c(answer = "Does not really have one in this context", "Spatial meaning", "Contradiction", "Temporal meaning", "Contrast"))`
+MOTIVATION: `r mcq(c("The preposition + Noun Phrase is added to show a spatial relationship","The preposition + Noun Phrases is added to show a logical relationship", "The preposition + Noun Phrases is added to provide temporal information", answer = "Preposition exists as part of an idiomatic expression (stored phrase with special meaning)", "It is chosen by the Verb", "It is chosen by the adjective", "It is chosen by the Noun"))`
+
+4. Samantha's crazy for her next door neighbour.
+PREPOSITION `r fitb("for", width = "8", ignore_case = TRUE)`
+MEANING: `r mcq(c(answer = "Does not really have one in this context", "Spatial meaning", "Contradiction", "Temporal meaning", "Contrast"))`
+MOTIVATION: `r mcq(c("The preposition + Noun Phrase is added to show a spatial relationship","The preposition + Noun Phrases is added to show a logical relationship", "The preposition + Noun Phrases is added to provide temporal information", "Preposition exists as part of an idiomatic expression (stored phrase with special meaning)", "It is chosen by the Verb", answer = "It is chosen by the adjective", "It is chosen by the Noun"))`
+
+5. Jack's hostility towards Martha was inexplicable.
+PREPOSITION `r fitb("towards", width = "8", ignore_case = TRUE)`
+MEANING: `r mcq(c("Does not really have one in this context", answer = "Spatial meaning", "Contradiction", "Temporal meaning", "Contrast"))`.
+MOTIVATION: `r mcq(c("The preposition + Noun Phrase is added to show a spatial relationship","The preposition + Noun Phrases is added to show a logical relationship", "The preposition + Noun Phrases is added to provide temporal information", "Preposition exists as part of an idiomatic expression (stored phrase with special meaning)", "It is chosen by the Verb", "It is chosen by the adjective", answer = "It is chosen by the Noun"))`
+
+6. Despite his bad leg, he still managed to win the race.
+PREPOSITION `r fitb("despite", width = "8", ignore_case = TRUE)`
+MEANING: `r mcq(c("Doesn't really have one in this context", "Spatial meaning", answer = "Contradiction", "Temporal meaning", "Contrast"))`.
+MOTIVATION: `r mcq(c("The preposition + Noun Phrase is added to show a spatial relationship", answer = "The preposition + Noun Phrases is added to show a logical relationship", "The preposition + Noun Phrases is added to provide temporal information", "Preposition exists as part of an idiomatic expression (stored phrase with special meaning)", "It is chosen by the Verb", "It is chosen by the adjective", "It is chosen by the Noun"))`
+
+7. She fell asleep during the long and boring lecture.
+PREPOSITION `r fitb("during", width = "8", ignore_case = TRUE)`.
+MEANING: `r mcq(c("Does not really have one in this context", "Spatial meaning", "Contradiction", answer = "Temporal meaning", "Contrast"))`.
+MOTIVATION: `r mcq(c("The preposition + Noun Phrase is added to show a spatial relationship", "The preposition + Noun Phrases is added to show a logical relationship", answer = "The preposition + Noun Phrases is added to provide temporal information", "Preposition exists as part of an idiomatic expression (stored phrase with special meaning)", "It is chosen by the Verb", "It is chosen by the adjective", "It is chosen by the Noun"))`
+
+8. Besides the soup, which was first rate, she didn't really enjoy the food.
+PREPOSITION: `r fitb("besides", width = "8", ignore_case = TRUE)`
+MEANING: `r mcq(c("Does not really have one in this context", "Spatial meaning", "Contradiction", "Temporal meaning", answer = "Contrast"))`
+MOTIVATION: `r mcq(c("The preposition + Noun Phrase is added to show a spatial relationship", answer = "The preposition + Noun Phrases is added to show a logical relationship", "The preposition + Noun Phrases is added to provide temporal information", "Preposition exists as part of an idiomatic expression (stored phrase with special meaning)", "It is chosen by the Verb", "It is chosen by the adjective", "It is chosen by the Noun"))`
+
+9. She saw a beautiful rainbow over Newcastle City Centre.
+PREPOSITION: `r fitb("over", width = "8", ignore_case = TRUE)`
+MEANING: `r mcq(c("Does not really have one in this context", answer = "Spatial meaning", "Contradiction", "Temporal meaning", "Contrast"))`
+MOTIVATION: `r mcq(c(answer = "The preposition + Noun Phrase is added to show a spatial relationship", "The preposition + Noun Phrases is added to show a logical relationship", "The preposition + Noun Phrases is added to provide temporal information", "Preposition exists as part of an idiomatic expression (stored phrase with special meaning)", "It is chosen by the Verb", "It is chosen by the adjective", "It is chosen by the Noun"))`
+
+10. Tamsin is envious of Alina's academic abilitiy
+PREPOSITION: `r fitb("of", width = "8", ignore_case = TRUE)`
+MEANING `r mcq(c(answer = "Does not really have one in this context", "Spatial meaning", "Contradiction", "Temporal meaning", "Contrast"))`
+MOTIVATION: `r mcq(c("The preposition + Noun Phrase is added to show a spatial relationship", "The preposition + Noun Phrases is added to show a logical relationship", "The preposition + Noun Phrases is added to provide temporal information", "Preposition exists as part of an idiomatic expression (stored phrase with special meaning)", "It is chosen by the Verb", answer = "It is chosen by the adjective", "It is chosen by the Noun"))`
+
+`r hide("Answers to Part Two")`
+
+1. She doesn't believe in God. PREPOSITION: in, MEANING: Doesn't really have one in this context,  MOTIVATION: It is chosen by the verb
+2. They bought a nice house opposite the park entrance. PREPOSITION: opposite, MEANING: spacial meaning, MOTIVATION: The Preposition + Noun Phrase is added to provide spatial information.
+3. Samantha's in love. PREPOSITION: in, MEANING: Doesn't really have one in this context, MOTIVATION: Exists as part of an idiomatic expression (a stored phrase with a special meaning)
+4. Samantha's crazy for her next door neighbour. PREPOSITION for, MEANING: Doesn't really have one in this context, REASON: It is chosen by the adjective
+5. Jack's hostility towards Martha was inexplicable. PREPOSITION towards. MEANING: Doesn't really have one in this context. MOTIVATION: It is chosen by the noun.
+6. Despite his bad leg, he still managed to win the race. PREPOSITION despite. MEANING: contradiction. MOTIVATION: The preposition + Noun Phrases is added to show a logical relationship
+7. She fell asleep during the long and boring lecture. PREPOSITION during. MEANING: temporal meaning. MOTIVATION: The preposition + Noun Phrase is added to provide temporal information
+8. Besides the soup, which was first rate, she didn't really enjoy the food. PREPOSITION besides, MEANING: contrast, MOTIVATION: The preposition + Noun Phrase is added to show a logical relationship
+9. She saw a beautiful rainbow over Newcastle City Centre. PREPOSITION: over, MEANING: spatial meaning, MOTIVATION: The Preposition + Noun Phrase is added to provide spatial information.
+10. Tamsin of envious of Alina's academic abilitiy. PREPOSITION: of, MEANING Doesn't really have one in this context, MOTIVATION: It is chosen by the adjective.
+
+`r unhide()`
+
+This is a Web Exercise template created by the [psychology teaching team at the University of Glasgow](http://www.psy.gla.ac.ukUniversity of Glasgow), based on ideas by [Software Carpentry](https://software-carpentry.org/lessons/). This template enables instructors to easily create web documents that students can use in self-assessment.
