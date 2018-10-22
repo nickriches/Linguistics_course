@@ -133,7 +133,7 @@ th, td {
   <tr><th>01</th><th>Introduction to Linguistic Theory</th><th>[slides](slides/01 - Introduction.pdf) | [handout](handouts_word/01_-_Introduction.docx) | [handout (web)](handouts_html/01_-_Introduction.html) | [web exs](webex/01/01.html) | [resources](Resources.html#1)</th>
   <tr><th>02</th><th>Word classes</th><th>[slides](slides/02 - Word Classes.pdf) | [handout](handouts_word/02_-_Word_Classes.docx) | [handout (web)](handouts_html/02_-_Word_Classes.html)  | [web exs](webex/02/02.html) | [resources](Resources.html#2)</th>
   <tr><th>03</th><th>Lexical representation</th><th>[slides](slides/03 - Lexical Representations.pdf) | [handout](handouts_word/03_-_Lexical_Representations.docx) | [handout (web)](handouts_html/03_-_Lexical_Representations.html) | [web exs](webex/03/03.html) | [resources](Resources.html#3)</th>
-  <tr><th>04</th><th>Morphemes</th><th>[slides](slides/04 - Words versus morphemes.pdf) | [handout](handouts_word/04_-_Words_versus_morphemes.docx) | [handout (web)](handouts_html/04_-_Words_versus_morphemes.html) | [web exs](webex/04/04.html) | [resources](Resources.html#2)</th>
+  <tr><th>04</th><th>Morphemes</th><th>slides | handout | web exs | resources</th>
   <tr><th>05</th><th>Morphological representation / processing</th><th>slides | handout | web exs | resources</th>
   <tr><th>06</th><th>Phrases</th><th>slides | handout | web exs | resources</th>
   <tr><th>07</th><th>Syntactic functions</th><th>slides | handout | web exs | resources</th>
