@@ -51,6 +51,8 @@ __READINGS:__
 
 Borjars & Burridge, Chapter 3
 
+McAllister & Miller, Chapter 5
+
 Here is a [link](old chapters/2_building_blocks_reduced.pdf) the relevant chapter in the old handbook
 
 __OTHER RESOURCES:__
@@ -63,25 +65,42 @@ __OTHER RESOURCES:__
 
 [Cool cartoon on the arbitrariness of words](images/names are arbitrary t-rex.png) (remember, arbitrariness is a key characteristics of symbols)
 
-# Morphological representation / processing
+# Lexical representation
 
-READINGS:
+__READINGS__
+
+Cruse, A. (2010). Meaning in Language, Chapter 4 on the definition of a word, and Chapter 5 on Homonomy and Polysemy
+
+McAllister & Miller, Chapters 2 and 3. 
+ 
+__OTHER RESOURCES__
+
+[YouTube lecture on Polysemy (given by Martin Hilpert)](https://www.youtube.com/watch?v=dEWTCzK_hUU&t=19s)
+
+# Words versus morphemes
+
+__READINGS__
 
 Borjars & Burridge, Chapter 2 (sections 2.1 and 2.2)
 
-OTHER MATERIALS:
+McAllister & Miller, Chapter 6
+
+__OTHER RESOURCES__
 
 [Gretchen McCulloch podcast on 'Learning parts of words: morphemes and the wug test'](https://lingthusiasm.com/post/169866479416/lingthusiasm-episode-16-learning-parts-of-words)
 
-# Phrases
 
-__READINGS:__
 
-Borjars & Burridge, Chapter 2 (2.3 onwards)
 
-[Gretchen McCulloch podcast on 'Constituency'](https://lingthusiasm.com/post/161859273886/lingthusiasm-episode-9-the-bridge-between-words)
+<!-- # Phrases -->
 
-[Article on how the passive voice is used to report conflict](https://www.theguardian.com/commentisfree/2018/may/16/israel-palestine-us-news-headlines-mysterious-deaths?CMP=Share_iOSApp_Other), but are the supposed examples of the 'passive' really the passive?
+<!-- __READINGS:__ -->
+
+<!-- Borjars & Burridge, Chapter 2 (2.3 onwards) -->
+
+<!-- [Gretchen McCulloch podcast on 'Constituency'](https://lingthusiasm.com/post/161859273886/lingthusiasm-episode-9-the-bridge-between-words) -->
+
+<!-- [Article on how the passive voice is used to report conflict](https://www.theguardian.com/commentisfree/2018/may/16/israel-palestine-us-news-headlines-mysterious-deaths?CMP=Share_iOSApp_Other), but are the supposed examples of the 'passive' really the passive? -->
 
 
 
