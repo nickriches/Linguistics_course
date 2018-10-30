@@ -89,6 +89,16 @@ __OTHER RESOURCES__
 
 [Gretchen McCulloch podcast on 'Learning parts of words: morphemes and the wug test'](https://lingthusiasm.com/post/169866479416/lingthusiasm-episode-16-learning-parts-of-words)
 
+# Morphological representation / processing
+
+__READINGS__
+
+[Pinker, S., & Ullman, M. T. (2002). The past and future of the past tense debate. Trends in Cognitive Sciences, 6(11), 456–463](https://www.sciencedirect.com/science/article/pii/S1364661302019903)
+
+After the initial paper there are responses by Joanisse and Seidenberg. It's well worth reading all of them.
+
+Dabrowska, E. (2004). Language, mind and brain: some psychological and neurological constraints on theories of grammar. Edinburgh University Press.  (Chap 8, especially 116 – 125. The rest of the chapter is difficult but very interesting)
+
 
 
 

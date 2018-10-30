@@ -1,0 +1,93 @@
+---
+title: "Morphological representation and processing"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+
+# Morphological representation and processing
+
+A variety of data support a c`r fitb("omputational", width = "8")` account of morphological representation / processing
+
+(1) We can use morphemes prod`r fitb("uctively", width = "8")`, e.g. wug-s.
+
+(2) Morphological errors, e.g. omission, substitution and str`r fitb("anding", width = "8")` errors, suggest separate storage of roots and affixes.
+
+(3) According to theories of morpho-phonological p`r fitb("arsing", width = "8")` we actively seek out phonetic material which *could potentially* be a regular affix.
+
+(4) Ph`r fitb("onotactic", width = "8")` evidence suggests regular forms are generated, rather than lexically-stored.
+
+By contrast, whole-word acccounts are supported by
+
+(1) existence of non-word roots, e.g. un-re-*mitt*-ing-ly
+
+(2) Morphemes with multiple meanings pose a difficulty for computational accounts.
+
+(3) Psycho`r fitb("linguistic", width = "8")` studies, e.g. Losiewisz (1995), Alegre & Gordon (1999)
+
+
+`r hide("Show answers")`
+
+A variety of data support a COMPUTATIONAL account of morphological representation / processing
+
+(1) We can use morphemes PRODUCTIVELY, e.g. wug-s.
+
+(2) Morphological errors, e.g. omission, substitution and STRANDING errors, suggest separate storage of roots and affixes.
+
+(3) According to theories of morpho-phonological PARSING we actively seek out phonetic material which *could potentially* be a regular affix.
+
+(4) PHONOTACTIC evidence suggests regular forms are generated, rather than lexically-stored.
+
+By contrast, whole-word acccounts are supported by
+
+(1) existence of non-word roots, e.g. un-re-*mitt*-ing-ly
+
+(2) Morphemes with multiple meanings pose a difficulty for computational accounts.
+
+(3) PSYCHOLINGUISTIC studies, e.g. Losiewisz (1995), Alegre & Gordon (1999)
+
+`r unhide()`
+
+
+# Pinker and Ullman's The dual route model
+
+According to the d`r fitb("ual", width = "15")` r`r fitb("oute", width = "15")` model, past tense verbs are generated via either a l`r fitb("exical", width = "15")` or a g`r fitb("rammatical", width = "15")` route.
+
+The former involves an`r fitb("alogical", width = "15")` and fr`r fitb("equency", width = "15")`-driven processes, while the latter involves co`r fitb("mputational", width = "15")` processes. The former involves the de`r fitb("clarative", width = "15")` memory system, while the latter involves the pr `r fitb("ocedural", width = "15")` memory system.
+
+If the pr`r fitb("ocedural", width = "15")` memory system is impaired, this will result in better production of `r mcq(c("regular", answer = "irregular"))` verbs than `r mcq(c(answer = "regular", "irregular"))` verbs.
+
+If the de`r fitb("clarative", width = "15")` memory system is impaired, this will result in better production of `r mcq(c(answer = "regular", "irregular"))` verbs than `r mcq(c("regular", answer = "irregular"))` verbs.
+
+Which of the following is NOT characterised by by better performance on irregulars than regulars? `r mcq(c("Parkinson's", answer = "Alzheimers", "Developmental Language Disorder", "Agrammatic non-fluent Aphasia (Broca's type"))`
+
+The term ps`r fitb("eudo", width = "15")`-regularity describes the phenomenon whereby the irregular system mimics the regular system.
+
+`r hide("Show answers")`
+
+According to the DUAL ROUTE model, past tense verbs are generated via either a LEXICAL or a GRAMMATICAL route.
+
+The former involves ANALOGICAL and FREQUENCY-driven processes, while the latter involves COMPUTATIONAL processes. The former involves the DECLARATIVE memory system, while the latter involves the PROCEDURAL memory system.
+
+If the PROCEDURAL memory system is impaired, this will result in better production of IRREGULAR verbs than REGULAR verbs.
+
+If the DECLARATIVE memory system is impaired, this will result in better production of REGULAR verbs than IRREGULAR verbs.
+
+Which of the following is NOT characterised by by better performance on irregulars than regulars? ALZHEIMMER'S
+
+The term PSEUDO-regularity describes the phenomenon whereby the irregular system mimics the regular system.
+
+`r unhide()`
+
