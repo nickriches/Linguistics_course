@@ -91,3 +91,30 @@ The term PSEUDO-regularity describes the phenomenon whereby the irregular system
 
 `r unhide()`
 
+# Spotlight on Determiners
+
+Identify the determiners in the following sentence. List them separated by a space. If there are no determiners, write "NONE" (NB use of lower / upper case should not make a difference)
+
+1. She's really good at playing tennis.   DETERMINERS: `r fitb("none", ignore_case = TRUE)`
+2. A change is as good as a rest. DETERMINERS `r fitb("a a", ignore_case = TRUE)`
+3. Every time I put on my boots, they pinch my calves. DETERMINERS `r fitb("every my my", ignore_case = TRUE)`
+4. I don't have much time to spare. DETERMINERS: `r fitb("much", ignore_case = TRUE)`
+5. One of these days, I'm going to leave this job, buy a sailing boat, and sail into the wild blue yonder. DETERMINERS: `r fitb("these this a the", ignore_case = TRUE)`
+6. "That's a really good idea," said the man in the striped suit. DETERMINERS: `r fitb("a the the", ignore_case = TRUE)`
+7. Several people stopped to help the poor old lady. DETERMINERS: `r fitb("several the", ignore_case = TRUE)`
+8. I'm going to start a new job this week. DETERMINERS: `r fitb("a this", ignore_case = TRUE)`
+9. Seven people failed the exam. DETERMINERS: `r fitb("seven the", ignore_case = TRUE)`
+
+`r hide("Answers")`
+
+1. She's really good at playing tennis.   DETERMINERS: NONE
+2. A change is as good as a rest. DETERMINERS: a a
+3. Every time I put on my boots, they pinch my calves. DETERMINERS: every my my
+4. I don't have much time to spare. DETERMINERS: much
+5. One of these days, I'm going to leave this job, buy a sailing boat, and sail into the wild blue yonder. DETERMINERS these this a the
+6. "That's a really good idea," said the man in the striped suit. DETERMINERS: a the the. NB Though 'that' can be used as a determiner, e.g. 'that man', in this sentence it does not come before a Noun, so does not function as a Determiner. It is best described as a pronoun
+7. Several people stopped to help the poor old lady. DETERMINERS: several the
+8. I'm going to start a new job this week. DETERMINERS: a this
+9. Seven people failed the exam. DETERMINERS: seven the (NB numerals can be classified as Determiners, as they come before the noun)
+
+`r unhide()`

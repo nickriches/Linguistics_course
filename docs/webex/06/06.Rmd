@@ -1,0 +1,100 @@
+---
+title: "06 - Phrases"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+# Phrases - concepts
+
+Phrases are groups of words which behave like single units. They are syn`r fitb("tactic", width = "8")`, s`r fitb("emantic", width = "8")` and ph`r fitb("onological", width = "8")` units. The main word in the phrase (the word which the phrase is "about") is called the `r fitb("head", width = "8")` of the phrase. There are 7 tests for phrasehood for phrasehood: the r`r fitb("eplacement", width = "8")` test, the q`r fitb("uestion", width = "8")` test, the s`r fitb("ubstitution", width = "8")` test, the c`r fitb("oordination", width = "8")` test, the m`r fitb("ovement", width = "8")` test, the o`r fitb("mission", width = "8")` test, and the f`r fitb("iller", width = "8")` test.
+
+`r hide("Show answers")`
+
+Phrases are groups of words which behave like single units. They are SYNTACTIC, SEMANTIC and PHONOLOGICAL units. The main word in the phrase (the word which the phrase is "about") is called the HEAD of the phrase. There are 7 tests for phrasehood for phrasehood: the REPLACEMENT test, the QUESTION test, the SUBSTITUTION test, the COORDINATION test, the MOVEMENT test, the OMISSION test, and the FILLER Test.
+
+`r unhide()`
+
+# Substitution
+
+Rewrite these sentences, substituting the words in bold with a pronominal form.
+
+1. Yesterday, __a really funny thing__ happened
+
+   Yesterday `r fitb("something", width = "8")` happened.
+
+2. I watched a really good TV programme __last night__
+
+   I watched a really good TV programme `r fitb("then", width = "8")`.
+
+3. I met __a very strange man__ __at the party__
+
+   I met `r fitb("someone", width = "8")` `r fitb("there", width = "8")`
+
+4. I ate the cake, and Mary __ate the cake__ too
+
+   I ate the cake, and Mary `r fitb("did so", width = "8")` too
+   
+`r hide("Show answers")`
+
+Rewrite these sentences, substituting the words in bold with a pronominal form.
+
+1. Yesterday, __a really funny thing__ happened
+
+   Yesterday SOMETHING happened.
+
+2. I watched a really good TV programme __last night__
+
+   I watched a really good TV programme THEN .
+
+3. I met __a very strange man__ __at the party__
+
+   I met SOMEONE THERE/SOMEWHERE
+
+4. I ate the cake, and Mary __ate the cake__ too
+
+   I ate the cake, and Mary DID SO too
+
+`r unhide()`
+   
+# Spotlight on adverbs
+
+After each sentence list the adverbs. Separate your answers with a space. If there are no adverbs, write "NONE"
+
+1. Apparently, Jack lost his job. ADVERB: `r fitb("apparently", width = "8", ignore_case = TRUE)` `r mcq(c("Modifies a verb", "Modifies an adjective", answer = "Modifies the whole sentence"))`
+2. Amy tried hard to finish the revolting food. `r fitb("hard", width = "8", ignore_case = TRUE)` `r mcq(c(answer = "Modifies a verb", "Modifies an adjective", "Modifies the whole sentence"))`
+3. I'm very tired of all this hard work. `r fitb("very", width = "8", ignore_case = TRUE)` `r mcq(c("Modifies a verb", answer = "Modifies an adjective", "Modifies the whole sentence"))`
+4. She is undoubtedly the finest ballerina of her generation. `r fitb("undoubtedly", width = "8", ignore_case = TRUE)` `r mcq(c("Modifies a verb", "Modifies an adjective", answer = "Modifies the whole sentence"))`
+5. He is fast becoming a laughing stock. `r fitb("fast", width = "8", ignore_case = TRUE)` `r mcq(c(answer = "Modifies a verb", "Modifies an adjective", "Modifies the whole sentence"))`
+6. She crashed the car deliberately to claim the insurance. `r fitb("deliberately", width = "8", ignore_case = TRUE)` `r mcq(c(answer = "Modifies a verb", "Modifies an adjective", "Modifies the whole sentence"))`
+7. She couldn't make the claim, however. `r fitb("however", width = "8", ignore_case = TRUE)` `r mcq(c("Modifies a verb", "Modifies an adjective", answer = "Modifies the whole sentence"))`
+8. The stars shone brightly in the winter sky. `r fitb("brightly", width = "8", ignore_case = TRUE)` `r mcq(c(answer = "Modifies a verb", "Modifies an adjective", "Modifies the whole sentence"))`
+9. He wore a dark red tanktop covered with sequins. `r fitb("dark", width = "8", ignore_case = TRUE)` `r mcq(c("Modifies a verb", answer = "Modifies an adjective", "Modifies the whole sentence"))`
+10. 
+
+`r hide("Show answers")`
+
+1. Apparently, Jack lost his job. ADVERB: APPARENTLY, MODIFIES THE WHOLE SENTENCE
+2. Amy tried hard to finish the revolting food. ADVERB: HARD, MODIFIES A VERB
+3. I'm very tired of all this hard work. ADVERB: VERY, MODIFIES AND ADJECTIVE
+4. She is undoubtedly the finest ballerina of her generation. ADVERB: UNDOUBTEDLY, MODIFIES THE WHOLE SENTENCE
+5. He is fast becoming a laughing stock. ADVERB: FAST, MODIFIES THE VERB
+6. She crashed the car deliberately to claim the insurance. ADVERB: DELIBERATELY, MODIFIES THE VERB
+7. She couldn't make the claim, however. ADVERB: HOWEVER, MODIFIES THE WHOLE SENTENCE.
+8. The stars shone brightly in the winter sky. ADVERB: BRIGHTLY, MODIFIES THE VERB.
+9. He wore a dark red tanktop covered with sequins. ADVERB: DARK, MODIFIES THE ADJECTIVE.
+
+`r unhide()`
+
+
