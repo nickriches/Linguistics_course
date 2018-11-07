@@ -76,6 +76,8 @@ In Semester 1, there will be seminars on Friday 11 - 1 in weeks 3, 5, 8 and 10. 
 
 Friday 19th October: [Questions](seminars/S01 - Seminar 1.pdf) and [Answers](seminars/S01 - Seminar 1_plus_answers.pdf)
 
+Friday 9th November: [Questions](docs/seminars/S02 - Seminar 2.pdf)
+
 # Assessment
 
 ## BScs
