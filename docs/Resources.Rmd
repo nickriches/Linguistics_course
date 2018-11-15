@@ -101,7 +101,6 @@ Dabrowska, E. (2004). Language, mind and brain: some psychological and neurologi
 
 # Phrases
 
-
 __READINGS:__
 
 Borjars & Burridge, Chapter 2 (2.3 onwards)
@@ -111,6 +110,16 @@ McAllister & Miller, Chapter 7 (up to 7.4)
 __OTHER RESOURCES__ 
 
 [Gretchen McCulloch podcast on 'Constituency'](https://lingthusiasm.com/post/161859273886/lingthusiasm-episode-9-the-bridge-between-words)
+
+# Functions
+
+__READINGS:__
+
+Borjars & Burridge, Chapter 4
+
+[Chapter from old Linguistics handbook on Case and Agreement](old chapters/2_tracking_relationships.pdf)
+
+
 
 <!-- [Article on how the passive voice is used to report conflict](https://www.theguardian.com/commentisfree/2018/may/16/israel-palestine-us-news-headlines-mysterious-deaths?CMP=Share_iOSApp_Other), but are the supposed examples of the 'passive' really the passive? -->
 

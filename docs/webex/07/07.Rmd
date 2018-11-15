@@ -1,0 +1,104 @@
+---
+title: "07 - Functions"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+
+# Identify the functions of underlined words
+
+1. <u>She</u> drank <u>herself</u> <u>into a stupor</u>.
+
+She = `r mcq(c(answer = "S", "Od", "Oi", "Cs", "Co", "A"))`, herself = `r mcq(c("S", answer = "Od", "Oi", "Cs", "Co", "A"))`, into a stupor = `r mcq(c("S", "Od", "Oi", "Cs", answer = "Co", "A"))`
+
+2. <u>That big old tree</u> looks <u>dangerously unstable</u>.
+
+That big old tree = `r mcq(c(answer = "S", "Od", "Oi", "Cs", "Co", "A"))`, dangerously unstable = `r mcq(c("S", "Od", "Oi", answer = "Cs", "Co", "A"))`
+
+3. <u>At the ceremony</u> <u>the veterans</u> were all given <u>extra large medals</u>.
+
+At the ceremony = `r mcq(c("S", "Od", "Oi", "Cs", "Co", answer = "A"))`, the veterans = `r mcq(c(answer = "S", "Od", "Oi", "Cs", "Co", "A"))`, extra large medals = `r mcq(c("S", answer = "Od", "Oi", "Cs", "Co", "A"))`.
+
+4. <u>Apparently</u> <u>she</u> gave <u>all her money</u> <u>to charity</u>.
+
+Apparently = `r mcq(c("S", "Od", "Oi", "Cs", "Co", answer = "A"))`, she = `r mcq(c(answer = "S", "Od", "Oi", "Cs", "Co", "A"))`, all her money = `r mcq(c("S", answer = "Od", "Oi", "Cs", "Co", "A"))`, to charity = `r mcq(c("S", "Od", answer = "Oi", "Cs", "Co", "A"))`
+
+5. <u>Amy</u> built <u>a school</u> <u>for the children</u> <u>on her work experience holiday</u>.
+
+Amy = `r mcq(c(answer = "S", "Od", "Oi", "Cs", "Co", "A"))`, a school = `r mcq(c("S", answer = "Od", "Oi", "Cs", "Co", "A"))`, for the children = `r mcq(c("S", "Od", answer = "Oi", "Cs", "Co", "A"))`, on her work experience holiday = `r mcq(c("S", "Od", "Oi", "Cs", "Co", answer = "A"))`.
+
+6. <u>When wearing a dress</u> <u>Stan</u> calls <u>himself</u> <u>Julie</u>
+
+When wearing a dress = `r mcq(c("S", "Od", "Oi", "Cs", "Co", answer = "A"))`, Stan = `r mcq(c(answer = "S", "Od", "Oi", "Cs", "Co", "A"))`, himself = `r mcq(c("S", answer = "Od", "Oi", "Cs", "Co", "A"))`, Julie = `r mcq(c("S", "Od", "Oi", "Cs", answer = "Co", "A"))`
+
+7. <u>Angie</u> passed <u>her friend</u>b <u>the ketchup</u>.
+
+Angie = `r mcq(c(answer = "S", "Od", "Oi", "Cs", "Co", "A"))`, her friend = `r mcq(c("S", "Od", answer = "Oi", "Cs", "Co", "A"))`, the ketchup = `r mcq(c("S", answer = "Od", "Oi", "Cs", "Co", "A"))`.
+
+
+`r hide("Answers")`
+
+# Identify the functions of underlined words
+
+1. <u>She</u> drank <u>herself</u> <u>into a stupor</u>.
+She = S, herself = Od, into a stupor = Co
+2. <u>That big old tree</u> looks <u>dangerously unstable</u>.
+That big old tree = S, dangerously unstable = Cs
+3. <u>At the ceremony</u> <u>the veterans</u> were all given <u>extra large medals</u>.
+At the ceremony = A, the veterans = S, extra large medals = Od. NB THOUGH "THE VETERANS" ARE THE INDIRECT OBJECT OF THE UNDERLYING SENTENCE, THEY ARE THE SUBJECT OF THE ACTUAL SENTENCE BECAUSE THEY HAVE BEEN MOVED TO SUBJECT POSITION. 
+4. <u>Apparently</u> <u>she</u> gave <u>all her money</u> <u>to charity</u>.
+Apparently = A, she = S, all her money = Od, to charity = Oi
+5. <u>Amy</u> built <u>a school</u> <u>for the children</u> <u>on her work experience holiday</u>.
+Amy = S, a school = Od, for the children = Oi, on her work experience holiday = A.
+6. <u>When wearing a dress</u> <u>Stan</u> calls <u>himself</u> <u>Julie</u>
+When wearing a dress = A, Stan = S, himself = Od, Julie = Co (DESCRIBING THE OBJECT. NB THOUGH "HERSELF" LINKS BACK TO THE SUBJECT, IT IS IN OBJECT POSITION, AND IS THEREFORE AN OBJECT)
+7. <u>Angie</u> passed <u>her friend</u>b <u>the ketchup</u>.
+Angie = S, her friend = Oi, the ketchup = Od.
+
+`r unhide()`
+
+# Case
+
+Choose the correct form of the pronoun in the sentences, and then choose the explanation
+
+1. `r mcq(c(answer = "He", "Him"))` likes eating cheese. EXPLANATION: `r mcq(c(answer = "NOMINATIVE pronoun in Subject position", "ACCUSATIVE pronoun in Object position", "ACCUSATIVE pronoun as part of a conjoined Subject", "ACCUSATIVE pronoun after a Preposition", "ACCUSATIVE pronoun when the pronoun stands alone"))`
+
+2. The students bought their pencil cases with `r mcq(c("they", answer = "them"))`. EXPLANATION: `r mcq(c("NOMINATIVE pronoun in Subject position", "ACCUSATIVE pronoun in Object position", "ACCUSATIVE pronoun as part of a conjoined Subject", answer = "ACCUSATIVE pronoun after a Preposition", "ACCUSATIVE pronoun when the pronoun stands alone"))`
+
+3. Janet doesn't like `r mcq(c("he", answer = "him"))` smoking in the living room. EXPLANATION: `r mcq(c("NOMINATIVE pronoun in Subject position", answer = "ACCUSATIVE pronoun in Object position", "ACCUSATIVE pronoun as part of a conjoined Subject", "ACCUSATIVE pronoun after a Preposition", "ACCUSATIVE pronoun when the pronoun stands alone"))`
+
+4.`r mcq(c("I", answer = "Me"))` and Andy went to the cinema. EXPLANATION: `r mcq(c("NOMINATIVE pronoun in Subject position", "ACCUSATIVE pronoun in Object position", answer = "ACCUSATIVE pronoun as part of a conjoined Subject", "ACCUSATIVE pronoun after a Preposition", "ACCUSATIVE pronoun when the pronoun stands alone"))`
+
+5. Q: Have you heard that Amy's singing in a band? A: `r mcq(c("She", answer = "Her"))`!? She's a terrible singer. EXPLANATION: `r mcq(c("NOMINATIVE pronoun in Subject position", "ACCUSATIVE pronoun in Object position", "ACCUSATIVE pronoun as part of a conjoined Subject", "ACCUSATIVE pronoun after a Preposition", answer = "ACCUSATIVE pronoun when the pronoun stands alone"))`
+
+6. I really love `r mcq(c("they", answer = "them"))`. EXPLANATION: `r mcq(c("NOMINATIVE pronoun in Subject position", answer = "ACCUSATIVE pronoun in Object position", "ACCUSATIVE pronoun as part of a conjoined Subject", "ACCUSATIVE pronoun after a Preposition", "ACCUSATIVE pronoun when the pronoun stands alone"))`
+
+
+`r hide("Answers")`
+
+1. HE likes eating cheese. EXPLANATION: NOMINATIVE pronoun in Subject position
+
+2. The students bought their pencil cases with THEM. EXPLANATION: ACCUSATIVE pronoun after a Preposition
+
+3. Janet doesn't like HIM smoking in the living room. EXPLANATION: ACCUSATIVE pronoun in Object position
+
+4. Me and Andy went to the cinema. EXPLANATION: ACCUSATIVE pronoun as part of a conjoined Subject.
+
+5. Q: Have you heard that Amy's singing in a band? A: Her!? She's a terrible singer. EXPLANATION: ACCUSATIVE pronoun when the pronoun stands alone.
+
+6. I really love them. EXPLANATION: ACCUSATIVE pronoun in Object position.
+
+`r unhide()`
