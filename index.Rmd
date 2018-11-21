@@ -78,12 +78,14 @@ Friday 19th October: [Questions](seminars/S01 - Seminar 1.pdf) and [Answers](sem
 
 Friday 9th November: [Questions](seminars/S02 - Seminar 2.pdf) and [Answers](seminars/S02 - Seminar 2 - plus answers.pdf)
 
+Friday 23rd November: [Questions](seminars/S03 - Seminar 3.pdf)
+
 # Assessment
 
 ## BScs
 
 There will be **two one-hour exams**, one at the end of Semester 1 (January, 2019), and one at the end of Semester 2 (May 2019)
-
+  
 ## MScs
 
 MScs will do the **exam in Semester 2 only** (May 2019). At the end of Semester 1, you will do a **Semantic Analysis exercise** (analysing the argument atructure of sentences in clinical data). The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam
