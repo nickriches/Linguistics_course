@@ -88,7 +88,7 @@ There will be **two one-hour exams**, one at the end of Semester 1 (January, 201
   
 ## MScs
 
-MScs will do the **exam in Semester 2 only** (May 2019). At the end of Semester 1, you will do a **Semantic Analysis exercise** (analysing the argument atructure of sentences in clinical data). The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam
+MScs will do the **exam in Semester 2 only** (May 2019). At the end of Semester 1, you will do a [Semantic Analysis exercise](other/MSc Semantic Analysis Exercise.docx) (analysing the argument structure of sentences in clinical data). The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam
 
 ## Exam content
 
