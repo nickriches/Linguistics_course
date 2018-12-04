@@ -80,11 +80,15 @@ Friday 9th November: [Questions](seminars/S02 - Seminar 2.pdf) and [Answers](sem
 
 Friday 23rd November: [Questions](seminars/S03 - Seminar 3.pdf) and [Answers](seminars/S03 - Seminar 3 - plus answers.pdf)
 
+Friday 7th December: [Questions](seminars/S04 - Seminar 4.pdf)
+
 # Assessment
 
 ## BScs
 
 There will be **two one-hour exams**, one at the end of Semester 1 (January, 2019), and one at the end of Semester 2 (May 2019)
+
+Click [here](other/Semester 1 - mock exam.docx) to download the mock exam. [This](docs/other/LARSP symbols.pdf) is the list of symbols you will be given to use in the exam.
   
 ## MScs
 
@@ -143,7 +147,7 @@ th, td {
   <tr><th>07</th><th>Syntactic functions</th><th>[slides](slides/07 -Syntactic Functions.pdf) | [handout](handouts_word/07_-Syntactic_Functions.docx) | [handout (web)](handouts_html/07_-Syntactic_Functions.html) | [web exs](webex/07/07.html) | [resources](Resources.html#7) </th>
   <tr><th>08</th><th>'Verbs in the driving seat' (argument structure)</th><th>[slides](slides/08 -Verbs in the driving seat.pdf) | [handout](handouts_word/08_-Verbs_in_the_driving_seat.docx) | [handout (web)](handouts_html/08_-Verbs_in_the_driving_seat.html) | web exs | resources</th>
   <tr><th>09</th><th>Complementation versus modification</th><th>[slides](slides/09 - Complementation versus modification.pdf) | [handout](handouts_word/09_-_Complementation_versus_modification.docx) | [handout (web)](handouts_html/09_-_Complementation_versus_modification.html) | web exs | resources</th>
-  <tr><th>10</th><th>Sentence production</th><th>slides | handout | web exs | resources</th>
+  <tr><th>10</th><th>Sentence production</th><th>[slides](slides/10 - Sentence Production Models.pdf) | [handout](handouts_word/10_-_Sentence_Production_Models.docx) | [handout (web)](handouts_html/10_-_Sentence_Production_Models.html) | web exs | resources</th>
   <tr><th>11</th><th>'Verbs in the passenger seat'</th><th>slides | handout | web exs | resources</th>
 </table> 
 
