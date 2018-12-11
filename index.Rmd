@@ -150,7 +150,8 @@ th, td {
   <tr><th>08</th><th>'Verbs in the driving seat' (argument structure)</th><th>[slides](slides/08 -Verbs in the driving seat.pdf) | [handout](handouts_word/08_-Verbs_in_the_driving_seat.docx) | [handout (web)](handouts_html/08_-Verbs_in_the_driving_seat.html) | [web exs](webex/08/08.html) | [resources](Resources.html#8) </th>
   <tr><th>09</th><th>Complementation versus modification</th><th>[slides](slides/09 - Complementation versus modification.pdf) | [handout](handouts_word/09_-_Complementation_versus_modification.docx) | [handout (web)](handouts_html/09_-_Complementation_versus_modification.html) | web exs | resources</th>
   <tr><th>10</th><th>Sentence production</th><th>[slides](slides/10 - Sentence Production Models.pdf) | [handout](handouts_word/10_-_Sentence_Production_Models.docx) | [handout (web)](handouts_html/10_-_Sentence_Production_Models.html) | web exs | resources</th>
-  <tr><th>11</th><th>'Verbs in the passenger seat'</th><th>slides | handout | web exs | resources</th>
+  <tr><th>11</th><th>'Verbs in the passenger seat'</th><th>[slides](slides/11 - construction grammar.pdf) | [handout](handouts_word/11_-_construction_grammar.docx) |
+  [handout (web)](handouts_html/11_-_construction_grammar.html) | web exs | resources</th>
 </table> 
 
 ## Semester 2
