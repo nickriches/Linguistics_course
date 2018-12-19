@@ -1,0 +1,104 @@
+---
+title: "09 - Complementation versus Modification"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+# Describing complements
+
+Use the appropriate grammatical terminology to describe the words in bold:
+
+1. She is afraid **of bees**: `r mcq(c("Complement(s) of Verb consisting of Noun and Prepositional Phrases", "Complement of Verb consisting of Prepositional Phrase.", "Complement of Verb consisting of a clause", answer = "Complement of Adj. consisting of Prepositional Phrase", "Complement of Noun consisting of Prepositional Phrase"))`
+
+2. Janet argued **that she should be first in the queue**: `r mcq(c("Complement(s) of Verb consisting of Noun and Prepositional Phrases", "Complement of Verb consisting of Prepositional Phrase.", answer = "Complement of Verb consisting of a clause", "Complement of Adj. consisting of Prepositional Phrase", "Complement of Noun consisting of Prepositional Phrase"))`
+
+3. The evil company flogged **dodgy goods to the masses**: `r mcq(c(answer = "Complement(s) of Verb consisting of Noun and Prepositional Phrases", "Complement of Verb consisting of Prepositional Phrase.", "Complement of Verb consisting of a clause", "Complement of Adj. consisting of Prepositional Phrase", "Complement of Noun consisting of Prepositional Phrase"))`
+
+4. The reason **for the accident** eluded the top investigators: `r mcq(c("Complement(s) of Verb consisting of Noun and Prepositional Phrases", "Complement of Verb consisting of Prepositional Phrase.", "Complement of Verb consisting of a clause", answer = "Complement of Adj. consisting of Prepositional Phrase", "Complement of Noun consisting of Prepositional Phrase"))`
+
+5. Could you explain **how to remove the carburettor cap?**: `r mcq(c("Complement(s) of Verb consisting of Noun and Prepositional Phrases", "Complement of Verb consisting of Prepositional Phrase.", answer = "Complement of Verb consisting of a clause", "Complement of Adj. consisting of Prepositional Phrase", "Complement of Noun consisting of Prepositional Phrase"))`
+
+6. Angel impressed **her parents with her stellar performance**: `r mcq(c(answer = "Complement(s) of Verb consisting of Noun and Prepositional Phrases", "Complement of Verb consisting of Prepositional Phrase.", "Complement of Verb consisting of a clause", "Complement of Adj. consisting of Prepositional Phrase", "Complement of Noun consisting of Prepositional Phrase"))`
+
+7. The argument **between the siblings** turned rowdy over Christmas dinner: `r mcq(c("Complement(s) of Verb consisting of Noun and Prepositional Phrases", "Complement of Verb consisting of Prepositional Phrase.", "Complement of Verb consisting of a clause", "Complement of Adj. consisting of Prepositional Phrase", answer = "Complement of Noun consisting of Prepositional Phrase"))`
+
+8. She was extremely depressed **about the devestating news**: `r mcq(c("Complement(s) of Verb consisting of Noun and Prepositional Phrases", "Complement of Verb consisting of Prepositional Phrase.", "Complement of Verb consisting of a clause", answer = "Complement of Adj. consisting of Prepositional Phrase", "Complement of Noun consisting of Prepositional Phrase"))`
+
+9. To compensate **for the shoddy service** the hotel gave them a free voucher: `r mcq(c("Complement(s) of Verb consisting of Noun and Prepositional Phrases", answer = "Complement of Verb consisting of Prepositional Phrase.", "Complement of Verb consisting of a clause", "Complement of Adj. consisting of Prepositional Phrase", "Complement of Noun consisting of Prepositional Phrase"))`
+
+
+`r hide("Answers")`
+
+Use the appropriate grammatical terminology to describe the words in bold:
+
+1. She is afraid **of bees**: Complement of Adj. consisting of Prepositional Phrase
+2. Janet argued **that she should be first in the queue**: Complement of Verb consisting of a clause
+3. The evil company flogged **dodgy goods to the masses**: Complement(s) of Verb consisting of Noun and Prepositional Phrases
+4. The reason **for the accident** eluded the top investigators: Complement of Noun consisting of a Prepositional Phrase
+5. Could you explain **how to remove the carburettor cap?**: Complement of Verb consisting of a clause
+6. Angel impressed **her parents with her stellar performance**: Complement(s) of Verb consisting of Noun and Prepositional Phrases
+7. The argument **between the siblings** turned rowdy over Christmas dinner: Complement of Noun consisting of Prepositional Phrase
+8. She was extremely depressed **about the devestating news**: Complement of Adj. consisting of a Prepositional Phrase
+9. To compensate **for the shoddy service** the hotel gave them a free voucher: Complement of Verb consisting of Prepositional Phrase.
+
+NB in 2 we have a finite clause (i.e. the verb has a tense), while in 5 we have a non-finite clause (the verb does not carry tense) and an implicit subject.
+
+`r unhide()`
+
+# Discourse Adverbials
+
+Choose an appropriate discourse adverbial from the list. Then match the discourse adverbial with its meaning:
+
+1. She didn't study very hard. `r mcq(c("Moreover", "Then again", answer = "However", "For crying out loud"))`, she passed the exam with flying colours
+
+2. I don't think they'll win the match. `r mcq(c("Moreover", answer = "Then again", "However", "For crying out loud"))`, they might just pull it off if they can muster that legendary team spirit.
+
+3. It was a really exciting film. `r mcq(c(answer = "Moreover", "Then again", "However", "For crying out loud"))`, the ending took me completely by surprise.
+
+4. `r mcq(c("Moreover", "Then again", "However", answer = "For crying out loud"))`, don't put your feet on the table!
+
+A. "Then again": `r mcq(c("CONTRADICTION", "REINFORCING AN ARGUMENT", "EXPRESSING ANGER", answer = "CHANGING YOUR MIND"))`
+
+B. "Moreover": `r mcq(c("CONTRADICTION", answer = "REINFORCING AN ARGUMENT", "EXPRESSING ANGER", "CHANGING YOUR MIND"))`
+
+C. "However": `r mcq(c(answer = "CONTRADICTION", "REINFORCING AN ARGUMENT", "EXPRESSING ANGER","CHANGING YOUR MIND"))`
+
+D. "For crying out loud": `r mcq(c("CONTRADICTION", "REINFORCING AN ARGUMENT", answer = "EXPRESSING ANGER", "CHANGING YOUR MIND"))`
+
+
+
+`r hide("Answers")`
+
+Choose an appropriate discourse adverbial from the list. Then match the discourse adverbial with its meaning:
+
+1. She didn't study very hard. HOWEVER, she passed the exam with flying colours
+
+2. I don't think they'll win the match. THEN AGAIN, they might just pull it off if they can muster that legendary team spirit.
+
+3. It was a really exciting film. MOREOVER, the ending took me completely by surprise.
+
+4. FOR CRYING OUT LOUD, don't put your feet on the table!
+
+
+A. "Then again": CHANGING YOUR MIND
+
+B. "Moreover": REINFORCEMENT
+
+C. "However": CONTRADICTION
+
+D. "For crying out loud": EXPRESSING ANGER
+
+`r unhide()`

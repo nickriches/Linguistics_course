@@ -137,9 +137,31 @@ approaches to therapy_ (pp. 143-161). London: Whurr.
 
 [Chapter from old Linguistics handbook on Argument Structure](old chapters/argument_structure_chapter.pdf)
 
+# Complementation versus modification
+
+ _Carnie, A. (2002). Syntax a generative introduction. Blackwell Pub._, Section 6.3. 
+ 
+Here is a useful online resource:
+
+[UCL Internet Grammar](http://www.ucl.ac.uk/internet-grammar/phfunc/compare.htm)
+
 # Garrett Model of sentence production
 
+Harley, T. A. [The Psychology of Language](https://libsearch.ncl.ac.uk/primo-explore/search?query=any,contains,harley%20psycholinguistics&tab=default_tab&search_scope=NotPC&sortby=date&vid=NEWUI&facet=frbrgroupid,include,1443333280&lang=en_US&offset=0). Hove: Psychology Press. Section E on Language Production
 
+Gleason, J. B. & Ratner, N. B. (1998). [Psycholinguistics](https://libsearch.ncl.ac.uk/primo-explore/search?query=any,contains,gleason%20psycholinguistics&tab=default_tab&search_scope=NotPC&vid=NEWUI&lang=en_US&offset=0) (2nd edition). Chapter 7
+
+Sedivy, [Psycholinguistics](https://libsearch.ncl.ac.uk/primo-explore/fulldisplay?docid=NCL_ALMA21113350300002411&context=L&vid=NEWUI&lang=en_US&search_scope=NotPC&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,sedivy&sortby=rank&offset=0), Chapter 9
+
+# Verbs in the passenger seat
+
+
+Here is a very accessible [YouTube video by Martin Hilpert](https://www.youtube.com/watch?v=9DllnszLuM0) on Construction Grammar, and [this YouTube video](https://www.youtube.com/watch?v=GN1MrP396Y4) focuses on Construction Grammar approaches to argument structure.
+
+A reasonably simple written introduction to "Construction Grammar" is provided by Tomasello, M. (1998). [The Return of Constructions](https://www.cambridge.org/core/journals/journal-of-child-language/article/return-of-constructions/7E8A1AA5FF8DA4385E991B03B1AA4A09). Journal of Child Language, 25, 431–442.
+
+A more complex and thorough treatment is provided in
+_Goldberg, A. E. (1995). Constructions a Construction Grammar approach to argument structure. University of Chicago Press._ is a slightly advanced book on the topic of construction grammar.
 
 <!-- https://www.youtube.com/watch?v=GN1MrP396Y4 -->
 

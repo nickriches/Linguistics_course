@@ -1,0 +1,54 @@
+---
+title: "10 - Speech Production Models"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+# Identify the thematic relations of the underlined words
+
+NB while you do this exercise it may be useful to have the diagram of the model open.
+
+Which of these processes occur at which stage in Garrett production model?
+
+1. Accessing the Verb Argument Structure contained in the lemma: `r mcq(c("Prior to message level", answer = "Between Message and Functional levels", "Between Functional and Positional levels", "Between Positional and Phonetic levels", "Between Phonetic and Articulatory levels"))`
+2. Retrieving syllables from syllabary: `r mcq(c("Prior to message level","Between Message and Functional levels", "Between Functional and Positional levels", "Between Positional and Phonetic levels", answer = "Between Phonetic and Articulatory levels"))`
+3. Retrieving the sentence planning frame: `r mcq(c("Prior to message level","Between Message and Functional levels", answer = "Between Functional and Positional levels", "Between Positional and Phonetic levels", "Between Phonetic and Articulatory levels"))`
+4. Regular phonological processes, e.g. voicing on plurals: `r mcq(c("Prior to message level","Between Message and Functional levels", "Between Functional and Positional levels", answer = "Between Positional and Phonetic levels", "Between Phonetic and Articulatory levels"))`
+5. Assigning thematic relations to arguments: `r mcq(c("Prior to message level",answer = "Between Message and Functional levels", "Between Functional and Positional levels", "Between Positional and Phonetic levels", "Between Phonetic and Articulatory levels"))`
+6. Retrieval of metrical structure (i.e. word stress): `r mcq(c("Prior to message level","Between Message and Functional levels", "Between Functional and Positional levels", answer = "Between Positional and Phonetic levels", "Between Phonetic and Articulatory levels"))`
+7. "Mapping" process, i.e. assigning arguments to correct position in the planning frame: `r mcq(c("Prior to message level","Between Message and Functional levels", answer =  "Between Functional and Positional levels", "Between Positional and Phonetic levels", "Between Phonetic and Articulatory levels"))`
+8. Thinking about the scene which you wish to express:  `r mcq(c(answer = "Prior to message level","Between Message and Functional levels", "Between Functional and Positional levels", "Between Positional and Phonetic levels", "Between Phonetic and Articulatory levels"))`
+
+
+
+
+`r hide("Answers")`
+
+NB while you do this exercise it may be useful to have the diagram of the model open.
+
+Which of these processes occur at which stage in Garrett production model?
+
+1. Accessing the Verb Argument Structure contained in the lemma: BETWEEN MESSAGE AND FUNCTIONAL LEVELS
+2. Retrieving syllables from syllabary: BETWEEN PHONETIC AND ARTICULATORY LEVELS
+3. Retrieving the sentence planning frame: BETWEEN FUNCTIONAL AND POSITIONAL LEVELS
+4. Regular phonological processes, e.g. voicing on plurals: BETWEEN POSITIONAL AND PHONETIC LEVELS
+5. Assigning thematic relations to arguments: BETWEEN MESSAGE AND FUNCTIONAL LEVELS
+6. Retrieval of metrical structure (i.e. word stress): BETWEEN POSITION AND PHONETIC LEVELS
+7. "Mapping" process, i.e. assigning arguments to correct position in the planning frame: BETWEEN FUNCTIONAL AND POSITIONAL LEVELS
+8. Thinking about the scene which you wish to express: PRIOR TO THE MESSAGE LEVEL
+
+`r unhide()`
+
