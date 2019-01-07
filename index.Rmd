@@ -88,7 +88,7 @@ Friday 7th December: [Questions](seminars/S04 - Seminar 4.pdf) and [Answers](sem
 
 There will be **two one-hour exams**, one at the end of Semester 1 (January, 2019), and one at the end of Semester 2 (May 2019). Each will constitute 50% of the overall mark.
 
-Click [here](other/Semester 1 - mock exam.docx) to download the mock exam. [This](other/LARSP symbols.pdf) is the list of symbols you will be given to use in the exam.
+Click [here](other/Semester 1 - mock exam.docx) to download the mock exam. [This](other/LARSP symbols.pdf) is the list of symbols you will be given to use in the exam. The answers the mock exam are [here](other/Semester 1 - mock exam - plus answers.docx)
   
 ## MScs
 
