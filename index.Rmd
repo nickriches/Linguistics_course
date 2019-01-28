@@ -158,7 +158,7 @@ th, td {
 
  <table style="width:100%">
   <tr><th>Week</th><th>Topic</th><th>Materials</th>
-  <tr><th>12</th><th>The semantics of events</th><th>[slides](docs/slides/12 - the semantics of events.pdf) | [handout](docs/handouts_word/12_-_the_semantics_of_events.docx) | [handout (web)](docs/handouts_html/12_-_the_semantics_of_events.html) | web exs | resources</th>
+  <tr><th>12</th><th>The semantics of events</th><th>[slides](slides/12 - the semantics of events.pdf) | [handout](handouts_word/12_-_the_semantics_of_events.docx) | [handout (web)](handouts_html/12_-_the_semantics_of_events.html) | web exs | resources</th>
   <tr><th>13</th><th>   </th><th>  </th>
 </table> 
 
