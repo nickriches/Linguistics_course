@@ -1,0 +1,84 @@
+---
+title: "12 - The semantics of events"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+# Main concepts
+
+The term "tense" refers to `r mcq(c(answer = "when an event happened in relation to the time of speaking", "our perspective on an event, e.g. internal versus external", "the inherent temporal properties of a verb"))`. There are `r mcq(c(answer = "2", "3", "4"))` undisputed tenses, and it is debatable whether the `r mcq(c("past", "present", answer = "future"))` tense is a genuine tense.
+
+Lexical aspect refers to `r mcq(c("when an event happened in relation to the time of speaking", "our perspective on an event, e.g. internal versus external", answer = "the inherent temporal properties of a verb"))`. Which of the following is NOT a category used to describe lexical aspect? `r mcq(c("Event", "Activity", answer = "Succession", "Achievement", "Accomplishment"))`. Which of the following properties is not useful for defining aspectual categories? `r mcq(c("Dynamicity (internal structure)", "Telicity (endpoint)", answer = "Intensity"))`
+
+Grammatical aspect refers to `r mcq(c("when an event happened in relation to the time of speaking", answer = "our perspective on an event, e.g. internal versus external", "the inherent temporal properties of a verb"))`. It is expressed using the `r mcq(c(answer = "present participle (-ing form)", "past participle"))` to signal an internal perspective, and the `r mcq(c("present participle (-ing form)", answer = "past participle"))` to signal an external perspective (i.e. a completed event).
+
+`r hide("Answers")`
+
+The term "tense" refers to **when an event happened in relation to the time of speaking**. There are **2** undisputed tenses, and it is debatable whether the **future** tense is a genuine tense.
+
+Lexical aspect refers to **our perspective on an event, e.g. internal versus external**. Which of the following is NOT a category used to describe lexical aspect? **Succession**. Which of the following properties is not useful for defining aspectual categories? **Intensity**
+
+Grammatical aspect refers to **our perspective on an event, e.g. internal versus external**. It is expressed using the **present participle (-ing form)** to signal an internal perspective, and the **past participle** to signal an external perspective (i.e. a completed event)
+
+`r unhide()`
+
+# Lexical aspect
+
+Which is the best test to distinguish between Events and Non-events? `r mcq(c("Use the verb with an expression implying and endpoint", answer = "Use the verb in the progressive (-ing form)", "Can we use stop + -ing with the verb?"))`
+
+Which is the best test to distinguish between Activities and Non-activities? `r mcq(c(answer = "Use the verb with an expression implying and endpoint", "Use the verb in the progressive (-ing form)", "Can we use stop + -ing with the verb?"))`
+
+Which is the best test to distinguish between Achievements and Accomplishments? `r mcq(c("Use the verb with an expression implying and endpoint", "Use the verb in the progressive (-ing form)", answer = "Can we use stop + -ing with the verb?"))`
+
+`r hide("Answers")`
+
+Which is the best test to distinguish between Events and Non-events? **Use the verb in the progressive (-ing form)**
+
+Which is the best test to distinguish between Activities and Non-activities? **Use the verb with an expression implying and endpoint**
+
+Which is the best test to distinguish between Achievements and Accomplishments? **Can we use stop + -ing with the verb?**
+
+`r unhide()`
+
+<br>
+
+What is the lexical aspect of the following verbs?
+
+1. Decide `r mcq(c("State", "Activity", "Achievement", answer = "Accomplishment"))`
+2. Plan `r mcq(c("State", answer = "Activity", "Achievement", "Accomplishment"))`
+3. Scratch `r mcq(c("State", answer = "Activity", "Achievement", "Accomplishment"))`
+4. Come from (e.g. "She comes from Italy") `r mcq(c(answer = "State", "Activity", "Achievement", "Accomplishment"))`
+5. Apologise `r mcq(c("State", answer = "Activity", "Achievement", "Accomplishment"))`
+6. Fail `r mcq(c("State", "Activity", "Achievement", answer = "Accomplishment"))`
+7. Adore `r mcq(c(answer = "State", "Activity", "Achievement", "Accomplishment"))`
+8. Polish `r mcq(c("State", answer = "Activity", "Achievement", "Accomplishment"))`
+
+`r hide("Answers")`
+
+1. Decide = Accomplishment. It is defined in terms of its end state. It sounds weird with stop (e.g. "he stopped deciding"), and this differentiates it from being an Achievement.
+2. Plan = Activity. Can continue for an indefinite period of time, e.g. "He planned the party for five hours"
+3. Scratch = It depends slightly on the context. We can imagine an ongoing activity, e.g. "he has been scratching his head for five hours", but when we "scratch a record" (i.e. cause damage), it is best classed as an accomplishment (defined in terms of its end state)
+4. Come from = State. Resists progressive, e.g. *"She is coming from Italy"
+5. Apologise = Activity. We can do it continuously, e.g. "She apologised for five hours" (substantial grovelling!)
+6. Fail = Accomplishment. It is defined in terms of its end state. It doesn't sound good with "stop", e.g. "She stopped failing the exam", and is therefore not an achievement.
+7. Adore = State. Doesn't sound good in the progressive, e.g. "She is adoring her"
+8. Polish = activity. "He has been polishing brass ornaments for hours.""
+
+`r unhide()`
+
+
+
+
