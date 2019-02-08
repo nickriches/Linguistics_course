@@ -160,7 +160,7 @@ th, td {
   <tr><th>Week</th><th>Topic</th><th>Materials</th>
   <tr><th>12</th><th>The semantics of events</th><th>[slides](slides/12 - the semantics of events.pdf) | [handout](handouts_word/12_-_the_semantics_of_events.docx) | [handout (web)](handouts_html/12_-_the_semantics_of_events.html) | [web exs](webex/12/12.html) | resources</th>
   <tr><th>13</th><th> The syntax of events </th><th> [slides](slides/13 - Syntax of events.pdf) | handout | handout (web) </th>
-  <tr><th>14</th><th> Hierarchical Structure </th><th> slides | handout | handout (web) </th>
+      <tr><th>14</th><th> Hierarchical Structure </th><th> [slides](slides/14 - Hierarchical structure.pdf) | handout | handout (web) </th>
   <tr><th>15</th><th> Dependent clauses I: Adverbial Clauses </th><th> slides | handout | handout (web) </th>
   <tr><th>16</th><th> Dependent clases II: Other types </th><th> slides | handout | handout (web) </th>
   <tr><th>17</th><th> Modality </th><th> slides | handout | handout (web) </th>
