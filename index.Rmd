@@ -168,7 +168,8 @@ th, td {
   <tr><th>21</th><th> Formulaicity </th><th> slides | handout | handout (web) </th>
   <tr><th>22</th><th> Linguistics in the Clinic </th><th> slides | handout | handout (web) </th>
 </table> 
-s
+
+
 # Tables
 
 This section is for links to interactive tables which are used to demonstrate linguistic concepts.
