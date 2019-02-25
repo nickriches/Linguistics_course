@@ -1,0 +1,52 @@
+---
+title: "14 - hierarchical structure"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+# Fill in the blanks
+
+Trees are a useful formalism because
+
+(1) They can represent hi`r fitb("erarchical")` structure (i.e. phrases occuring inside other phrases)
+
+(2) They can account for syntactic am`r fitb("biguity")`
+
+(3) They can represent syntactic re`r fitb("cursion")` (where a phrase is nested inside another phrase of the same type)
+
+(4) They can account for syntactic mo`r fitb("vement")` (we merely need to snip the tree at a particular point to detach the phrase)
+
+According to Chomsky's Argument from the Poverty of the Stimlus, `r mcq(c("People from lower socioeconomic status backgrounds have limited language experience", answer = "the language input is not sufficiently rich to account for children s sophisticated linguistic knowledge", "the input plays no role whatsover in language learning"))`
+
+
+
+
+`r hide("Answers")`
+
+Trees are a useful formalism because
+
+(1) They can represent **hierarchical** structure (i.e. phrases occuring inside other phrases)
+
+(2) They can account for syntactic **ambiguity**
+
+(3) They can represent syntactic **recursion** (where a phrase is nested inside another phrase of the same type)
+
+(4) They can account for syntactic **movement** (we merely need to snip the tree at a particular point to detach the phrase)
+
+According to Chomsky's Argument from the Poverty of the Stimlus **the language input is not sufficiently rich to account for children's sophisticated linguistic knowledge**
+
+`r unhide()`
+

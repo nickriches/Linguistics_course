@@ -1,5 +1,5 @@
 ---
-title: "08 - Verbs in the driving seat"
+title: "13 - The syntax of events"
 output:
   html_document:
     css: webex.css
@@ -17,61 +17,30 @@ if (!requireNamespace("webex")) {
 }
 ```
 
-# Identify the thematic relations of the underlined words
+# Label the tense and aspect of the following sentences
 
-1. <u>The boat</u> sank in the rough seas
+(NB the "future" tense should have inverted commas round it, but the software does not allow me to do this!)
 
-The boat = `r mcq(c(answer = "Agent", "Experiencer", "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
+1. They won't have started the exam yet. TENSE: `r mcq(c("Present", "Past", answer = "Future", "NONE"))` ASPECT: `r mcq(c("simple", answer = "perfect", "progressive", "perfect progressive"))`
 
-2. <u>Janice</u> despised <u>her cousin</u> for her rampant consumerism
+2. He was being deliberately obtuse. TENSE: `r mcq(c("Present", answer = "Past", "Future", "NONE"))` ASPECT: `r mcq(c("simple", "perfect", answer = "progressive", "perfect progressive"))`
 
-Janice = `r mcq(c("Agent", answer = "Experiencer", "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
+3. Jack had been having a very good time in Mallorca. TENSE: `r mcq(c("Present", answer = "Past","Future", "NONE"))` ASPECT: `r mcq(c("simple", "perfect", "progressive", answer = "perfect progressive"))`
 
-her cousin = `r mcq(c("Agent", "Experiencer", "Patient", answer = "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
+4. Jen is really open to new experiences. TENSE: `r mcq(c(answer = "Present", "Past", "Future", "NONE"))` ASPECT: `r mcq(c(answer = "simple", "perfect", "progressive", "perfect progressive"))`
 
-3. <u>The film</u> really disturbed <u>me</u>
+5. What a messy kitchen! Charles must have been here. TENSE: `r mcq(c("Present", "Past", "Future", answer = "NONE"))` ASPECT: `r mcq(c("simple", answer = "perfect", "progressive", "perfect progressive"))`
 
-The film = `r mcq(c("Agent", "Experiencer", "Patient", answer = "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
+6. Sandra won't be living here next year. TENSE: `r mcq(c("Present", "Past", answer = "Future", "NONE"))` ASPECT: `r mcq(c("simple", "perfect", answer = "progressive", "perfect progressive"))`
 
-me = `r mcq(c("Agent", answer = "Experiencer", "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
+7. Have you eaten that cheese yet? TENSE: `r mcq(c(answer = "Present", "Past", "Future", "NONE"))` ASPECT: `r mcq(c("simple", answer = "perfect", "progressive", "perfect progressive"))`
 
-4. <u>Martin</u> hammered <u>the nail</u> <u>flat</u>
+8. You shouldn't be studying so hard. TENSE: `r mcq(c("Present", "Past", "Future", answer = "NONE"))` ASPECT: `r mcq(c("simple", "perfect", answer = "progressive", "perfect progressive"))`
 
-Martin = `r mcq(c(answer = "Agent", "Experiencer", "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
+9. Carlos is practising his violin a lot these days. TENSE: `r mcq(c(answer = "Present", "Past", answer = "Future", "NONE"))` ASPECT: `r mcq(c("simple", "perfect", answer = "progressive", "perfect progressive"))`
 
-the nail = `r mcq(c("Agent", "Experiencer", answer = "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
+10. Clarice hadn't been paying attention at the time of the accident. TENSE: `r mcq(c("Present", answer = "Past", "Future", "NONE"))` ASPECT: `r mcq(c("simple", "perfect", "progressive", answer = "perfect progressive"))`
 
-flat = `r mcq(c("Agent", "Experiencer", "Patient", "Theme", "Benefactive", answer = "Attributive", "Locative", "Instrument", "Possessor"))`
-
-5. <u>Anthony</u> made <u>his neighbour</u> <u>a birthday cake</u>
-
-Anthony = `r mcq(c(answer = "Agent", "Experiencer", "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
-
-his neighbour = `r mcq(c("Agent", "Experiencer", "Patient", "Theme", answer = "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
-
-a birthday cake = `r mcq(c("Agent", "Experiencer", answer = "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
-
-7. <u>Chen</u> made <u>his landlord</u> <u>furious</u>
-
-Chen = `r mcq(c(answer = "Agent", "Experiencer", "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))` (NB assumes that action is deliberate. If not deliberate, it is difficult to determine a role)
-
-his landlord = `r mcq(c("Agent", answer = "Experiencer", "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
-
-furious = `r mcq(c("Agent", "Experiencer", "Patient", "Theme", "Benefactive", answer = "Attributive", "Locative", "Instrument", "Possessor"))`
-
-8. <u>Rufus</u> owns <u>a villa</u> in the South of France
-
-Rufus = `r mcq(c("Agent", "Experiencer", "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", answer = "Possessor"))`
-
-a villa = `r mcq(c("Agent", "Experiencer", "Patient", answer = "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
-
-9. <u>Sandra</u> smeared <u>cream</u> <u>on her face</u> 
-
-Sandra = `r mcq(c(answer = "Agent", "Experiencer", "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
-
-cream = `r mcq(c("Agent", "Experiencer", answer = "Patient", "Theme", "Benefactive", "Attributive", "Locative", "Instrument", "Possessor"))`
-
-on her face = `r mcq(c("Agent", "Experiencer", "Patient", "Theme", "Benefactive", "Attributive", answer = "Locative", "Instrument", "Possessor"))`
 
 
 
@@ -79,41 +48,25 @@ on her face = `r mcq(c("Agent", "Experiencer", "Patient", "Theme", "Benefactive"
 
 `r hide("Answers")`
 
-# Identify the thematic relations of the underlined words
+1. They won't have started the exam yet. FUTURE PERFECT.
 
-1. <u>The boat</u> sank in the rough seas
+2. He was being deliberately obtuse. PAST PROGRESSIVE
 
-PATIENT: Passes the 'what happened to...' test, e.g. 'What happened to the boat was it sank'
+3. Jack had been having a very good time in Mallorca. PAST PERFECT PROGRESSIVE
 
-2. <u>Janice</u> despised <u>her cousin</u> for her rampant consumerism
+4. Jen is really open to new experiences. PRESENT SIMPLE
 
-Janice = EXPERIENCER, her cousin = THEME
+5. What a messy kitchen! Charles must have been here. PERFECTIVE ASPECT ONLY (NO TENSE ON 'HAVE')
 
-3. <u>The film</u> really disturbed <u>me</u>
+6. Sandra won't be living here next year. FUTURE PROGRESSIVE
 
-The film = THEME, me = EXPERIENCER.
+7. Have you eaten that cheese yet? PRESENT PERFECT
 
-Note that these two verbs are 'mirror images' of each other. Themes are often paired with experiencers.
+8. You shouldn't be studying so hard. PROGRESSIVE ASPECT ONLY (NO TENSE ON 'BE')
 
-4. <u>Martin</u> hammered <u>the nail</u> <u>flat</u>
+9. Carlos is practising his violin a lot these days. PRESENT PROGRESSIVE
 
-Martin = AGENT, the nail = PATIENT, flat = ATTRIBUTIVE
-
-5. <u>Anthony</u> made <u>his neighbour</u> <u>a birthday cake</u>
-
-Anthony = AGENT, his neighbour = BENEFACTIVE, a birthday cake = PATIENT
-
-6. <u>Chen</u> made <u>his landlord</u> <u>furious</u>
-
-Chen = AGENT (NB only if he deliberately annoys his landlord! If the action is not deliberate, Chen could be described as a theme), landlord = EXPERIENCER (landlord is highly affected, but it is a PSYCHOLOGICAL effect), furious = ATTRIBUTIVE.
-
-7. <u>Rufus</u> owns <u>a villa</u> in the South of France
-
-Rufus = POSSESSOR, a villa = THEME
-
-8. <u>Sandra</u> smeared <u>cream</u> <u>on her face</u>
-
-Sandra = AGENT, cream = PATIENT, on her face = LOCATIVE.
+10. Clarice hadn't been paying attention at the time of the accident. PAST PERFECT PROGRESSIVE.
 
 `r unhide()`
 

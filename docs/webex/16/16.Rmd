@@ -1,0 +1,66 @@
+---
+title: "16 - Other types of adverbial clause"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+# What type of dependent clauses are words in **bold**??
+
+1. Janet persuaded Jill that **she should have a perm** `r mcq(c("Adverbial Clause", answer = "Complement Clause", "Subject Clause", "Relative clause (restrictive)", "Relative clause (non-restrictive)"))`
+
+2. It's extaordinary **how fast Patrick drives** `r mcq(c("Adverbial Clause", "Complement Clause", answer = "Subject Clause", "Relative clause (restrictive)", "Relative clause (non-restrictive)"))`
+
+3. The pizza **that he ordered** tasted rather strange `r mcq(c("Adverbial Clause", "Complement Clause", "Subject Clause", answer = "Relative clause (restrictive)", "Relative clause (non-restrictive)"))`
+
+4. Amy wore dark glasses just in case **she bumped into Peter** `r mcq(c(answer = "Adverbial Clause", "Complement Clause", "Subject Clause", "Relative clause (restrictive)", "Relative clause (non-restrictive)"))`
+
+5. It's unbelievable that **she feeds her cat smoked salmon** `r mcq(c("Adverbial Clause", "Complement Clause", answer = "Subject Clause", "Relative clause (restrictive)", "Relative clause (non-restrictive)"))`
+
+6. I tried to find the recipt **which I threw away** `r mcq(c("Adverbial Clause", "Complement Clause", "Subject Clause", answer = "Relative clause (restrictive)", "Relative clause (non-restrictive)"))`
+
+7. Jill, **who is my best friend**, has just come down with the flu. `r mcq(c("Adverbial Clause", "Complement Clause", "Subject Clause", "Relative clause (restrictive)", answer = "Relative clause (non-restrictive)"))`
+
+8. While **the cat's away**, the mice will play. `r mcq(c(answer = "Adverbial Clause", "Complement Clause", "Subject Clause", "Relative clause (restrictive)", "Relative clause (non-restrictive)"))`
+
+9. **Whatever spirit Janice bought to the party** got everyone really merry. `r mcq(c("Adverbial Clause", "Complement Clause", answer = "Subject Clause", "Relative clause (restrictive)", "Relative clause (non-restrictive)"))`
+
+10. Jack believed that **he was Shakespeare in a previous life** `r mcq(c("Adverbial Clause", answer = "Complement Clause", "Subject Clause", "Relative clause (restrictive)", "Relative clause (non-restrictive)"))`
+
+
+`r hide("Answers")`
+
+1. Janet persuaded Jill that **she should have a perm**: COMPLEMENT clause. Complement of the verb "persuade"
+
+2. It's extaordinary **how fast Patrick drives**: SUBJECT clause. It has been moved from the front of the sentence!
+
+3. The pizza **that he ordered** tasted rather strange: RESTRICTIVE RELATIVE clause.
+
+4. Amy wore dark glasses just in case **she bumped into Peter**: ADVERBIAL clause. ("just in case" is a multi-word subordinating conjunction)
+
+5. It's unbelievable that **she feeds her cat smoked salmon**: SUBJECT clause. It has been moved from the front of the sentence! 
+
+6. I tried to find the recipt **which I threw away**: RESTRICTIVE RELATIVE clause. 
+
+7. Jill, **who is my best friend**, has just come down with the flu: NON-RESTRICTIVE relative clause. 
+
+8. While **the cat's away**, the mice will play: ADVERBIAL clause. 
+
+9. **Whatever spirit Janice bought to the party** got everyone really merry: SUBJECT clause
+
+10. Jack believed **that he was Shakespeare in a previous life**: COMPLEMENT clause. Complement of the verb "believe"
+
+`r unhide()`
+

@@ -1,0 +1,94 @@
+---
+title: "15 - Adverbial clauses"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+# Identify the subordinating conjunctions in the following sentences. Then select the concept expressed by the subordinating conjunction
+
+1. You can make a lot of money in this job provided that you work hard. SUBORDINATING CONJUNCTION: `r fitb("provided that")` CONCEPT: `r mcq(c("Contradiction", answer = "Logical Condition", "Cause effect", "Contrast", "Temporal meaning", "Purpose"))`
+
+2. You'll burn out unless you slow down. SUBORDINATING CONJUNCTION: `r fitb("unless")` CONCEPT: `r mcq(c("Contradiction", answer = "Logical Condition", "Cause effect", "Contrast", "Temporal meaning", "Purpose"))`
+
+3. Apparently although she had no sleep the night before she did rather well in the interview. SUBORDINATING CONJUNCTION: `r fitb("although")` CONCEPT: `r mcq(c(answer = "Contradiction", "Logical Condition", "Cause effect", "Contrast", "Temporal meaning", "Purpose"))`
+
+4. They're like chalk and cheese. While she likes reggae he's really into heavy metal. SUBORDINATING CONJUNCTION: `r fitb("while")` CONCEPT: `r mcq(c("Contradiction", "Logical Condition", "Cause effect", answer = "Contrast", "Temporal meaning", "Purpose"))`
+
+5. According to Jack when she was asleep her housemates stole her gourmet chocolate. SUBORDINATING CONJUNCTION: `r fitb("when")` CONCEPT: `r mcq(c("Contradiction", "Logical Condition", "Cause effect", "Contrast", answer = "Temporal meaning", "Purpose"))`
+
+6. Because she was very laid back she wasn't too upset by the screaming toddlers. SUBORDINATING CONJUNCTION: `r fitb("because")` CONCEPT: `r mcq(c("Contradiction", "Logical Condition", answer = "Cause effect", "Contrast", "Temporal meaning", "Purpose"))`
+
+7. Once you've tasted real coffee there can be no going back. SUBORDINATING CONJUNCTION: `r fitb("once")` CONCEPT: `r mcq(c("Contradiction", "Logical Condition", "Cause effect", "Contrast", answer = "Temporal meaning", "Purpose"))`
+
+8. Ellie bought some wellies so that she wouldn't get soaking feet. SUBORDINATING CONJUNCTION: `r fitb("so that")` CONCEPT: `r mcq(c("Contradiction", "Logical Condition", "Cause effect", "Contrast", "Temporal meaning", answer = "Purpose"))`
+
+# In the following sentences, what is the subject of the adverbial clause? 
+
+1. After he'd taken his shoes of he had a hot bath. `r fitb("he")`
+
+2. Apparently since Janet's met Clive she's abandoned all her friends. `r fitb("Janet")`
+
+3. Mary's the kind of person who's always going to be happy as long as she's got a roof over her head. `r fitb("she")`
+
+4. Whereas Tanya hated dogs Andy loved them. `r fitb("Tanya")`
+
+5. Anna told me that when she entered the house Jack was still there. `r fitb("she")`
+
+6. As soon as Mary finished her exercises she had a shower. `r fitb("Mary")`
+
+7. During the afternoon Janet had three coffees so that she would stay awake. `r fitb("she")`
+
+
+
+`r hide("Answers")`
+
+# Identify the subordinating conjunctions in the following sentences. The select the concept expressed by the subordinating conjunction
+
+1. You can make a lot of money in this job provided that you work hard. SUBORDINATING CONJUNCTION: provided that CONCEPT: Logical Condition
+
+2. You'll burn out unless you slow down. SUBORDINATING CONJUNCTION: unless CONCEPT: Logical Condition
+
+3. Apparently although she had no sleep the night before she did rather well in the interview. SUBORDINATING CONJUNCTION: although CONCEPT: Contradiction
+
+4. They're like chalk and cheese. While she likes reggae he's really into heavy metal. SUBORDINATING CONJUNCTION: while CONCEPT: Contrast
+
+5. According to Jack when she was asleep her housemates stole her gourmet chocolate. SUBORDINATING CONJUNCTION: when CONCEPT: Temporal meaning
+
+6. Because she was very laid back she wasn't too upset by the screaming toddlers. SUBORDINATING CONJUNCTION: because CONCEPT: cause-effect
+
+7. Once you've tasted real coffee there can be no going back. SUBORDINATING CONJUNCTION: once CONCEPT: temporal meaning (or possibly Cause-EFfect)
+
+8. Ellie bought some wellies so that she wouldn't get soaking feet. SUBORDINATING CONJUNCTION: "so that"" CONCEPT: Purpose.
+
+
+# In the following sentences, what is the subject of the adverbial clause. 
+
+1. After he'd taken his shoes of he had a hot bath. HE
+
+2. Apparently since Janet's met Clive she's abandoned all her friends. JANET
+
+3. Mary's the kind of person who's always going to be happy as long as she's got a roof over her head. SHE
+
+4. Whereas Tanya hated dogs Andy loved them. TANYA
+
+5. Anna told me that when she entered the house Jack was still there. SHE
+
+6. As soon as Mary finished her exercises she had a shower. MARY
+
+7. During the afternoon Janet had three coffees so that she would stay awake. SHE
+
+`r unhide()`
+
