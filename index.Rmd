@@ -160,7 +160,7 @@ th, td {
   <tr><th>13</th><th> The syntax of events </th><th> [slides](slides/13 - Syntax of events.pdf) | handout | handout (web) | [resources](Resources.html#13)</th>
   <tr><th>14</th><th> Hierarchical Structure </th><th> [slides](slides/14 - Hierarchical structure.pdf) | handout | handout (web) | [resources](Resources.html#14)</th>
   <tr><th>15</th><th> Dependent clauses I: Adverbial Clauses </th><th> [slides](slides/15 - Adverbial Clauses.pdf) | [handout](handouts_word/15_-_Adverbial_Clauses.docx) | [handout (web)](handouts_html/15_-_Adverbial_Clauses.html) | [resources](Resources.html#15)</th>
-  <tr><th>16</th><th> Dependent clases II: Other types </th><th> slides | handout | handout (web) </th>
+  <tr><th>16</th><th> Dependent clauses II: Other types </th><th> [slides](slides/16 - Other types of dependent clauses.pdf) | [handout](handouts_word/16_-_Other_types_of_dependent_clauses.docx) | [handout (web)](handouts_html/16_-_Other_types_of_dependent_clauses.html) </th>
   <tr><th>17</th><th> Modality </th><th> slides | handout | handout (web) </th>
   <tr><th>18</th><th> Mood/Voice </th><th> slides | handout | handout (web) </th>
   <tr><th>19</th><th> Sentence Comprehension I </th><th> slides | handout | handout (web) </th>
