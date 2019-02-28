@@ -80,7 +80,7 @@ Friday 7th December: [Questions](seminars/S04 - Seminar 4.pdf) and [Answers](sem
 
 Thursday 14th Feb: [Questions](seminars/S05 - Seminar 5.pdf) and [Answers](seminars/S05 - Seminar 5 - plus answers.pdf)
 
-Thursday 28th Feb: [Questions](seminars/S06 - Seminar 6.pdf)
+Thursday 28th Feb: [Questions](seminars/S06 - Seminar 6.pdf) and [Answers](seminars/S06 - Seminar 6 - plus answers.pdf)
 
 # Assessment
 
@@ -185,5 +185,19 @@ This section is for links to interactive tables which are used to demonstrate li
 Good hashtags to follow in Twitter are #slpeeps, the main hashtag for speech and language therapists, #lingthusiasm, by Gretchen McCulloch a self-employed internet linguist who does great podcasts and blogs, and #lynneguist, by Lynne Murphy who writes on the similarities and differences between British and American English.
 
 The world is your twoyster!
+
+# MiMo
+
+MiMo is a tool I am developing which helps you to explore linguistic data. It can be found at [https://nickriches.shinyapps.io/MiMo_v1/](https://nickriches.shinyapps.io/MiMo_v1/).
+
+You can use it to learn word classes. You can either.
+
+(1) **Work with random text, e.g. from a news website**. Label the word classes in the text, then check your answers using MiMo.
+
+or
+
+(2) **Create sentences containing particular word classes**. For example, if you are not sure about prepositions, try creating sentences with prepositions. Then enter the text into MiMo to see if it agrees with you!
+
+NB the part-of-speech tagger which MiMo uses is not 100% accurate. I've noticed the *some* subordinating conjunctions, e.g. <u>**When** I fall in love </u>, are labelled as Adverbs. This is not so silly as the word *When* could be regarded as referring to a missing Adverbial Phrase, e.g. *I fall in love [ever year]*. So the decision-making process is nearly always logical. 
 
 
