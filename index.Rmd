@@ -163,7 +163,7 @@ th, td {
   <tr><th>14</th><th> Hierarchical Structure </th><th> [slides](slides/14 - Hierarchical structure.pdf) | handout | handout (web) | [web exs](webex/14/14.html) | [resources](Resources.html#14)</th>
   <tr><th>15</th><th> Dependent clauses I: Adverbial Clauses </th><th> [slides](slides/15 - Adverbial Clauses.pdf) | [handout](handouts_word/15_-_Adverbial_Clauses.docx) | [handout (web)](handouts_html/15_-_Adverbial_Clauses.html) | [web exs](webex/15/15.html) | [resources](Resources.html#15)</th>
   <tr><th>16</th><th> Dependent clauses II: Other types </th><th> [slides](slides/16 - Other types of dependent clauses.pdf) | [handout](handouts_word/16_-_Other_types_of_dependent_clauses.docx) | [handout (web)](handouts_html/16_-_Other_types_of_dependent_clauses.html) | [web exs](webex/16/16.html) | [resources](Resources.html#16)</th>
-  <tr><th>17</th><th> Mood, Modality and Voice </th><th> [slides](slides/17 - Mood and Modality.pdf) | [handout](handouts_word/17_-_Mood_and_Modality.docx) | [handout (web)](handouts_html/17_-_Mood_and_Modality.html) </th>
+  <tr><th>17</th><th> Mood, Modality and Voice </th><th> [slides](slides/17 - Mood and Modality.pdf) | [handout](handouts_word/17_-_Mood_and_Modality.docx) | [handout (web)](handouts_html/17_-_Mood_and_Modality.html) | [web exs](webex/16/) | [resources](docs/Resources.html#17)</th>
   <tr><th>18</th><th> Mood/Voice </th><th> slides | handout | handout (web) </th>
   <tr><th>19</th><th> Sentence Comprehension I </th><th> slides | handout | handout (web) </th>
   <tr><th>20</th><th> Sentence Comprehension II </th><th> slides | handout | handout (web) </th>
