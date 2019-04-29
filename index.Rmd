@@ -172,7 +172,7 @@ th, td {
   <tr><th>17</th><th> Mood, Modality and Voice </th><th> [slides](slides/17 - Mood and Modality.pdf) | [handout](handouts_word/17_-_Mood_and_Modality.docx) | [handout (web)](handouts_html/17_-_Mood_and_Modality.html) | [web exs](webex/16/) | [resources](docs/Resources.html#17)</th>
   <tr><th>18</th><th> What's the use of complex syntax? </th><th> [slides](slides/18 - Why worry about complex syntax.pdf) | [handout](handouts_word/18 - Why worry about complex syntax.pdf)</th>
   <tr><th>19</th><th> Sentence Comprehension I </th><th> [slides](slides/19 - Sentence processing.pdf) | [handout](handouts_word/19_-_Sentence_processing.docx) | [handout (web)](handouts_html/19_-_Sentence_processing.html) </th>
-  <tr><th>20</th><th> Sentence Comprehension II </th><th> slides | [handout](handouts_word/20_-_sentence_processing_II.docx) | [handout (web)](handouts_html/20_-_sentence_processing_II.html) </th>
+  <tr><th>20</th><th> Sentence Comprehension II </th><th> [slides](slides/20 - sentence processing II.pdf) | [handout](handouts_word/20_-_sentence_processing_II.docx) | [handout (web)](handouts_html/20_-_sentence_processing_II.html) </th>
   <tr><th>21</th><th> Formulaicity </th><th> slides | handout | handout (web) </th>
   <tr><th>22</th><th> Linguistics in the Clinic </th><th> slides | handout | handout (web) </th>
 </table> 
