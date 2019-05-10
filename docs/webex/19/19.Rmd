@@ -1,0 +1,96 @@
+---
+title: "16 - Mood, modality and voice"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+# Sentence Processing I
+
+## Fill the gaps
+
+*Bottom-up* processing of sentences involves analysing the im`r fitb("mediate")` input with little regard for `r fitb("higher")`-level information such as le`r fitb("xical")` information (information related to specific words), con`r fitb("textual")` information (information from preceding utterances) or en`r fitb("cyclopaedic")` knowledge (our knowledge of the world we live in). It involves determining the structure of the sentence on the basis of information about word classes, e.g. if we hear "the", the next word is likely to be a Noun. *Top-down* processing involves integrating the input with `r fitb("higher")`-level information.
+
+*Bottom-up* processing makes decisions rapidly. When the wrong structure is predicted this leads to a ga`r fitb("rden path")` effect. When we realise our analysis is wrong, we need to re`r fitb("analyse")` the structure of the sentence. This gives a feeling of disorientation. The presence of garden paths demonstrates how the p`r fitb("arser")` (the mechanism which analyses structure) makes decisions rapidly on the basis of incomplete information.
+
+*Top-down* processing can be demonstrated by sentences where higher-level information guides structural analysis. An example is Tr`r fitb("ueswell")` et al. (1983). Using a se`r fitb("lf-paced")` reading paradigm, they found that we use the `r fitb("verb")` to predict the structure of the sentence, and ga`r fitb("rden path")` effects were observed when the structure was not very pre`r fitb("dictable")`. It can also be demonstrated by the sentence "The horse raced past the barn fell" which is almost incomprehensible without con`r fitb("text")`, but can be rendered comprehensible with a sufficiently rich CONTEXT.
+
+`r hide("Click for answers")`
+
+*Bottom-up* processing of sentences involves analysing the IMMEDIATE input with little regard for HIGHER-level information such as LEXICAL information (information related to specific words), CONTEXTUAL information (information from preceding utterances) or ENCYCLOPAEDIC knowledge (our knowledge of the world we live in). It involves determining the structure of the sentence on the basis of information about word classes, e.g. if we hear "the", the next word is likely to be a Noun. *Top-down* processing involves integrating the input with HIGHER-level information.
+
+*Bottom-up* processing makes decisions rapidly. When the wrong structure is predicted this leads to a GARDEN PATH effect. When we realise our analysis is wrong, we need to REANALYSE the structure of the sentence. This gives a feeling of disorientation. The presence of garden paths demonstrates how the PARSER (the mechanism which analyses structure) makes decisions rapidly on the basis of incomplete information.
+
+*Top-down* processing can be demonstrated by sentences where higher-level information guides structural analysis. An example is TRUESWELL et al. (1983). Using a SELF-PACED reading paradigm, they found that we use the VERB to predict the structure of the sentence, and GARDEN PATH effects were observed when the structure was not very PREDICTABLE. It can also be demonstrated by the sentence "The horse raced past the barn fell" which is almost incomprehensible without CONTEXT, but can be rendered comprehensible with a sufficiently rich CONTEXT.
+
+`r unhide()`
+
+# Sentence Processing II
+
+## Fill the gaps
+
+Sentence which are "canonical" have a st`r fitb("andard")` or hi`r fitb("ighly")`-fr`r fitb("equent")` word order. In English, sentences which are syn`r fitb("tactically")` canonical have a S`fitb("ubject")`- `fitb("erb")` O`fitb("bject")` word order. Sentences which are sem`fitb("antically")` canonical map the Subject to the most strongly `r fitb("agentive")` argument (i.e. the one with most control over the event).
+
+`r hide("Click for answers")`
+
+Sentence which are "canonical" have a STANDARD or HIGHLY-FREQUENT word order. In English, sentences which are SYNTACTICALLY canonical have a SUBJECT-VERB-OBJECT word order. Sentences which are SEMANTICALLY canonical map the Subject to the most strongly AGENTIVE argument (i.e. the one with most control over the event).
+
+`r unhide()`
+
+
+## Decide if the following sentences are canonical, syntactically noncanonical or semantically noncanonical
+
+1. The TV exploded due to the power surge. = `r mcq(c(answer = "CANONICAL", "SYNTACTICALLY NONCANONICAL", "SEMANTICALLY NONCANONICAL"))`
+2. Which book was he considering borrowing from the library? = `r mcq(c("CANONICAL", answer =  "SYNTACTICALLY NONCANONICAL", "SEMANTICALLY NONCANONICAL"))`
+3. Beer made by Monks tastes great! = `r mcq(c("CANONICAL", "SYNTACTICALLY NONCANONICAL", answer = "SEMANTICALLY NONCANONICAL"))`
+4. Who on earth is that strange man over there? = `r mcq(c(answer = "CANONICAL", "SYNTACTICALLY NONCANONICAL", "SEMANTICALLY NONCANONICAL"))`
+5. That's easy for you to say! = `r mcq(c("CANONICAL", answer = "SYNTACTICALLY NONCANONICAL", "SEMANTICALLY NONCANONICAL"))`
+6. The woman who entered the compartment was wearing a red dress = `r mcq(c(answer = "CANONICAL", "SYNTACTICALLY NONCANONICAL", "SEMANTICALLY NONCANONICAL"))`
+7. Who can see that tree over there? = `r mcq(c(answer = "CANONICAL", "SYNTACTICALLY NONCANONICAL", "SEMANTICALLY NONCANONICAL"))`
+8. I loved that delicious cake that you made! = `r mcq(c("CANONICAL", answer = "SYNTACTICALLY NONCANONICAL", "SEMANTICALLY NONCANONICAL"))`
+
+`r hide()`
+
+1. The TV exploded due to the power surge. = CANONICAL SVO STRUCTURE
+2. Which book was he considering borrowing from the library? = SYNTACTICALLY NONCANONICAL OSV STRUCTURE, OBJECT = "BOOK", SUBJECT = "HE", VERB = "CONSIDERING". THE SENTENCE IS AN OBJECT QUESTION.
+3. Beer made by Monks tastes great! = SEMANTICALLY NONCANONICAL RELATIVISED PASSIVE ("THE BEER THAT IS MADE BY MONKS"). THE PATIENT (BEER) COMES BEFORE THE AGENT (MONKS)
+4. Who on earth is that strange man over there? = CANONICAL. SUBJECT (WHO) - VERB (IS) - COMPLEMENT (THAT STRANGE MAN...)
+5. That's easy for you to say! = SYNTACTICALLY NONCANONICAL. OBJECT (THAT) - SUBJECT (YOU) - VERB (SAY)
+6. The woman who entered the compartment was wearing a red dress = CANONICAL. THOUGH IT HAS A RELATIVE CLAUSE ("WHO ENTERED THE COMPARTMENT") THIS HAS A CANONICAL SUBECT-VERB-OBJECT ORDER.
+7. Who can see that tree over there? = CANONICAL. SUBJECT (WHO) - VERB (SEE) - OBJECT (TREE)
+8. I loved that delicious cake that you made! = SYNTACTICALLY NONCANONICAL. "DELICIOUS CAKE" IS THE OBJECT OF "MAKE" SO THE RELATIVE CLAUSE "THAT YOU MADE" HAS A NONCANONICAL WORD ORDER (IT IS AN OBJECT RELATIVE).
+
+`r unhide()`
+
+## More fill the gaps
+
+Sentences which are non-canonical are `r mcq(c(answer = "more", "less"))` difficult to process than sentences which are canonical. This effect is `r mcq(c("smaller", answer = "greater"))` in individuals with language impairment, leading to a Group by Canonicity in`r fitb("teraction")`.
+
+Another factor affecting processing difficulty is the re`r fitb("presentational")` com`r fitb("plexity")` of the verb, in particular the sub`r fitb("categorisation")` properties of the verb. Basically, verbs with more potential sub`r fitb("categorisation")`s are more difficult to understand. When interpreting non-canonical sentences such as Object Questions, and Object Relatives, the an`r fitb("imacy")` and dis`r fitb("course")` properties of the Noun Phrases also impacts on processing difficulty. These sentences are much easier to understand when an an`r fitb("imate")` entity acts on an in`r fitb("animate")` entity, and when the subject is pro`r fitb("nominal")`.
+
+A final factor affecting processing difficulty is the structure of the proceeding sentence. When we hear a structure we are likely to reproduce that structure. This phenomenon is known as str`r fitb("uctural")` pr`r fitb("iming")`.
+
+`r hide("Click to see answers")`
+
+Sentences which are non-canonical are MORE difficult to process than sentences which are canonical. This effect is LARGER in individuals with language impairment, leading to a Group by Canonicity INTERACTION.
+
+Another factor affecting processing difficulty is the REPRESENTATIONAL COMPLEXITY of the verb, in particular the SUBCATEGORISATION properties of the verb. Basically, verbs with more potential SUBCATEGORISATIONS are more difficult to understand. When interpreting non-canonical sentences such as Object Questions, and Object Relatives, the ANIMACY and DISCOURSE properties of the Noun Phrases also impacts on processing difficulty. These sentences are much easier to understand when an ANIMATE entity acts on an INANIMATE entity, and when the subject is PRONOMINAL.
+
+A final factor affecting processing difficulty is the structure of the proceeding sentence. When we hear a structure we are likely to reproduce that structure. This phenomenon is known as STRUCTURAL PRIMING.
+
+`r unhide()`
+
+
+

@@ -137,6 +137,8 @@ approaches to therapy_ (pp. 143-161). London: Whurr.
 
 [Chapter from old Linguistics handbook on Argument Structure](old chapters/argument_structure_chapter.pdf)
 
+[Gretchen McCulloch Podcast on how the sentence is organised around the verb](https://lingthusiasm.com/post/182969748701/lingthusiasm-episode-29-the-verb-is-the-coat-rack)
+
 # Complementation versus modification
 
  _Carnie, A. (2002). Syntax a generative introduction. Blackwell Pub._, Section 6.3. 
@@ -199,6 +201,29 @@ McAllister & Miller, Chapter 9 (as before)
 McAllister & Miller, Chapter 8
 
 Saeed, Chapter 5.3
+
+# What's the use of complex syntax?
+
+Nippold, M. A., Mansfield, T. C., Billow, J. L., & Tomblin, J. B. (2008). [Expository discourse in adolescents with language impairments: Examining syntactic development](https://ajslp-pubs-asha-org.libproxy.ncl.ac.uk/doi/full/10.1044/1058-0360%282008/07-0049%29?casa_token=k5NcsSONPoQAAAAA:vArKP7-jo2dCPu-6jQjRSj-pmtNPerUXPGjjK_zRS_-DUm-j4PrClNI19OVZkBpG30NmFsQ_O39uMg). American Journal of Speech-Language Pathology, 17(4), 356.
+
+# Sentence Comprehension I
+
+Trueswell, J. C., Tanenhaus, M. K., & Kello, C. (1993). [Verb-specific constraints in sentence processing: Separating effects of lexical preference from garden-paths](https://ovidsp-dc1-ovid-com.libproxy.ncl.ac.uk/sp-3.33.0b/ovidweb.cgi?WebLinkFrameset=1&S=DBBNFPIFIMACKCHLKPDKFHINHHMKAA00&returnUrl=ovidweb.cgi%3f%26TOC%3djb.search.27%257c3%257c50%26FORMAT%3dtoc%26FIELDS%3dTOC%26S%3dDBBNFPIFIMACKCHLKPDKFHINHHMKAA00&directlink=https%3a%2f%2fovidsp.dc1.ovid.com%2fovftpdfs%2fFPACKPINFHHLIM00%2ffs046%2fovft%2flive%2fgv025%2f00004786%2f00004786-199305000-00003.pdf&filename=Verb-Specific+Constraints+in+Sentence+Processing%3a+Separating+Effects+of+Lexical+Preference+From+Garden-Paths.&PDFIdLinkField=%2ffs046%2fovft%2flive%2fgv025%2f00004786%2f00004786-199305000-00003&link_from=jb.search.27%7c3&pdf_key=B&pdf_index=jb.search.27&D=ovft). JOURNAL OF EXPERIMENTAL PSYCHOLOGY LEARNING MEMORY AND COGNITION, 19, 528-528.
+
+# Sentence Comprehension II
+
+
+Kidd, E., Brandt, S., Lieven, E., & Tomasello, M. (2007). [Object relatives made easy: A cross-linguistic comparison of the constraints influencing young children’s processing of relative clauses](https://www.google.com/search?q=object+relatives+made+easy&oq=object+relatives+made+easy&aqs=chrome..69i57j33l4.6156j0j7&sourceid=chrome&ie=UTF-8). Language and Cognitive Processes, 22(6),
+860–897.
+
+# Formulaicity
+
+Wray, A., & Perkins, M. R. (2004). [The functions of formulaic language: an integrated model](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.558.6248&rep=rep1&type=pdf). Language & Communication, 20(1),1-28.
+
+# Linguistics in the clinic
+
+Ebbels, S. (2007). [Teaching grammar to school-aged children with specific language impairment using shape coding](https://journals-sagepub-com.libproxy.ncl.ac.uk/doi/10.1191/0265659007072143). Child Language Teaching & Therapy, 23(1), 67.
+
 
 <!-- https://www.youtube.com/watch?v=GN1MrP396Y4 -->
 
