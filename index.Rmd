@@ -177,7 +177,7 @@ th, td {
   <tr><th>19</th><th> Sentence Comprehension I </th><th> [slides](slides/19 - Sentence processing.pdf) | [handout](handouts_word/19_-_Sentence_processing.docx) | [handout (web)](handouts_html/19_-_Sentence_processing.html) | [web exs](webex/19/19.html) |  [resources](docs/Resources.html#19)</th>
   <tr><th>20</th><th> Sentence Comprehension II </th><th> [slides](slides/20 - sentence processing II.pdf) | [handout](handouts_word/20_-_sentence_processing_II.docx) | [handout (web)](handouts_html/20_-_sentence_processing_II.html) | [web exs](webex/19/19.html) | [resources](docs/Resources.html#29)</th>
   <tr><th>21</th><th> Formulaicity </th><th> [slides](slides/21 - Formulaic Language.pdf) | [handout](handouts_word/21_-_Formulaic_language.docx) | [handout (web)](handouts_html/21_-_Formulaic_language.html) | [resources](docs/Resources.html#21)</th>
-  <tr><th>22</th><th> Linguistics in the Clinic </th><th> slides | [handout](handouts_word/22_-_Linguistic_approaches_to_intervention.docx) | [handout (web)](handouts_html/22_-_Linguistic_approaches_to_intervention.html) | [resources](docs/Resources.html#22)</th>
+  <tr><th>22</th><th> Linguistics in the Clinic </th><th> [slides](slides/22 - Linguistic approaches to intervention.pdf) | [handout](handouts_word/22_-_Linguistic_approaches_to_intervention.docx) | [handout (web)](handouts_html/22_-_Linguistic_approaches_to_intervention.html) | [resources](docs/Resources.html#22)</th>
 </table>
 
 
