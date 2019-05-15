@@ -168,7 +168,7 @@ th, td {
  <table style="width:100%">
   <tr><th>Week</th><th>Topic</th><th>Materials</th>
   <tr><th>12</th><th>The semantics of events</th><th>[slides](slides/12 - the semantics of events.pdf) | [handout](handouts_word/12_-_the_semantics_of_events.docx) | [handout (web)](handouts_html/12_-_the_semantics_of_events.html) | [web exs](webex/12/12.html) | [resources](Resources.html#12)</th>
-  <tr><th>13</th><th> The syntax of events </th><th> [slides](slides/13 - Syntax of events.pdf) | handout | handout (web) | [web exs](webex/13/13.html) | [resources](Resources.html#13)</th>
+  <tr><th>13</th><th> The syntax of events </th><th> [slides](slides/13 - Syntax of events.pdf) | [handout](handouts_word/13_-_the_syntax_of_events.docx) | [handout (web)](handouts_html/13_-_the_syntax_of_events.html) | [web exs](webex/13/13.html) | [resources](Resources.html#13)</th>
   <tr><th>14</th><th> Hierarchical Structure </th><th> [slides](slides/14 - Hierarchical structure.pdf) | handout | handout (web) | [web exs](webex/14/14.html) | [resources](Resources.html#14)</th>
   <tr><th>15</th><th> Dependent clauses I: Adverbial Clauses </th><th> [slides](slides/15 - Adverbial Clauses.pdf) | [handout](handouts_word/15_-_Adverbial_Clauses.docx) | [handout (web)](handouts_html/15_-_Adverbial_Clauses.html) | [web exs](webex/15/15.html) | [resources](Resources.html#15)</th>
   <tr><th>16</th><th> Dependent clauses II: Other types </th><th> [slides](slides/16 - Other types of dependent clauses.pdf) | [handout](handouts_word/16_-_Other_types_of_dependent_clauses.docx) | [handout (web)](handouts_html/16_-_Other_types_of_dependent_clauses.html) | [web exs](webex/16/16.html) | [resources](Resources.html#16)</th>
@@ -176,8 +176,8 @@ th, td {
   <tr><th>18</th><th> What's the use of complex syntax? </th><th> [slides](slides/18 - Why worry about complex syntax.pdf) | [handout](handouts_word/18 - Why worry about complex syntax.pdf) | [resources](docs/Resources.html#18) </th>
   <tr><th>19</th><th> Sentence Comprehension I </th><th> [slides](slides/19 - Sentence processing.pdf) | [handout](handouts_word/19_-_Sentence_processing.docx) | [handout (web)](handouts_html/19_-_Sentence_processing.html) | [web exs](webex/19/19.html) |  [resources](docs/Resources.html#19)</th>
   <tr><th>20</th><th> Sentence Comprehension II </th><th> [slides](slides/20 - sentence processing II.pdf) | [handout](handouts_word/20_-_sentence_processing_II.docx) | [handout (web)](handouts_html/20_-_sentence_processing_II.html) | [web exs](webex/19/19.html) | [resources](docs/Resources.html#29)</th>
-  <tr><th>21</th><th> Formulaicity </th><th> [slides](slides/21 - Formulaic Language.pdf) | [handout](handouts_word/21_-_Formulaic_language.docx) | [handout (web)](handouts_html/21_-_Formulaic_language.html) | [resources](docs/Resources.html#21)</th>
-  <tr><th>22</th><th> Linguistics in the Clinic </th><th> [slides](slides/22 - Linguistic approaches to intervention.pdf) | [handout](handouts_word/22_-_Linguistic_approaches_to_intervention.docx) | [handout (web)](handouts_html/22_-_Linguistic_approaches_to_intervention.html) | [resources](docs/Resources.html#22)</th>
+  <tr><th>21</th><th> Formulaicity </th><th> [slides](slides/21 - Formulaic Language.pdf) | [handout](handouts_word/21_-_Formulaic_language.docx) | [handout (web)](handouts_html/21_-_Formulaic_language.html) | [webex](webex/21/21.html) |  [resources](docs/Resources.html#21)</th>
+  <tr><th>22</th><th> Linguistics in the Clinic </th><th> [slides](slides/22 - Linguistic approaches to intervention.pdf) | [handout](handouts_word/22_-_Linguistic_approaches_to_intervention.docx) | [handout (web)](handouts_html/22_-_Linguistic_approaches_to_intervention.html) | [web exs](webex/22/22.html) | [resources](docs/Resources.html#22)</th>
 </table>
 
 

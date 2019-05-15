@@ -1,0 +1,36 @@
+---
+title: "21 - formulaicity"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+## Fill the gaps
+
+Formulaic language is language which seems to have been stored as a wh`r fitb("ole")`. Formulaic chunks are resistant to mod`r fitb("ification")`, e.g. lexical substitutions: *for SHOUTING out loud*. This demonstrates that the chunk is stored as a single unit. Words in formulaic units tend to co-occur. Such co-occurring words are called co`r fitb("llocations")`. Formulaic chunks are often subject to pho`r fitb("nological")` re`r fitb("duction")`, e.g. "what do you want" -> "wodge-uh-wan". This process may serve to increase processing eff`r fitb("iciency")`. It does not happen in non-formulaic units, as this would reduce in`r fitb("telligibility")`.
+
+Idiomatic language is language which exhibits non`r fitb("compositional")` se`r fitb("mantics")`, i.e. the meaning of the wh`r fitb("ole")` is not derived from the meaning of the p`r fitb("arts")`. Idiomatic language tends to be formulaic, but not all formluaic is idiomatic (e.g. Words are idiomatic in the sense that the relationship between form and meaning is arb`r fitb("itrary")`. Other idiomatic units can range from multi-word expressions, e.g. ph`r fitb("rasal")` v`r fitb("erbs")` such as *she pulled off a first in the exam*, or ph`r fitb("rasal")` idioms, e.g. *she kicked the bucket*, to entire sentences, e.g. *she danced the night away* (otherwise known as con`r fitb("structional")` idioms)
+
+Con`r fitb("structional")` idioms are unusual because they exhibit syntactic properties, e.g. temp`r fitb("oral")` mod`r fitb("ification")`: *she [ is dancing / has danced / will dance ] the night away*. However, they are lexical in the sense that their meanings are non`r fitb("compositional")`. So it is difficult to say whether they belong to syntax (the rule based system) or the lexicon (the repository of idiosyncratic form-function mappings)
+
+`r hide("Show answers")`
+
+Formulaic language is language which seems to have been stored as a WHOLE. Formulaic chunks are resistant to MODIFICATION, e.g. lexical substitutions: *for SHOUTING out loud*. This demonstrates that the chunk is stored as a single unit. Words in formulaic units tend to co-occur. Such co-occurring words are called COLLOCATIONS. Formulaic chunks are often subject to PHONOLOGICAL REDUCTION, e.g. "what do you want" -> "wodge-uh-wan". This process may serve to increase processing EFFICIENCY. It does not happen in non-formulaic units, as this would reduce INTELLIGIBILITY.
+
+Idiomatic language is language which exhibits NONCOMPOSITIONAL SEMANTICS, i.e. the meaning of the WHOLE is not derived from the meaning of the PARTS. Idiomatic language tends to be formulaic, but not all formluaic is idiomatic (e.g. Words are idiomatic in the sense that the relationship between form and meaning is ARBITRARY. Other idiomatic units can range from multi-word expressions, e.g. PHRASAL VERBS such as *she pulled off a first in the exam*, or PHRASAL idioms, e.g. *she kicked the bucket*, to entire sentences, e.g. *she danced the night away* (otherwise known as CONSTRUCTIONAL IDIOMS)
+
+CONSTRUCTIONAL IDIOMS are unusual because they exhibit syntactic properties, e.g. TEMPORAL MODIFICATION: *she [ is dancing / has danced / will dance ] the night away*. However, they are lexical in the sense that their meanings are NONCOMPOSITIONAL. So it is difficult to say whether they belong to syntax (the rule based system) or the lexicon (the repository of idiosyncratic form-function mappings)
+
+`r unhide()`

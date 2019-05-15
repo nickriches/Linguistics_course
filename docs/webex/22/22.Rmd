@@ -1,0 +1,38 @@
+---
+title: "16 - Linguistics and language intervention"
+output:
+  html_document:
+    css: webex.css
+    includes:
+      after_body: webex.js
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"dalejbarr/webex\")")
+} else {
+  library("webex")
+}
+```
+
+## Fill the gaps
+
+M`r fitb("ultimodal")` approaches to intervention help the child to understand linguistic forms by recruiting non`r fitb("linguistic")` representations. A classic m`r fitb("ultimodal")` approach is sh`r fitb("ape")` co`r fitb("ding")`, devised by Susan Ebbels. Another approach is to combine language with gesture. In particular co-`r fitb("speech")` gesture (occurring simultaneously with speech) may help children understand complex sentences.
+
+By manipulating the complexity of linguistic items we can create com`r fitb("plexity")` gr`r fitb("adients")`. Once we have such a gradient, what do we do with it? Traditionally, based on Vy`r fitb("gotskyan")` theory, Speech and Language Therapists have gradually increased complexity. However, recently people have suggested that a com`r fitb("plex")`-f`r fitb("irst")` approach may be beneficial. A com`r fitb("plex")`-f`r fitb("irst")` approach may work because it deepens children's linguistic ex`r fitb("emplars")` (immature, overly-specific/concrete representations). However, more evidence is needed to demonstrate the eff`r fitb("icacy")` of com`r fitb("plex")`-f`r fitb("irst")` approaches.
+
+There are three general psycholinguistic principles which can guide intervention. Firstly, dis`r fitb("tributed")` learning, whereby learning episodes are temporally "spread out" leads to better retention of words and syntactic constructions (but does not necessarily work for phon`r fitb("onology")`). Secondly, ensuring var`r fitb("iation")` in lexical slots can help teach grammatical constructions. This is especially effective if the distribution is sk`r fitb("ewed")`. Finally, ac`r fitb("tive")` or `r fitb("test")`-en`r fitb("hanced")` learning, whereby we continually test our knowledge, leads to better retention than more pa`r fitb("ssive")` forms of learning.
+
+
+`r hide("Click for answers")`
+
+MULTIMODAL approaches to intervention help the child to understand linguistic forms by recruiting NONLINGUISTIC representations. A classic MULTIMODAL approach is SHAPE CODING, devised by Susan Ebbels. Another approach is to combine language with gesture. In particular CO-SPEECH gesture (occurring simultaneously with speech) may help children understand complex sentences.
+
+By manipulating the complexity of linguistic items we can create COMPLEXITY GRADIENTS. Once we have such a gradient, what do we do with it? Traditionally, based on VYGOTSKYAN theory, Speech and Language Therapists have gradually increased complexity. However, recently people have suggested that a COMPLEX FIRST approach may be beneficial. A COMPLEX-FIRST approach may work because it deepens children's linguistic EXEMPLARS (immature, overly-specific/concrete representations). However, more evidence is needed to demonstrate the EFFICACY of COMPLEX FIRST approaches.
+
+There are three general psycholinguistic principles which can guide intervention. Firstly, DISTRIBUTED learning, whereby learning episdodes are temporally "spread out" leads to better retention of words and syntactic constructions (but does not necessarily work for PHONOLOGY). Secondly, ensuring VARIATION in lexical slots can help teach grammatical constructions. This is especially effective if the distribution is SKEWED. Finally, ACTIVE or TEST ENHANCED LEARNING, whereby we continually test our knowledge, leads to better retention than more PASSIVE forms of learning.
+
+`r unhide()`
+
