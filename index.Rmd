@@ -16,13 +16,13 @@ The course covers topics in syntax (sentence structure) and semantics (linguisti
 
 I can be contacted on <a href="mailto:nick.riches@newcastle.ac.uk">nick.riches@newcastle.ac.uk</a>. My office is Room 1.9 on the left hand side on the way to Fozzie the photocopier. On my door is a picture "Captain Auxiliary Verb," a superhero I have invented which could possibly be my gateway to fame and fortune.
 
-My Drop-in Session for Semester 2 is at 12 - 1 on a Wednesday
+My Drop-in Session for Semester 1 is at 12 - 1 on a Wednesday
 
 Please feel free to just 'drop in' (but please also contact me in advance if at all possible)
 
 ## Accessing this web page
 
-You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to <!-- --> https://nickriches.github.io/linguistics_course/#01_linguistics <!-- --> (please right click, and select 'open link new window', or else copy and paste into the address bar of your browser). This is a better way to view the website if you are using a mobile phone or tablet. Also the menu system (on the left) will only work if you view the website outside of Blackboard.
+You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to <!-- --> https://nickriches.github.io/linguistics_course/#01_linguistics <!-- --> (please right click, and select 'open link new window', or else copy and paste into the address bar of your browser). The web page may work slightly better if viewed outside of Blackboard.
 
 # Reading materials
 
@@ -70,21 +70,21 @@ The Saeed book is better for topics in sentence meaning, e.g. propositions, argu
 
 In Semester 1, there will be seminars on Friday 11 - 1 in weeks 3, 5, 8 and 10. I will upload exercises the week before.
 
-Friday 19th October: [Questions](seminars/S01 - Seminar 1.pdf) and [Answers](seminars/S01 - Seminar 1_plus_answers.pdf)
+Friday 18th October: [Questions](seminars/S01 - Seminar 1.pdf) and [Answers](seminars/S01 - Seminar 1_plus_answers.pdf)
 
-Friday 9th November: [Questions](seminars/S02 - Seminar 2.pdf) and [Answers](seminars/S02 - Seminar 2 - plus answers.pdf)
+Friday 8th November: [Questions](seminars/S02 - Seminar 2.pdf) and [Answers](seminars/S02 - Seminar 2 - plus answers.pdf)
 
-Friday 23rd November: [Questions](seminars/S03 - Seminar 3.pdf) and [Answers](seminars/S03 - Seminar 3 - plus answers.pdf)
+Friday 22nd November: [Questions](seminars/S03 - Seminar 3.pdf) and [Answers](seminars/S03 - Seminar 3 - plus answers.pdf)
 
-Friday 7th December: [Questions](seminars/S04 - Seminar 4.pdf) and [Answers](seminars/S04 - Seminar 4 - plus answers.pdf)
+Friday 6th December: [Questions](seminars/S04 - Seminar 4.pdf) and [Answers](seminars/S04 - Seminar 4 - plus answers.pdf)
 
-Thursday 14th Feb: [Questions](seminars/S05 - Seminar 5.pdf) and [Answers](seminars/S05 - Seminar 5 - plus answers.pdf)
+<!-- Thursday 14th Feb: [Questions](seminars/S05 - Seminar 5.pdf) and [Answers](seminars/S05 - Seminar 5 - plus answers.pdf) -->
 
-Thursday 28th Feb: [Questions](seminars/S06 - Seminar 6.pdf) and [Answers](seminars/S06 - Seminar 6 - plus answers.pdf)
+<!-- Thursday 28th Feb: [Questions](seminars/S06 - Seminar 6.pdf) and [Answers](seminars/S06 - Seminar 6 - plus answers.pdf) -->
 
-Thursday 21st March: [Questions](seminars/S07 - Seminar 7.pdf) and [Answers](seminars/S07 - Seminar 7 - plu answers.pdf)
+<!-- Thursday 21st March: [Questions](seminars/S07 - Seminar 7.pdf) and [Answers](seminars/S07 - Seminar 7 - plu answers.pdf) -->
 
-Thursday 2nd May: [Questions](seminars/S08 - Seminar 8.pdf) and [Answers](seminars/S08 - Seminar 8 - plus answers.pdf)
+<!-- Thursday 2nd May: [Questions](seminars/S08 - Seminar 8.pdf) and [Answers](seminars/S08 - Seminar 8 - plus answers.pdf) -->
 
 # Assessment
 
@@ -98,7 +98,9 @@ Click [here](other/Semester 2 - Practice Exam.docx) to download the Semester 2 p
   
 ## MScs
 
-MScs will do the **exam in Semester 2 only** (May 2019) which will constitute 35% of the overall mark. At the end of Semester 1, you will do a *Semantic Analysis exercise* (analysing the argument structure of sentences in clinical data), which will constitute 35% of the overall mark. The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam. Here is the [original assignment brief](other/MSc Semantic Analysis Exercise.docx), and here is the [slightly modified brief](other/MSc Semantic Analysis Exercise - changes in response to student queries.docx) in response to student queries.
+MScs will do the **exam in Semester 2 only** (May 2019) which will constitute 35% of the overall mark. At the end of Semester 1, you will do a *Semantic Analysis exercise* (analysing the argument structure of sentences in clinical data), which will constitute 35% of the overall mark. The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam. Materials for the semantic analysis exercise will be posted later in the semester.
+
+<!-- Here is the [original assignment brief](other/MSc Semantic Analysis Exercise.docx), and here is the [slightly modified brief](other/MSc Semantic Analysis Exercise - changes in response to student queries.docx) in response to student queries. -->
 
 Click [here](other/Semester 2 - Practice Exam.docx) to download the Semester 2 practice exam. Click [here](other/Semester 2 - Practice Exam - plus answers.docx) for answers.
   
@@ -132,11 +134,13 @@ The topics are described below, with links to teaching materials and other resou
 
 ## Semester 1
 
+NB where table row is dark pink, materials have not been updated for this year. You may click on links to view *last year's materials* if you wish to plan ahead, but be aware that content may differ slightly from this year.
+
 <style>
 
-tr:nth-of-type(odd) {
-      background-color:#bff5ff;
-}
+<!-- tr:nth-of-type(odd) { -->
+<!--       background-color:#bff5ff; -->
+<!-- } -->
 
 <!-- table, th, td { -->
 <!--     border: 1px solid black; -->
@@ -150,16 +154,16 @@ th, td {
  <table style="width:100%">
   <tr><th>Week</th><th>Topic</th><th>Materials</th>
   <tr><th>01</th><th>Introduction to Linguistic Theory</th><th>[slides](slides/01 - Introduction.pdf) | [handout](handouts_word/01_-_Introduction.docx) | [handout (web)](handouts_html/01_-_Introduction.html) | [web exs](webex/01/01.html) | [resources](Resources.html#1)</th>
-  <tr><th>02</th><th>Word classes</th><th>[slides](slides/02 - Word Classes.pdf) | [handout](handouts_word/02_-_Word_Classes.docx) | [handout (web)](handouts_html/02_-_Word_Classes.html)  | [web exs](webex/02/02.html) | [resources](Resources.html#2)</th>
-  <tr><th>03</th><th>Lexical representation</th><th>[slides](slides/03 - Lexical Representations.pdf) | [handout](handouts_word/03_-_Lexical_Representations.docx) | [handout (web)](handouts_html/03_-_Lexical_Representations.html) | [web exs](webex/03/03.html) | [resources](Resources.html#3)</th>
-  <tr><th>04</th><th>Morphemes</th><th>[slides](slides/04 - Words versus morphemes.pdf) | [handout](handouts_word/04_-_Words_versus_morphemes.docx) | [handout (web)](handouts_html/04_-_Words_versus_morphemes.html) | [web exs](webex/04/04.html) | [resources](Resources.html#4)</th>
-  <tr><th>05</th><th>Morphological representation / processing</th><th>[slides](slides/05 - Morphological representation and processing.pdf) | [handout](handouts_word/05_-_Morphological_representation_and_processing.docx) | [handout (web)](handouts_html/05_-_Morphological_representation_and_processing.html) | [web exs](webex/05/05.html) | [resources](Resources.html#5)</th>
-  <tr><th>06</th><th>Phrases</th><th>[slides](slides/06 - Phrases.pdf) | [handout](handouts_word/06_-_Phrases.docx) | [handout (web)](handouts_html/06_-_Phrases.html) | [web exs](webex/06/06.html) | [resources](Resources.html#6)</th>
-  <tr><th>07</th><th>Syntactic functions</th><th>[slides](slides/07 -Syntactic Functions.pdf) | [handout](handouts_word/07_-Syntactic_Functions.docx) | [handout (web)](handouts_html/07_-Syntactic_Functions.html) | [web exs](webex/07/07.html) | [resources](Resources.html#7) </th>
-  <tr><th>08</th><th>'Verbs in the driving seat' (argument structure)</th><th>[slides](slides/08 -Verbs in the driving seat.pdf) | [handout](handouts_word/08_-Verbs_in_the_driving_seat.docx) | [handout (web)](handouts_html/08_-Verbs_in_the_driving_seat.html) | [web exs](webex/08/08.html) | [resources](Resources.html#8) </th>
-  <tr><th>09</th><th>Complementation versus modification</th><th>[slides](slides/09 - Complementation versus modification.pdf) | [handout](handouts_word/09_-_Complementation_versus_modification.docx) | [handout (web)](handouts_html/09_-_Complementation_versus_modification.html) | [web exs](webex/09/09.html) | [resources](Resources.html#9)</th>
-  <tr><th>10</th><th>Sentence production</th><th>[slides](slides/10 - Sentence Production Models.pdf) | [handout](handouts_word/10_-_Sentence_Production_Models.docx) | [handout (web)](handouts_html/10_-_Sentence_Production_Models.html) | [web exs](webex/10/10.html) | [resources](Resources.html#10)</th>
-  <tr><th>11</th><th>'Verbs in the passenger seat'</th><th>[slides](slides/11 - construction grammar.pdf) | [handout](handouts_word/11_-_construction_grammar.docx) |
+  <tr bgcolor="#e0c8bc"><th>02</th><th>Word classes</th><th>[slides](slides/02 - Word Classes.pdf) | [handout](handouts_word/02_-_Word_Classes.docx) | [handout (web)](handouts_html/02_-_Word_Classes.html)  | [web exs](webex/02/02.html) | [resources](Resources.html#2)</th>
+  <tr bgcolor="#e0c8bc"><th>03</th><th>Lexical representation</th><th>[slides](slides/03 - Lexical Representations.pdf) | [handout](handouts_word/03_-_Lexical_Representations.docx) | [handout (web)](handouts_html/03_-_Lexical_Representations.html) | [web exs](webex/03/03.html) | [resources](Resources.html#3)</th>
+  <tr bgcolor="#e0c8bc"><th>04</th><th>Morphemes</th><th>[slides](slides/04 - Words versus morphemes.pdf) | [handout](handouts_word/04_-_Words_versus_morphemes.docx) | [handout (web)](handouts_html/04_-_Words_versus_morphemes.html) | [web exs](webex/04/04.html) | [resources](Resources.html#4)</th>
+  <tr bgcolor="#e0c8bc"><th>05</th><th>Morphological representation / processing</th><th>[slides](slides/05 - Morphological representation and processing.pdf) | [handout](handouts_word/05_-_Morphological_representation_and_processing.docx) | [handout (web)](handouts_html/05_-_Morphological_representation_and_processing.html) | [web exs](webex/05/05.html) | [resources](Resources.html#5)</th>
+  <tr bgcolor="#e0c8bc"><th>06</th><th>Phrases</th><th>[slides](slides/06 - Phrases.pdf) | [handout](handouts_word/06_-_Phrases.docx) | [handout (web)](handouts_html/06_-_Phrases.html) | [web exs](webex/06/06.html) | [resources](Resources.html#6)</th>
+  <tr bgcolor="#e0c8bc"><th>07</th><th>Syntactic functions</th><th>[slides](slides/07 -Syntactic Functions.pdf) | [handout](handouts_word/07_-Syntactic_Functions.docx) | [handout (web)](handouts_html/07_-Syntactic_Functions.html) | [web exs](webex/07/07.html) | [resources](Resources.html#7) </th>
+  <tr bgcolor="#e0c8bc"><th>08</th><th>'Verbs in the driving seat' (argument structure)</th><th>[slides](slides/08 -Verbs in the driving seat.pdf) | [handout](handouts_word/08_-Verbs_in_the_driving_seat.docx) | [handout (web)](handouts_html/08_-Verbs_in_the_driving_seat.html) | [web exs](webex/08/08.html) | [resources](Resources.html#8) </th>
+  <tr bgcolor="#e0c8bc"><th>09</th><th>Complementation versus modification</th><th>[slides](slides/09 - Complementation versus modification.pdf) | [handout](handouts_word/09_-_Complementation_versus_modification.docx) | [handout (web)](handouts_html/09_-_Complementation_versus_modification.html) | [web exs](webex/09/09.html) | [resources](Resources.html#9)</th>
+  <tr bgcolor="#e0c8bc"><th>10</th><th>Sentence production</th><th>[slides](slides/10 - Sentence Production Models.pdf) | [handout](handouts_word/10_-_Sentence_Production_Models.docx) | [handout (web)](handouts_html/10_-_Sentence_Production_Models.html) | [web exs](webex/10/10.html) | [resources](Resources.html#10)</th>
+  <tr bgcolor="#e0c8bc"><th>11</th><th>'Verbs in the passenger seat'</th><th>[slides](slides/11 - construction grammar.pdf) | [handout](handouts_word/11_-_construction_grammar.docx) |
   [handout (web)](handouts_html/11_-_construction_grammar.html) | No web ex | [resources](Resources.html#11)</th>
 </table> 
 
@@ -167,17 +171,17 @@ th, td {
 
  <table style="width:100%">
   <tr><th>Week</th><th>Topic</th><th>Materials</th>
-  <tr><th>12</th><th>The semantics of events</th><th>[slides](slides/12 - the semantics of events.pdf) | [handout](handouts_word/12_-_the_semantics_of_events.docx) | [handout (web)](handouts_html/12_-_the_semantics_of_events.html) | [web exs](webex/12/12.html) | [resources](Resources.html#12)</th>
-  <tr><th>13</th><th> The syntax of events </th><th> [slides](slides/13 - Syntax of events.pdf) | [handout](handouts_word/13_-_the_syntax_of_events.docx) | [handout (web)](handouts_html/13_-_the_syntax_of_events.html) | [web exs](webex/13/13.html) | [resources](Resources.html#13)</th>
-  <tr><th>14</th><th> Hierarchical Structure </th><th> [slides](slides/14 - Hierarchical structure.pdf) | [handout](handouts_word/14_-_hierarchical_structure.docx) | [handout (web)]( handouts_html/14_-_hierarchical_structure.html) | [web exs](webex/14/14.html) | [resources](Resources.html#14)</th>
-  <tr><th>15</th><th> Dependent clauses I: Adverbial Clauses </th><th> [slides](slides/15 - Adverbial Clauses.pdf) | [handout](handouts_word/15_-_Adverbial_Clauses.docx) | [handout (web)](handouts_html/15_-_Adverbial_Clauses.html) | [web exs](webex/15/15.html) | [resources](Resources.html#15)</th>
-  <tr><th>16</th><th> Dependent clauses II: Other types </th><th> [slides](slides/16 - Other types of dependent clauses.pdf) | [handout](handouts_word/16_-_Other_types_of_dependent_clauses.docx) | [handout (web)](handouts_html/16_-_Other_types_of_dependent_clauses.html) | [web exs](webex/16/16.html) | [resources](Resources.html#16)</th>
-  <tr><th>17</th><th> Mood, Modality and Voice </th><th> [slides](slides/17 - Mood and Modality.pdf) | [handout](handouts_word/17_-_Mood_and_Modality.docx) | [handout (web)](handouts_html/17_-_Mood_and_Modality.html) | [web exs](webex/16/) | [resources](docs/Resources.html#17)</th>
-  <tr><th>18</th><th> What's the use of complex syntax? </th><th> [slides](slides/18 - Why worry about complex syntax.pdf) | [handout](handouts_word/18 - Why worry about complex syntax.pdf) | [resources](docs/Resources.html#18) </th>
-  <tr><th>19</th><th> Sentence Comprehension I </th><th> [slides](slides/19 - Sentence processing.pdf) | [handout](handouts_word/19_-_Sentence_processing.docx) | [handout (web)](handouts_html/19_-_Sentence_processing.html) | [web exs](webex/19/19.html) |  [resources](docs/Resources.html#19)</th>
-  <tr><th>20</th><th> Sentence Comprehension II </th><th> [slides](slides/20 - sentence processing II.pdf) | [handout](handouts_word/20_-_sentence_processing_II.docx) | [handout (web)](handouts_html/20_-_sentence_processing_II.html) | [web exs](webex/19/19.html) | [resources](docs/Resources.html#29)</th>
-  <tr><th>21</th><th> Formulaicity </th><th> [slides](slides/21 - Formulaic Language.pdf) | [handout](handouts_word/21_-_Formulaic_language.docx) | [handout (web)](handouts_html/21_-_Formulaic_language.html) | [webex](webex/21/21.html) |  [resources](docs/Resources.html#21)</th>
-  <tr><th>22</th><th> Linguistics in the Clinic </th><th> [slides](slides/22 - Linguistic approaches to intervention.pdf) | [handout](handouts_word/22_-_Linguistic_approaches_to_intervention.docx) | [handout (web)](handouts_html/22_-_Linguistic_approaches_to_intervention.html) | [web exs](webex/22/22.html) | [resources](docs/Resources.html#22)</th>
+  <tr bgcolor="#e0c8bc"><th>12</th><th>The semantics of events</th><th>[slides](slides/12 - the semantics of events.pdf) | [handout](handouts_word/12_-_the_semantics_of_events.docx) | [handout (web)](handouts_html/12_-_the_semantics_of_events.html) | [web exs](webex/12/12.html) | [resources](Resources.html#12)</th>
+  <tr bgcolor="#e0c8bc"><th>13</th><th> The syntax of events </th><th> [slides](slides/13 - Syntax of events.pdf) | [handout](handouts_word/13_-_the_syntax_of_events.docx) | [handout (web)](handouts_html/13_-_the_syntax_of_events.html) | [web exs](webex/13/13.html) | [resources](Resources.html#13)</th>
+  <tr bgcolor="#e0c8bc"><th>14</th><th> Hierarchical Structure </th><th> [slides](slides/14 - Hierarchical structure.pdf) | [handout](handouts_word/14_-_hierarchical_structure.docx) | [handout (web)]( handouts_html/14_-_hierarchical_structure.html) | [web exs](webex/14/14.html) | [resources](Resources.html#14)</th>
+  <tr bgcolor="#e0c8bc"><th>15</th><th> Dependent clauses I: Adverbial Clauses </th><th> [slides](slides/15 - Adverbial Clauses.pdf) | [handout](handouts_word/15_-_Adverbial_Clauses.docx) | [handout (web)](handouts_html/15_-_Adverbial_Clauses.html) | [web exs](webex/15/15.html) | [resources](Resources.html#15)</th>
+  <tr bgcolor="#e0c8bc"><th>16</th><th> Dependent clauses II: Other types </th><th> [slides](slides/16 - Other types of dependent clauses.pdf) | [handout](handouts_word/16_-_Other_types_of_dependent_clauses.docx) | [handout (web)](handouts_html/16_-_Other_types_of_dependent_clauses.html) | [web exs](webex/16/16.html) | [resources](Resources.html#16)</th>
+  <tr bgcolor="#e0c8bc"><th>17</th><th> Mood, Modality and Voice </th><th> [slides](slides/17 - Mood and Modality.pdf) | [handout](handouts_word/17_-_Mood_and_Modality.docx) | [handout (web)](handouts_html/17_-_Mood_and_Modality.html) | [web exs](webex/16/) | [resources](docs/Resources.html#17)</th>
+  <tr bgcolor="#e0c8bc"><th>18</th><th> What's the use of complex syntax? </th><th> [slides](slides/18 - Why worry about complex syntax.pdf) | [handout](handouts_word/18 - Why worry about complex syntax.pdf) | [resources](docs/Resources.html#18) </th>
+  <tr bgcolor="#e0c8bc"><th>19</th><th> Sentence Comprehension I </th><th> [slides](slides/19 - Sentence processing.pdf) | [handout](handouts_word/19_-_Sentence_processing.docx) | [handout (web)](handouts_html/19_-_Sentence_processing.html) | [web exs](webex/19/19.html) |  [resources](docs/Resources.html#19)</th>
+  <tr bgcolor="#e0c8bc"><th>20</th><th> Sentence Comprehension II </th><th> [slides](slides/20 - sentence processing II.pdf) | [handout](handouts_word/20_-_sentence_processing_II.docx) | [handout (web)](handouts_html/20_-_sentence_processing_II.html) | [web exs](webex/19/19.html) | [resources](docs/Resources.html#29)</th>
+  <tr bgcolor="#e0c8bc"><th>21</th><th> Formulaicity </th><th> [slides](slides/21 - Formulaic Language.pdf) | [handout](handouts_word/21_-_Formulaic_language.docx) | [handout (web)](handouts_html/21_-_Formulaic_language.html) | [webex](webex/21/21.html) |  [resources](docs/Resources.html#21)</th>
+  <tr bgcolor="#e0c8bc"><th>22</th><th> Linguistics in the Clinic </th><th> [slides](slides/22 - Linguistic approaches to intervention.pdf) | [handout](handouts_word/22_-_Linguistic_approaches_to_intervention.docx) | [handout (web)](handouts_html/22_-_Linguistic_approaches_to_intervention.html) | [web exs](webex/22/22.html) | [resources](docs/Resources.html#22)</th>
 </table>
 
 
@@ -207,6 +211,6 @@ or
 
 (2) **Create sentences containing particular word classes**. For example, if you are not sure about prepositions, try creating sentences with prepositions. Then enter the text into MiMo to see if it agrees with you!
 
-NB the part-of-speech tagger which MiMo uses is not 100% accurate. I've noticed the *some* subordinating conjunctions, e.g. <u>**When** I fall in love </u>, are labelled as Adverbs. This is not so silly as the word *When* could be regarded as referring to a missing Adverbial Phrase, e.g. *I fall in love [ever year]*. So the decision-making process is nearly always logical. 
+NB the part-of-speech tagger which MiMo uses is not 100% accurate, and you should bear this in mind when using it.
 
 

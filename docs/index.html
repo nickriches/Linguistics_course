@@ -73,9 +73,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -100,21 +98,82 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -192,8 +251,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -202,6 +259,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -220,7 +287,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Linguistics</h1>
-<h4 class="author"><em>Nick Riches</em></h4>
+<h4 class="author">Nick Riches</h4>
 
 </div>
 
@@ -235,12 +302,12 @@ div.tocify {
 <div id="getting-help" class="section level2">
 <h2><span class="header-section-number">1.2</span> Getting help</h2>
 <p>I can be contacted on <a href="mailto:nick.riches@newcastle.ac.uk">nick.riches@newcastle.ac.uk</a>. My office is Room 1.9 on the left hand side on the way to Fozzie the photocopier. On my door is a picture “Captain Auxiliary Verb,” a superhero I have invented which could possibly be my gateway to fame and fortune.</p>
-<p>My Drop-in Session for Semester 2 is at 12 - 1 on a Wednesday</p>
+<p>My Drop-in Session for Semester 1 is at 12 - 1 on a Wednesday</p>
 <p>Please feel free to just ‘drop in’ (but please also contact me in advance if at all possible)</p>
 </div>
 <div id="accessing-this-web-page" class="section level2">
 <h2><span class="header-section-number">1.3</span> Accessing this web page</h2>
-<p>You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to <!-- --> <a href="https://nickriches.github.io/linguistics_course/#01_linguistics" class="uri">https://nickriches.github.io/linguistics_course/#01_linguistics</a> <!-- --> (please right click, and select ‘open link new window’, or else copy and paste into the address bar of your browser). This is a better way to view the website if you are using a mobile phone or tablet. Also the menu system (on the left) will only work if you view the website outside of Blackboard.</p>
+<p>You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to <!-- --> <a href="https://nickriches.github.io/linguistics_course/#01_linguistics" class="uri">https://nickriches.github.io/linguistics_course/#01_linguistics</a> <!-- --> (please right click, and select ‘open link new window’, or else copy and paste into the address bar of your browser). The web page may work slightly better if viewed outside of Blackboard.</p>
 </div>
 </div>
 <div id="reading-materials" class="section level1">
@@ -284,14 +351,14 @@ div.tocify {
 <div id="seminars" class="section level1">
 <h1><span class="header-section-number">3</span> Seminars</h1>
 <p>In Semester 1, there will be seminars on Friday 11 - 1 in weeks 3, 5, 8 and 10. I will upload exercises the week before.</p>
-<p>Friday 19th October: <a href="seminars/S01%20-%20Seminar%201.pdf">Questions</a> and <a href="seminars/S01%20-%20Seminar%201_plus_answers.pdf">Answers</a></p>
-<p>Friday 9th November: <a href="seminars/S02%20-%20Seminar%202.pdf">Questions</a> and <a href="seminars/S02%20-%20Seminar%202%20-%20plus%20answers.pdf">Answers</a></p>
-<p>Friday 23rd November: <a href="seminars/S03%20-%20Seminar%203.pdf">Questions</a> and <a href="seminars/S03%20-%20Seminar%203%20-%20plus%20answers.pdf">Answers</a></p>
-<p>Friday 7th December: <a href="seminars/S04%20-%20Seminar%204.pdf">Questions</a> and <a href="seminars/S04%20-%20Seminar%204%20-%20plus%20answers.pdf">Answers</a></p>
-<p>Thursday 14th Feb: <a href="seminars/S05%20-%20Seminar%205.pdf">Questions</a> and <a href="seminars/S05%20-%20Seminar%205%20-%20plus%20answers.pdf">Answers</a></p>
-<p>Thursday 28th Feb: <a href="seminars/S06%20-%20Seminar%206.pdf">Questions</a> and <a href="seminars/S06%20-%20Seminar%206%20-%20plus%20answers.pdf">Answers</a></p>
-<p>Thursday 21st March: <a href="seminars/S07%20-%20Seminar%207.pdf">Questions</a> and <a href="seminars/S07%20-%20Seminar%207%20-%20plu%20answers.pdf">Answers</a></p>
-<p>Thursday 2nd May: <a href="seminars/S08%20-%20Seminar%208.pdf">Questions</a> and <a href="seminars/S08%20-%20Seminar%208%20-%20plus%20answers.pdf">Answers</a></p>
+<p>Friday 18th October: <a href="seminars/S01%20-%20Seminar%201.pdf">Questions</a> and <a href="seminars/S01%20-%20Seminar%201_plus_answers.pdf">Answers</a></p>
+<p>Friday 8th November: <a href="seminars/S02%20-%20Seminar%202.pdf">Questions</a> and <a href="seminars/S02%20-%20Seminar%202%20-%20plus%20answers.pdf">Answers</a></p>
+<p>Friday 22nd November: <a href="seminars/S03%20-%20Seminar%203.pdf">Questions</a> and <a href="seminars/S03%20-%20Seminar%203%20-%20plus%20answers.pdf">Answers</a></p>
+<p>Friday 6th December: <a href="seminars/S04%20-%20Seminar%204.pdf">Questions</a> and <a href="seminars/S04%20-%20Seminar%204%20-%20plus%20answers.pdf">Answers</a></p>
+<!-- Thursday 14th Feb: [Questions](seminars/S05 - Seminar 5.pdf) and [Answers](seminars/S05 - Seminar 5 - plus answers.pdf) -->
+<!-- Thursday 28th Feb: [Questions](seminars/S06 - Seminar 6.pdf) and [Answers](seminars/S06 - Seminar 6 - plus answers.pdf) -->
+<!-- Thursday 21st March: [Questions](seminars/S07 - Seminar 7.pdf) and [Answers](seminars/S07 - Seminar 7 - plu answers.pdf) -->
+<!-- Thursday 2nd May: [Questions](seminars/S08 - Seminar 8.pdf) and [Answers](seminars/S08 - Seminar 8 - plus answers.pdf) -->
 </div>
 <div id="assessment" class="section level1">
 <h1><span class="header-section-number">4</span> Assessment</h1>
@@ -303,7 +370,8 @@ div.tocify {
 </div>
 <div id="mscs" class="section level2">
 <h2><span class="header-section-number">4.2</span> MScs</h2>
-<p>MScs will do the <strong>exam in Semester 2 only</strong> (May 2019) which will constitute 35% of the overall mark. At the end of Semester 1, you will do a <em>Semantic Analysis exercise</em> (analysing the argument structure of sentences in clinical data), which will constitute 35% of the overall mark. The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam. Here is the <a href="other/MSc%20Semantic%20Analysis%20Exercise.docx">original assignment brief</a>, and here is the <a href="other/MSc%20Semantic%20Analysis%20Exercise%20-%20changes%20in%20response%20to%20student%20queries.docx">slightly modified brief</a> in response to student queries.</p>
+<p>MScs will do the <strong>exam in Semester 2 only</strong> (May 2019) which will constitute 35% of the overall mark. At the end of Semester 1, you will do a <em>Semantic Analysis exercise</em> (analysing the argument structure of sentences in clinical data), which will constitute 35% of the overall mark. The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam. Materials for the semantic analysis exercise will be posted later in the semester.</p>
+<!-- Here is the [original assignment brief](other/MSc Semantic Analysis Exercise.docx), and here is the [slightly modified brief](other/MSc Semantic Analysis Exercise - changes in response to student queries.docx) in response to student queries. -->
 <p>Click <a href="other/Semester%202%20-%20Practice%20Exam.docx">here</a> to download the Semester 2 practice exam. Click <a href="other/Semester%202%20-%20Practice%20Exam%20-%20plus%20answers.docx">here</a> for answers.</p>
 <p>The additional 30% of your grade will be made up by the bilingualism essay.</p>
 </div>
@@ -334,11 +402,12 @@ div.tocify {
 <p>The topics are described below, with links to teaching materials and other resources.</p>
 <div id="semester-1" class="section level2">
 <h2><span class="header-section-number">5.1</span> Semester 1</h2>
+<p>NB where table row is dark pink, materials have not been updated for this year. You may click on links to view <em>last year’s materials</em> if you wish to plan ahead, but be aware that content may differ slightly from this year.</p>
 <style>
 
-tr:nth-of-type(odd) {
-      background-color:#bff5ff;
-}
+<!-- tr:nth-of-type(odd) { -->
+<!--       background-color:#bff5ff; -->
+<!-- } -->
 
 <!-- table, th, td { -->
 <!--     border: 1px solid black; -->
@@ -369,7 +438,7 @@ Introduction to Linguistic Theory
 <th>
 <a href="slides/01%20-%20Introduction.pdf">slides</a> | <a href="handouts_word/01_-_Introduction.docx">handout</a> | <a href="handouts_html/01_-_Introduction.html">handout (web)</a> | <a href="webex/01/01.html">web exs</a> | <a href="Resources.html#1">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 02
 </th>
@@ -379,7 +448,7 @@ Word classes
 <th>
 <a href="slides/02%20-%20Word%20Classes.pdf">slides</a> | <a href="handouts_word/02_-_Word_Classes.docx">handout</a> | <a href="handouts_html/02_-_Word_Classes.html">handout (web)</a> | <a href="webex/02/02.html">web exs</a> | <a href="Resources.html#2">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 03
 </th>
@@ -389,7 +458,7 @@ Lexical representation
 <th>
 <a href="slides/03%20-%20Lexical%20Representations.pdf">slides</a> | <a href="handouts_word/03_-_Lexical_Representations.docx">handout</a> | <a href="handouts_html/03_-_Lexical_Representations.html">handout (web)</a> | <a href="webex/03/03.html">web exs</a> | <a href="Resources.html#3">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 04
 </th>
@@ -399,7 +468,7 @@ Morphemes
 <th>
 <a href="slides/04%20-%20Words%20versus%20morphemes.pdf">slides</a> | <a href="handouts_word/04_-_Words_versus_morphemes.docx">handout</a> | <a href="handouts_html/04_-_Words_versus_morphemes.html">handout (web)</a> | <a href="webex/04/04.html">web exs</a> | <a href="Resources.html#4">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 05
 </th>
@@ -409,7 +478,7 @@ Morphological representation / processing
 <th>
 <a href="slides/05%20-%20Morphological%20representation%20and%20processing.pdf">slides</a> | <a href="handouts_word/05_-_Morphological_representation_and_processing.docx">handout</a> | <a href="handouts_html/05_-_Morphological_representation_and_processing.html">handout (web)</a> | <a href="webex/05/05.html">web exs</a> | <a href="Resources.html#5">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 06
 </th>
@@ -419,7 +488,7 @@ Phrases
 <th>
 <a href="slides/06%20-%20Phrases.pdf">slides</a> | <a href="handouts_word/06_-_Phrases.docx">handout</a> | <a href="handouts_html/06_-_Phrases.html">handout (web)</a> | <a href="webex/06/06.html">web exs</a> | <a href="Resources.html#6">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 07
 </th>
@@ -429,7 +498,7 @@ Syntactic functions
 <th>
 <a href="slides/07%20-Syntactic%20Functions.pdf">slides</a> | <a href="handouts_word/07_-Syntactic_Functions.docx">handout</a> | <a href="handouts_html/07_-Syntactic_Functions.html">handout (web)</a> | <a href="webex/07/07.html">web exs</a> | <a href="Resources.html#7">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 08
 </th>
@@ -439,7 +508,7 @@ Syntactic functions
 <th>
 <a href="slides/08%20-Verbs%20in%20the%20driving%20seat.pdf">slides</a> | <a href="handouts_word/08_-Verbs_in_the_driving_seat.docx">handout</a> | <a href="handouts_html/08_-Verbs_in_the_driving_seat.html">handout (web)</a> | <a href="webex/08/08.html">web exs</a> | <a href="Resources.html#8">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 09
 </th>
@@ -449,7 +518,7 @@ Complementation versus modification
 <th>
 <a href="slides/09%20-%20Complementation%20versus%20modification.pdf">slides</a> | <a href="handouts_word/09_-_Complementation_versus_modification.docx">handout</a> | <a href="handouts_html/09_-_Complementation_versus_modification.html">handout (web)</a> | <a href="webex/09/09.html">web exs</a> | <a href="Resources.html#9">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 10
 </th>
@@ -459,7 +528,7 @@ Sentence production
 <th>
 <a href="slides/10%20-%20Sentence%20Production%20Models.pdf">slides</a> | <a href="handouts_word/10_-_Sentence_Production_Models.docx">handout</a> | <a href="handouts_html/10_-_Sentence_Production_Models.html">handout (web)</a> | <a href="webex/10/10.html">web exs</a> | <a href="Resources.html#10">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 11
 </th>
@@ -484,7 +553,7 @@ Topic
 <th>
 Materials
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 12
 </th>
@@ -494,7 +563,7 @@ The semantics of events
 <th>
 <a href="slides/12%20-%20the%20semantics%20of%20events.pdf">slides</a> | <a href="handouts_word/12_-_the_semantics_of_events.docx">handout</a> | <a href="handouts_html/12_-_the_semantics_of_events.html">handout (web)</a> | <a href="webex/12/12.html">web exs</a> | <a href="Resources.html#12">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 13
 </th>
@@ -504,7 +573,7 @@ The syntax of events
 <th>
 <a href="slides/13%20-%20Syntax%20of%20events.pdf">slides</a> | <a href="handouts_word/13_-_the_syntax_of_events.docx">handout</a> | <a href="handouts_html/13_-_the_syntax_of_events.html">handout (web)</a> | <a href="webex/13/13.html">web exs</a> | <a href="Resources.html#13">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 14
 </th>
@@ -514,7 +583,7 @@ Hierarchical Structure
 <th>
 <a href="slides/14%20-%20Hierarchical%20structure.pdf">slides</a> | <a href="handouts_word/14_-_hierarchical_structure.docx">handout</a> | <a href="handouts_html/14_-_hierarchical_structure.html">handout (web)</a> | <a href="webex/14/14.html">web exs</a> | <a href="Resources.html#14">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 15
 </th>
@@ -524,7 +593,7 @@ Dependent clauses I: Adverbial Clauses
 <th>
 <a href="slides/15%20-%20Adverbial%20Clauses.pdf">slides</a> | <a href="handouts_word/15_-_Adverbial_Clauses.docx">handout</a> | <a href="handouts_html/15_-_Adverbial_Clauses.html">handout (web)</a> | <a href="webex/15/15.html">web exs</a> | <a href="Resources.html#15">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 16
 </th>
@@ -534,7 +603,7 @@ Dependent clauses II: Other types
 <th>
 <a href="slides/16%20-%20Other%20types%20of%20dependent%20clauses.pdf">slides</a> | <a href="handouts_word/16_-_Other_types_of_dependent_clauses.docx">handout</a> | <a href="handouts_html/16_-_Other_types_of_dependent_clauses.html">handout (web)</a> | <a href="webex/16/16.html">web exs</a> | <a href="Resources.html#16">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 17
 </th>
@@ -544,7 +613,7 @@ Mood, Modality and Voice
 <th>
 <a href="slides/17%20-%20Mood%20and%20Modality.pdf">slides</a> | <a href="handouts_word/17_-_Mood_and_Modality.docx">handout</a> | <a href="handouts_html/17_-_Mood_and_Modality.html">handout (web)</a> | <a href="webex/16/">web exs</a> | <a href="docs/Resources.html#17">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 18
 </th>
@@ -554,7 +623,7 @@ What’s the use of complex syntax?
 <th>
 <a href="slides/18%20-%20Why%20worry%20about%20complex%20syntax.pdf">slides</a> | <a href="handouts_word/18%20-%20Why%20worry%20about%20complex%20syntax.pdf">handout</a> | <a href="docs/Resources.html#18">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 19
 </th>
@@ -564,7 +633,7 @@ Sentence Comprehension I
 <th>
 <a href="slides/19%20-%20Sentence%20processing.pdf">slides</a> | <a href="handouts_word/19_-_Sentence_processing.docx">handout</a> | <a href="handouts_html/19_-_Sentence_processing.html">handout (web)</a> | <a href="webex/19/19.html">web exs</a> | <a href="docs/Resources.html#19">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 20
 </th>
@@ -574,7 +643,7 @@ Sentence Comprehension II
 <th>
 <a href="slides/20%20-%20sentence%20processing%20II.pdf">slides</a> | <a href="handouts_word/20_-_sentence_processing_II.docx">handout</a> | <a href="handouts_html/20_-_sentence_processing_II.html">handout (web)</a> | <a href="webex/19/19.html">web exs</a> | <a href="docs/Resources.html#29">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 21
 </th>
@@ -584,7 +653,7 @@ Formulaicity
 <th>
 <a href="slides/21%20-%20Formulaic%20Language.pdf">slides</a> | <a href="handouts_word/21_-_Formulaic_language.docx">handout</a> | <a href="handouts_html/21_-_Formulaic_language.html">handout (web)</a> | <a href="webex/21/21.html">webex</a> | <a href="docs/Resources.html#21">resources</a>
 </th>
-<tr>
+<tr bgcolor="#e0c8bc">
 <th>
 22
 </th>
@@ -613,7 +682,7 @@ Linguistics in the Clinic
 </div>
 <div id="mimo" class="section level1">
 <h1><span class="header-section-number">8</span> MiMo</h1>
-<p>MiMo is a tool I am developing which helps you to explore linguistic data. It can be found at <a href="https://nickriches.shinyapps.io/MiMo_v1/" class="uri">https://nickriches.shinyapps.io/MiMo_v1/</a>.</p>
+<p>MiMo is a tool I am developing which helps you to explore linguistic data. It can be found at <a href="https://nickriches.shinyapps.io/MiMo_v1/">https://nickriches.shinyapps.io/MiMo_v1/</a>.</p>
 <p>You can use it to learn word classes. You can either.</p>
 <ol style="list-style-type: decimal">
 <li><strong>Work with random text, e.g. from a news website</strong>. Label the word classes in the text, then check your answers using MiMo.</li>
@@ -622,7 +691,7 @@ Linguistics in the Clinic
 <ol start="2" style="list-style-type: decimal">
 <li><strong>Create sentences containing particular word classes</strong>. For example, if you are not sure about prepositions, try creating sentences with prepositions. Then enter the text into MiMo to see if it agrees with you!</li>
 </ol>
-<p>NB the part-of-speech tagger which MiMo uses is not 100% accurate. I’ve noticed the <em>some</em> subordinating conjunctions, e.g. <u><strong>When</strong> I fall in love </u>, are labelled as Adverbs. This is not so silly as the word <em>When</em> could be regarded as referring to a missing Adverbial Phrase, e.g. <em>I fall in love [ever year]</em>. So the decision-making process is nearly always logical.</p>
+<p>NB the part-of-speech tagger which MiMo uses is not 100% accurate, and you should bear this in mind when using it.</p>
 </div>
 
 
