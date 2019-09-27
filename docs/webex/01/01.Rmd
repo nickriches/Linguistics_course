@@ -22,11 +22,11 @@ Fill the blanks:
 
 S`r fitb("yntax", ignore_case = TRUE, width = "15")` is the study of language structure. S`r fitb("emantics", ignore_case = TRUE, width = "15")` is the study of linguistic meaning. Pr`r fitb("agmatics", ignore_case = TRUE, width = "15")` is the study of language in context. Ph`r fitb("onology", ignore_case = TRUE, width = "15")` is the study of the sound system of language.
 
-D`r fitb("escriptive", ignore_case = TRUE, width = "15")` grammar describes the utterances people produce. M`r fitb("escriptive", ignore_case = TRUE)` describes the underlying system of rules in our minds which are used to derive sentences.  P`r fitb("rescriptive", ignore_case = TRUE)` grammars describe how we should / shouldn't use language.
+D`r fitb("escriptive", ignore_case = TRUE, width = "15")` grammar describes the utterances people produce. M`r fitb("ental", ignore_case = TRUE)` grammar describes the underlying system of rules in our minds which are used to derive sentences.  P`r fitb("rescriptive", ignore_case = TRUE)` grammars describe how we should / shouldn't use language.
 
 Hyp`r fitb("ercorrection", ignore_case = TRUE)` happens when there is a conflict between prescriptive grammars and our mental grammar, and we prioritise our prescriptive grammars.
 
-According to Weinreich, a language is  d`r fitb("ialect", ignore_case = TRUE)` with an  a`r fitb("rmy", ignore_case = TRUE)` and a  n`r fitb("avy", ignore_case = TRUE)`
+According to Weinreich, a language is  d`r fitb("ialect", ignore_case = TRUE)` with an  a`r fitb("rmy", ignore_case = TRUE)` and a  n`r fitb("avy", ignore_case = TRUE)`. This quotation describes the phenomenon whereby dialects which are percieved to embody linguistic perfection are merely those spoken in regions of economic and political power.
 
 # Varieties of English
 
