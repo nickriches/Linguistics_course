@@ -276,9 +276,7 @@ border-color: green;
 }
 </style>
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -303,22 +301,92 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -336,11 +404,11 @@ $(document).ready(function () {
 <h1>Concept-checking</h1>
 <p>There are 3 tests to determine the word class of a word:</p>
 <ol style="list-style-type: decimal">
-<li>The s<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;emantic&quot;]"></input> test: what meaning does it express?</li>
-<li>The p<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;ositional&quot;]"></input> test: where does the word come in a sentence? What is its distribution?</li>
-<li>The m<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;orphological&quot;]"></input> test: does the word have any particular form? e.g. if it ends -ly it is likely to be adverb</li>
+<li>The M<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;eaning&quot;]"></input> test: what meaning does it express?</li>
+<li>The F<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;orm&quot;]"></input> test: does the word have any particular form? e.g. if it ends -ly it is likely to be adverb</li>
+<li>The P<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;osition&quot;]"></input> test (or “Distribution” test): where does the word come in a sentence? What is its distribution?</li>
 </ol>
-<p>The most reliable test of word class is the <select class="solveme" data-answer="[&quot;positional&quot;]"> <option></option> <option>functional</option> <option>positional</option> <option>morphological</option></select> test.</p>
+<p>The most reliable test of word class is the <select class="solveme" data-answer="[&quot;position&quot;]"> <option></option> <option>meaning</option> <option>position</option> <option>form</option></select> test.</p>
 <p>Word classes such as Noun and Verb, which allow lots of members, are called <input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;open class&quot;]"></input> words, while word classes such as Prepositions and Determiners, which do not allow new members, are called <input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;closed class&quot;]"></input> words.</p>
 </div>
 <div id="open-and-closed-class-versions-of-the-same-category" class="section level1">
@@ -351,15 +419,15 @@ $(document).ready(function () {
 <div id="modifying-words" class="section level1">
 <h1>Modifying words</h1>
 <p>There are two types of modifying words a<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;djectives&quot;]"></input> and a<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;dverbs&quot;]"></input>.</p>
-<p>While adjectives modify <input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;nouns&quot;]"></input>, adverbs modify v<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;erbs&quot;]"></input>, a<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;djectives&quot;]"></input> or entire s<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;entences&quot;]"></input></p>
+<p>While adjectives modify <input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;nouns&quot;]"></input>, adverbs modify v<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;erbs&quot;]"></input>, a<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;djectives&quot;]"></input>, other a<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;dverbs&quot;]"></input> or entire s<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;entences&quot;]"></input></p>
 </div>
 <div id="linking-words" class="section level1">
 <h1>Linking words</h1>
-<p>There are two types of linking words c<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;onjunctions&quot;]"></input>, and a<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;dverbs&quot;]"></input> (the type we use to modify sentences)</p>
+<p>There are two types of “linking” words c<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;onjunctions&quot;]"></input>, and a<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;dverbs&quot;]"></input> (the type we use to modify sentences)</p>
 </div>
 <div id="prepositions" class="section level1">
 <h1>Prepositions</h1>
-<p>Prepositions come before n<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;oun&quot;]"></input> phrases, e.g. <em>she is on the bus</em>. They often express loc<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;ation&quot;]"></input> but can have a variety of different functions.</p>
+<p>Prepositions come before n<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;oun&quot;]"></input> phrases, e.g. <em>she is on the bus</em>. They often express loc<input class="solveme nospaces ignorecase" size="15" data-answer="[&quot;ation&quot;]"></input> but can have a variety of different meanings.</p>
 <div class="solution">
 <button>
 Show all answers
@@ -367,20 +435,20 @@ Show all answers
 <h1 id="concept-checking-1">Concept-checking</h1>
 <p>There are 3 tests to determine the word class of a word:</p>
 <ol style="list-style-type: decimal">
-<li>The FUNCTIONAL test: what meaning does it express?</li>
-<li>The POSITIONAL test: where does the word come in a sentence? What is its distribution?</li>
-<li>The MORPHOLOGICAL test: does the word have any particular form? e.g. if it ends -ly it is likely to be adverb</li>
+<li>The MEANING test: what meaning does it express?</li>
+<li>The FORM test: does the word have any particular form? e.g. if it ends -ly it is likely to be adverb</li>
+<li>The POSITION test: where does the word come in a sentence? What is its distribution?</li>
 </ol>
-<p>The most reliable test of word class is the POSITIONAL test.</p>
+<p>The most reliable test of word class is the POSITION test.</p>
 <p>Word classes such as Noun and Verb, which allow lots of members, are called OPEN CLASS words, while word classes such as Prepositions and Determiners, which do not allow new members, are called CLOSED CLASS words</p>
 <h1 id="open-and-closed-class-versions-of-the-same-category-1">Open and closed class versions of the same category</h1>
 <p>Open class nominals (words referring the things) are called Nouns. There is also a category of closed class nominals called PRONOUNS</p>
 <p>While verbs are open class, there is a special kind of verb, an AUXILIARY verb, which is a closed class category. This is found in the verb complex and plays a ‘supporting’ role.</p>
 <h1 id="modifying-words-1">Modifying words</h1>
 <p>There are two types of modifying words ADJECTIVES and ADVERBS.</p>
-<p>While adjectives modify NOUNS, adverbs modify VERBS, ADVERBS or entire SENTENCES.</p>
+<p>While adjectives modify NOUNS, adverbs modify VERBS, ADJECTIVES, other ADVERBS, or entire SENTENCES.</p>
 <h1 id="linking-words-1">Linking words</h1>
-<p>There are two types of linking words CONJUNCTIONS, and ADVERBS (the type we use to modify sentences)</p>
+<p>There are two types of linking words: CONJUNCTIONS, and ADVERBS (the type we use to modify sentences)</p>
 <h1 id="prepositions-1">Prepositions</h1>
 <p>Prepositions come before NOUN phrases, e.g. <em>she is on the bus</em>. They often express LOCATION but can have a variety of different functions.</p>
 </div>
@@ -393,7 +461,7 @@ Show all answers
 <button>
 Solution
 </button>
-<p>The -ise, -ate, and -en endings are all typical of verbs, e.g. <em>itemise</em>, <em>regurgitate</em>, <em>soften</em>.</p>
+<p>Answer = EXTRAVAGANT. The -ise, -ate, and -en endings are all typical of verbs, e.g. <em>itemise</em>, <em>regurgitate</em>, <em>soften</em>.</p>
 </div>
 <p><br></p>
 <p>Which of these is not a noun? <select class="solveme" data-answer="[&quot;capitulate&quot;]"> <option></option> <option>capitulate</option> <option>fullness</option> <option>spinsterhood</option> <option>gardener</option></select></p>
@@ -401,7 +469,7 @@ Solution
 <button>
 Solution
 </button>
-<p>The -ness, -hood, and -er endings are all typical of nouns, e.g. <em>wellness</em>, <em>neighbourhood</em>, <em>cleaner</em>.</p>
+<p>Answer - CAPITULATE. The -ness, -hood, and -er endings are all typical of nouns, e.g. <em>wellness</em>, <em>neighbourhood</em>, <em>cleaner</em>.</p>
 </div>
 <p><br></p>
 <p>Which of these is not an adjective? <select class="solveme" data-answer="[&quot;cornucopia&quot;]"> <option></option> <option>slothful</option> <option>touchy-feely</option> <option>barbarous</option> <option>cornucopia</option></select></p>
@@ -409,7 +477,7 @@ Solution
 <button>
 Solution
 </button>
-<p>The -ful, -y, and -ous endings are all typical of adjectives, e.g. <em>beautiful</em>, <em>smelly</em>, <em>frivolous</em></p>
+<p>Answer = CORNUCOPIA. The -ful, -y, and -ous endings are all typical of adjectives, e.g. <em>beautiful</em>, <em>smelly</em>, <em>frivolous</em></p>
 </div>
 <p><br></p>
 <p>Which of these is not an adverb? <select class="solveme" data-answer="[&quot;because&quot;]"> <option></option> <option>apparently</option> <option>because</option> <option>honestly</option> <option>however</option></select></p>
@@ -417,7 +485,7 @@ Solution
 <button>
 Solution
 </button>
-<p><em>Because</em> is a conjunction. Unlike adverbs, it is able to join two sentences. The -ly ending is typical of adverbs, but note that <em>however</em> does not have an ending typical of adverbs.</p>
+<p>Answer = BECAUSE. It is a conjunction. Unlike adverbs, it is able to join two sentences. The -ly ending is typical of adverbs, but note that <em>however</em> does not have an ending typical of adverbs.</p>
 </div>
 <p><br></p>
 <p>Which of these is not a preposition? <select class="solveme" data-answer="[&quot;straight&quot;]"> <option></option> <option>on</option> <option>over</option> <option>with</option> <option>out</option> <option>straight</option></select></p>
@@ -425,7 +493,7 @@ Solution
 <button>
 Solution
 </button>
-<p>All prepositions can be inserted in front of a Noun Phrase, e.g. <em>on the bus</em>, <em>over the moon</em>, <em>with a smile on his face</em>, <em>out the door</em></p>
+<p>Answer = STRAIGHT. All prepositions can be inserted in front of a Noun Phrase, e.g. <em>on the bus</em>, <em>over the moon</em>, <em>with a smile on his face</em>, <em>out the door</em></p>
 </div>
 <p><br></p>
 <p>Which of these is not a determiner? <select class="solveme" data-answer="[&quot;them&quot;]"> <option></option> <option>the</option> <option>them</option> <option>a</option> <option>many</option> <option>these</option></select></p>
@@ -433,7 +501,7 @@ Solution
 <button>
 Solution
 </button>
-<p>All can be followed by a noun except <em>them</em> (well, actually, in some dialects, <em>them</em> acts as a determiner, e.g. <em>could you give me them things</em>, but in Standard English it is not a determiner)</p>
+<p>Answer = THEM. In standard dialects, all can be followed by a noun except <em>them</em> (However, in some dialects, <em>them</em> acts as a determiner, e.g. <em>could you give me them things</em>)</p>
 </div>
 </div>
 
