@@ -201,7 +201,7 @@ The world is your twoyster!
 
 # MiMo
 
-MiMo is a tool I am developing which helps you to explore linguistic data. It can be found at [https://nickriches.shinyapps.io/MiMo_v1/](https://nickriches.shinyapps.io/MiMo_v1/).
+MiMo is a tool I am developing which helps you to explore linguistic data. It can be found at [https://mas-shiny.ncl.ac.uk/mimo/](https://mas-shiny.ncl.ac.uk/mimo/).
 
 You can use it to learn word classes. You can either.
 
