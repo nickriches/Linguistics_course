@@ -16,7 +16,10 @@ if (!requireNamespace("webex")) {
 }
 ```
 
-A morpheme is the s`r fitb("mallest", width = "8")` unit of m`r fitb("eaning", width = "8")`. They can either be f`r fitb("ree", width = "8")` or b`r fitb("ound", width = "8")`. There are two types of b`r fitb("ound", width = "8")` morpheme: d`r fitb("erivational", width = "8")` morphemes and i`r fitb("nflectional", width = "8")` morphemes.
+*Concept checking*
+
+
+A morpheme is a "Minimal Symbolic Unit' or the  s`r fitb("mallest", width = "8")` unit of m`r fitb("eaning", width = "8")`. They can either be f`r fitb("ree", width = "8")` or b`r fitb("ound", width = "8")`. There are two types of b`r fitb("ound", width = "8")` morpheme: d`r fitb("erivational", width = "8")` morphemes and i`r fitb("nflectional", width = "8")` morphemes.
 
 I`r fitb("nflectional", width = "8")` morphemes `r mcq(c(answer = "are involved in syntactic processes", "are not involved in syntactic processes"))`, `r mcq(c(answer = "are subject to phonological processes", "are not subject to phonological processes"))`, are `r mcq(c(answer = "productive", "not very productive"))` and `r mcq(c("can come at both the beginning and ends of words", answer = "can only come at the ends of words"))`
 
@@ -28,7 +31,7 @@ In child language, the average number of morphemes per sentences is often descri
 
 `r hide("Show answers")`
 
-A morpheme is the SMALLEST unit of MEANING. They can either be FREE or BOUND. There are two types of BOUND morpheme: DERIVATIONAL morphemes and INFLECTIONAL morphemes.
+A morpheme is a "Minimal Symbolic Unit' or the SMALLEST unit of MEANING. They can either be FREE or BOUND. There are two types of BOUND morpheme: DERIVATIONAL morphemes and INFLECTIONAL morphemes.
 
 INFLECTIONAL morphemes ARE INVOLVED IN SYNTACTIC PROCESSES, ARE SUBJECT TO PHONOLOGICAL PROCESSES are PRODUCTIVE and CAN ONLY COME AT THE END OF WORDS
 
@@ -37,5 +40,37 @@ DERIVATIONAL morphemes ARE NOT INVOLVED IN SYNTACTIC PROCESSES, ARE LESS SUBJECT
 There are two WORD FORMATION processes: DERIVATIONAL morphology and COMPOUNDING (joining multiple words together)
 
 In child language, the average number of morphemes per sentences is often described as the MEAN LENGTH OF UTTERANCE.
+
+`r unhide()`
+
+<br>
+
+*Identifying morphemes*
+
+Identify the morphemes which occur inside the following words. Are they inflectional or derivational?
+
+1. dissatisfied. MORPHEME: `r fitb("dis")`. TYPE: `r mcq(c("Inflectional", answer = "Derivational"))`
+2. senseless. MORPHEME: `r fitb("less")`. TYPE: `r mcq(c("Inflectional", answer = "Derivational"))`
+3. stopped. MORPHEME: `r fitb("ed")`. TYPE: `r mcq(c(answer = "Inflectional", "Derivational"))`
+4. deselect. MORPHEME: `r fitb("de")`. TYPE: `r mcq(c("Inflectional", answer = "Derivational"))`
+5. catapaulting. MORPHEME: `r fitb("ing")`. TYPE: `r mcq(c(answer = "Inflectional", "Derivational"))`
+6. humidity. MORPHEME: `r fitb("idity")`. TYPE: `r mcq(c("Inflectional", answer = "Derivational"))`
+7. internment. MORPHEME: `r fitb("ment")`. TYPE: `r mcq(c("Inflectional", answer = "Derivational"))`
+8. greater. MORPHEME: `r fitb("er")`. TYPE: `r mcq(c(answer = "Inflectional", "Derivational"))`
+9. snoggable. MORPHEME: `r fitb("able")`. TYPE: `r mcq(c("Inflectional", answer = "Deriviational"))`
+10. destress. MORPHEME: `r fitb("de")`. TYPE: `r mcq(c("Inflectional", answer = "Deriviational"))`
+
+`r hide("Show answers")`
+
+1. dissatisfied. MORPHEME: "dis". TYPE: Derivational.
+2. senseless. MORPHEME: "less". TYPE: Derivational.
+3. stopped. MORPHEME: "ed". TYPE: Inflectional.
+4. deselect. MORPHEME: "de" TYPE: Derivational.
+5. catapaulting. MORPHEME: "ing" TYPE: Inflectional.
+6. humidity. MORPHEME: "idity". TYPE: Derivational.
+7. internment. MORPHEME: "ment". TYPE: Derivational.
+8. greater. MORPHEME: "er". TYPE: Inflectional.
+9. snoggable. MORPHEME: "able". TYPE: Derivational.
+10. destress. MORPHEME: "de". TYPE: Derivational
 
 `r unhide()`

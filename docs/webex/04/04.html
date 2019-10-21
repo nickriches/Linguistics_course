@@ -276,9 +276,7 @@ border-color: green;
 }
 </style>
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -303,22 +301,92 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -332,7 +400,8 @@ $(document).ready(function () {
 </div>
 
 
-<p>A morpheme is the s<input class="solveme nospaces" size="8" data-answer="[&quot;mallest&quot;]"></input> unit of m<input class="solveme nospaces" size="8" data-answer="[&quot;eaning&quot;]"></input>. They can either be f<input class="solveme nospaces" size="8" data-answer="[&quot;ree&quot;]"></input> or b<input class="solveme nospaces" size="8" data-answer="[&quot;ound&quot;]"></input>. There are two types of b<input class="solveme nospaces" size="8" data-answer="[&quot;ound&quot;]"></input> morpheme: d<input class="solveme nospaces" size="8" data-answer="[&quot;erivational&quot;]"></input> morphemes and i<input class="solveme nospaces" size="8" data-answer="[&quot;nflectional&quot;]"></input> morphemes.</p>
+<p><em>Concept checking</em></p>
+<p>A morpheme is a &quot;Minimal Symbolic Unit’ or the s<input class="solveme nospaces" size="8" data-answer="[&quot;mallest&quot;]"></input> unit of m<input class="solveme nospaces" size="8" data-answer="[&quot;eaning&quot;]"></input>. They can either be f<input class="solveme nospaces" size="8" data-answer="[&quot;ree&quot;]"></input> or b<input class="solveme nospaces" size="8" data-answer="[&quot;ound&quot;]"></input>. There are two types of b<input class="solveme nospaces" size="8" data-answer="[&quot;ound&quot;]"></input> morpheme: d<input class="solveme nospaces" size="8" data-answer="[&quot;erivational&quot;]"></input> morphemes and i<input class="solveme nospaces" size="8" data-answer="[&quot;nflectional&quot;]"></input> morphemes.</p>
 <p>I<input class="solveme nospaces" size="8" data-answer="[&quot;nflectional&quot;]"></input> morphemes <select class="solveme" data-answer="[&quot;are involved in syntactic processes&quot;]"> <option></option> <option>are involved in syntactic processes</option> <option>are not involved in syntactic processes</option></select>, <select class="solveme" data-answer="[&quot;are subject to phonological processes&quot;]"> <option></option> <option>are subject to phonological processes</option> <option>are not subject to phonological processes</option></select>, are <select class="solveme" data-answer="[&quot;productive&quot;]"> <option></option> <option>productive</option> <option>not very productive</option></select> and <select class="solveme" data-answer="[&quot;can only come at the ends of words&quot;]"> <option></option> <option>can come at both the beginning and ends of words</option> <option>can only come at the ends of words</option></select></p>
 <p>D<input class="solveme nospaces" size="8" data-answer="[&quot;erivational&quot;]"></input> morphemes <select class="solveme" data-answer="[&quot;are not involved in syntactic processes&quot;]"> <option></option> <option>are involved in syntactic processes</option> <option>are not involved in syntactic processes</option></select>, <select class="solveme" data-answer="[&quot;are less subject to phonological processes&quot;]"> <option></option> <option>are subject to phonological processes</option> <option>are less subject to phonological processes</option></select>, are <select class="solveme" data-answer="[&quot;not very productive&quot;]"> <option></option> <option>productive</option> <option>not very productive</option></select> and <select class="solveme" data-answer="[&quot;can come at both the beginning and ends of words&quot;]"> <option></option> <option>can come at both the beginning and ends of words</option> <option>can only come at the ends of words</option></select></p>
 <p>There are two w<input class="solveme nospaces" size="8" data-answer="[&quot;ord&quot;]"></input> f<input class="solveme nospaces" size="8" data-answer="[&quot;ormation&quot;]"></input> processes: d<input class="solveme nospaces" size="8" data-answer="[&quot;erivational&quot;]"></input> morphology and c<input class="solveme nospaces" size="8" data-answer="[&quot;ompounding&quot;]"></input> (joining multiple words together)</p>
@@ -341,11 +410,43 @@ $(document).ready(function () {
 <button>
 Show answers
 </button>
-<p>A morpheme is the SMALLEST unit of MEANING. They can either be FREE or BOUND. There are two types of BOUND morpheme: DERIVATIONAL morphemes and INFLECTIONAL morphemes.</p>
+<p>A morpheme is a &quot;Minimal Symbolic Unit’ or the SMALLEST unit of MEANING. They can either be FREE or BOUND. There are two types of BOUND morpheme: DERIVATIONAL morphemes and INFLECTIONAL morphemes.</p>
 <p>INFLECTIONAL morphemes ARE INVOLVED IN SYNTACTIC PROCESSES, ARE SUBJECT TO PHONOLOGICAL PROCESSES are PRODUCTIVE and CAN ONLY COME AT THE END OF WORDS</p>
 <p>DERIVATIONAL morphemes ARE NOT INVOLVED IN SYNTACTIC PROCESSES, ARE LESS SUBJECT TO PHONOLOGICAL PROCESSES, are LESS PRODUCTIVE and CAN COME AT THE BEGINNINGS AND ENDS OF WORDS.</p>
 <p>There are two WORD FORMATION processes: DERIVATIONAL morphology and COMPOUNDING (joining multiple words together)</p>
 <p>In child language, the average number of morphemes per sentences is often described as the MEAN LENGTH OF UTTERANCE.</p>
+</div>
+<p><br></p>
+<p><em>Identifying morphemes</em></p>
+<p>Identify the morphemes which occur inside the following words. Are they inflectional or derivational?</p>
+<ol style="list-style-type: decimal">
+<li>dissatisfied. MORPHEME: <input class="solveme nospaces" size="3" data-answer="[&quot;dis&quot;]"></input>. TYPE: <select class="solveme" data-answer="[&quot;Derivational&quot;]"> <option></option> <option>Inflectional</option> <option>Derivational</option></select></li>
+<li>senseless. MORPHEME: <input class="solveme nospaces" size="4" data-answer="[&quot;less&quot;]"></input>. TYPE: <select class="solveme" data-answer="[&quot;Derivational&quot;]"> <option></option> <option>Inflectional</option> <option>Derivational</option></select></li>
+<li>stopped. MORPHEME: <input class="solveme nospaces" size="2" data-answer="[&quot;ed&quot;]"></input>. TYPE: <select class="solveme" data-answer="[&quot;Inflectional&quot;]"> <option></option> <option>Inflectional</option> <option>Derivational</option></select></li>
+<li>deselect. MORPHEME: <input class="solveme nospaces" size="2" data-answer="[&quot;de&quot;]"></input>. TYPE: <select class="solveme" data-answer="[&quot;Derivational&quot;]"> <option></option> <option>Inflectional</option> <option>Derivational</option></select></li>
+<li>catapaulting. MORPHEME: <input class="solveme nospaces" size="3" data-answer="[&quot;ing&quot;]"></input>. TYPE: <select class="solveme" data-answer="[&quot;Inflectional&quot;]"> <option></option> <option>Inflectional</option> <option>Derivational</option></select></li>
+<li>humidity. MORPHEME: <input class="solveme nospaces" size="5" data-answer="[&quot;idity&quot;]"></input>. TYPE: <select class="solveme" data-answer="[&quot;Derivational&quot;]"> <option></option> <option>Inflectional</option> <option>Derivational</option></select></li>
+<li>internment. MORPHEME: <input class="solveme nospaces" size="4" data-answer="[&quot;ment&quot;]"></input>. TYPE: <select class="solveme" data-answer="[&quot;Derivational&quot;]"> <option></option> <option>Inflectional</option> <option>Derivational</option></select></li>
+<li>greater. MORPHEME: <input class="solveme nospaces" size="2" data-answer="[&quot;er&quot;]"></input>. TYPE: <select class="solveme" data-answer="[&quot;Inflectional&quot;]"> <option></option> <option>Inflectional</option> <option>Derivational</option></select></li>
+<li>snoggable. MORPHEME: <input class="solveme nospaces" size="4" data-answer="[&quot;able&quot;]"></input>. TYPE: <select class="solveme" data-answer="[&quot;Deriviational&quot;]"> <option></option> <option>Inflectional</option> <option>Deriviational</option></select></li>
+<li>destress. MORPHEME: <input class="solveme nospaces" size="2" data-answer="[&quot;de&quot;]"></input>. TYPE: <select class="solveme" data-answer="[&quot;Deriviational&quot;]"> <option></option> <option>Inflectional</option> <option>Deriviational</option></select></li>
+</ol>
+<div class="solution">
+<button>
+Show answers
+</button>
+<ol style="list-style-type: decimal">
+<li>dissatisfied. MORPHEME: “dis”. TYPE: Derivational.</li>
+<li>senseless. MORPHEME: “less”. TYPE: Derivational.</li>
+<li>stopped. MORPHEME: “ed”. TYPE: Inflectional.</li>
+<li>deselect. MORPHEME: “de” TYPE: Derivational.</li>
+<li>catapaulting. MORPHEME: “ing” TYPE: Inflectional.</li>
+<li>humidity. MORPHEME: “idity”. TYPE: Derivational.</li>
+<li>internment. MORPHEME: “ment”. TYPE: Derivational.</li>
+<li>greater. MORPHEME: “er”. TYPE: Inflectional.</li>
+<li>snoggable. MORPHEME: “able”. TYPE: Derivational.</li>
+<li>destress. MORPHEME: “de”. TYPE: Derivational</li>
+</ol>
 </div>
 
 <script>
