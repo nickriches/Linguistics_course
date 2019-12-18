@@ -111,7 +111,8 @@ The additional 30% of your grade will be made up by the bilingualism essay.
 
 The Semester 1 exam will contain questions on the following topics.
 
-1. Labelling syntactic functions using LARSP
+1. Labelling Word Classes
+2. Labelling syntactic functions using LARSP
 2. Labelling semantic relations (argument structure)
 3. Discussing psycholinguistic models and data
 4. Discussing clinical materials and data
