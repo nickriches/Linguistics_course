@@ -98,7 +98,7 @@ Click [here](other/Semester 2 - Practice Exam.docx) to download the Semester 2 p
   
 ## MScs
 
-MScs will do the **exam in Semester 2 only** (May 2019) which will constitute 35% of the overall mark. At the end of Semester 1, you will do a *Semantic Analysis exercise* (analysing the argument structure of sentences in clinical data), which will constitute 35% of the overall mark. The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam. Click [here](other/MSc Semantic Analysis Exercise - changes in response to student queries - plus changes for next year - CHANGES ACCEPTED.docx) for the assessment.
+MScs will do the **exam in Semester 2 only** (May 2019) which will constitute 35% of the overall mark. At the end of Semester 1, you will do a *Semantic Analysis exercise* (analysing the argument structure of sentences in clinical data), which will constitute 35% of the overall mark. The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam. Click [here](other/2021 - MSc Semantic Analysis Exercise - changes in response to student queries - plus changes for next year - CHANGES ACCEPTED.docx) for the assessment (Deadline 17th January)
 
 <!-- Here is the [original assignment brief](other/MSc Semantic Analysis Exercise.docx), and here is the [slightly modified brief](other/MSc Semantic Analysis Exercise - changes in response to student queries.docx) in response to student queries. -->
 
