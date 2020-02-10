@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Nick Riches" />
@@ -14,6 +14,7 @@
 
 <title>Linguistics</title>
 
+<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -87,7 +88,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -149,6 +149,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -161,48 +162,9 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -216,6 +178,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -293,33 +261,33 @@ div.tocify {
 
 
 <p><img src="images/two_heads.jpg" /></p>
-<div id="introduction" class="section level1">
-<h1><span class="header-section-number">1</span> Introduction</h1>
-<div id="brief-overview-of-the-course" class="section level2">
-<h2><span class="header-section-number">1.1</span> Brief overview of the course</h2>
+<div id="introduction" class="section level1" number="1">
+<h1 number="1"><span class="header-section-number">1</span> Introduction</h1>
+<div id="brief-overview-of-the-course" class="section level2" number="1.1">
+<h2 number="1.1"><span class="header-section-number">1.1</span> Brief overview of the course</h2>
 <p>The course covers topics in syntax (sentence structure) and semantics (linguistic meaning) with a clinical focus. It adopts a mainly descriptive approach, describing language structure rather than trying to explain it. Nonetheless there will be brief introductions to linguistic theories (Construction Grammar and Chomskyan Generative Linguistics).</p>
 </div>
-<div id="getting-help" class="section level2">
-<h2><span class="header-section-number">1.2</span> Getting help</h2>
+<div id="getting-help" class="section level2" number="1.2">
+<h2 number="1.2"><span class="header-section-number">1.2</span> Getting help</h2>
 <p>I can be contacted on <a href="mailto:nick.riches@newcastle.ac.uk">nick.riches@newcastle.ac.uk</a>. My office is Room 1.9 on the left hand side on the way to Fozzie the photocopier. On my door is a picture “Captain Auxiliary Verb,” a superhero I have invented which could possibly be my gateway to fame and fortune.</p>
 <p>My Drop-in Session for Semester 1 is at 12 - 1 on a Wednesday</p>
 <p>Please feel free to just ‘drop in’ (but please also contact me in advance if at all possible)</p>
 </div>
-<div id="accessing-this-web-page" class="section level2">
-<h2><span class="header-section-number">1.3</span> Accessing this web page</h2>
+<div id="accessing-this-web-page" class="section level2" number="1.3">
+<h2 number="1.3"><span class="header-section-number">1.3</span> Accessing this web page</h2>
 <p>You may be viewing this web page in Blackboard. If you wish to access this page outside of Blackboard please go to <!-- --> <a href="https://nickriches.github.io/linguistics_course/#01_linguistics" class="uri">https://nickriches.github.io/linguistics_course/#01_linguistics</a> <!-- --> (please right click, and select ‘open link new window’, or else copy and paste into the address bar of your browser). The web page may work slightly better if viewed outside of Blackboard.</p>
 </div>
 </div>
-<div id="reading-materials" class="section level1">
-<h1><span class="header-section-number">2</span> Reading materials</h1>
-<div id="main-reading-materials" class="section level2">
-<h2><span class="header-section-number">2.1</span> Main reading materials</h2>
+<div id="reading-materials" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> Reading materials</h1>
+<div id="main-reading-materials" class="section level2" number="2.1">
+<h2 number="2.1"><span class="header-section-number">2.1</span> Main reading materials</h2>
 <p>The main text is <strong>Borjars, K., &amp; Burridge, K. (2010). Introducing English Grammar (2nd ed.). Hodder Education.</strong> <a href="https://libsearch.ncl.ac.uk/primo-explore/fulldisplay?docid=NCL_ALMA2162237630002411&amp;context=L&amp;vid=NEWUI&amp;lang=en_US&amp;search_scope=NotPC&amp;adaptor=Local%20Search%20Engine&amp;isFrbr=true&amp;tab=default_tab&amp;query=any,contains,borjars%20burridge&amp;sortby=date&amp;facet=frbrgroupid,include,1443135978&amp;offset=0">(this link will take you to the library website where you can see available copies)</a></p>
 <p>There is also an excellent book on linguistics which is written for speech and language therapists <strong>McAllister, J., &amp; Miller. J (2012). Introductory Linguistics for Speech and Language Therapy Practice. Wiley-Blackwell.</strong> <a href="https://libsearch.ncl.ac.uk/primo-explore/fulldisplay?docid=NCL_ALMA2161387180002411&amp;context=L&amp;vid=NEWUI&amp;lang=en_US&amp;search_scope=NotPC&amp;adaptor=Local%20Search%20Engine&amp;tab=default_tab&amp;query=any,contains,mcallister%20miller&amp;sortby=rank&amp;offset=0">(library link)</a></p>
 <p><strong>Crystal, P. D. (2004). Rediscover Grammar (2nd ed.). Longman.</strong> is a good reference book for learning grammatical, but be warned, occasionally his use of terminology is slightly idiosyncratic <a href="https://libsearch.ncl.ac.uk/primo-explore/fulldisplay?docid=NCL_ALMA2156538420002411&amp;context=L&amp;vid=NEWUI&amp;lang=en_US&amp;search_scope=NotPC&amp;adaptor=Local%20Search%20Engine&amp;isFrbr=true&amp;tab=default_tab&amp;query=any,contains,crystal%20rediscover&amp;sortby=date&amp;facet=frbrgroupid,include,1443230234&amp;offset=0">(library link)</a></p>
 </div>
-<div id="secondary-readings" class="section level2">
-<h2><span class="header-section-number">2.2</span> Secondary readings</h2>
+<div id="secondary-readings" class="section level2" number="2.2">
+<h2 number="2.2"><span class="header-section-number">2.2</span> Secondary readings</h2>
 <p>The library has a wide range of introductory books on linguistics.</p>
 <p><em>Black, M., &amp; Chiat, S. (2003). Linguistics for Clinicians A Practical Introduction. Hodder Education</em> is specifically designed for clinicians, so you might wish to take a look at this. However, the book does involve a fairly steep learning curve.</p>
 <p>The following two books are good introduction to generative (Chomskyan) linguistic theory. Be warned, they contain lots of syntactic trees, which we will cover only briefly in the course. The Carnie is exception- ally readable, and probably the best introduction to generative linguistic theory I have come across.</p>
@@ -329,8 +297,8 @@ div.tocify {
 </ol>
 <p><em>Burton-Roberts, P. N. (2010). Analysing Sentences Introduction to English Syntax (3rd ed.). Pearson Longman.</em> is another good introduction, written broadly within the generative framework. Again, it contains trees!</p>
 </div>
-<div id="further-reading" class="section level2">
-<h2><span class="header-section-number">2.3</span> Further reading</h2>
+<div id="further-reading" class="section level2" number="2.3">
+<h2 number="2.3"><span class="header-section-number">2.3</span> Further reading</h2>
 <p><em>Pinker, S. (1994). The Language Instinct. The Penguin Group.</em> is probably the best all-round introduction to linguistics and language psychology. It is written with real verve and panache, and is immensely readable. However, Pinker is sometimes guilty of simplifying facts to suit has argument (it is popular science after all).</p>
 <p>If you wish to read about non-generative approaches, Adele Goldberg has written a couple of great books, but some mind find them difficult.</p>
 <ol style="list-style-type: decimal">
@@ -338,8 +306,8 @@ div.tocify {
 <li><em>Goldberg, A. E. (2006). Constructions at Work The Nature of Generalization in Language. Oxford, UK: Oxford University Press.</em></li>
 </ol>
 </div>
-<div id="main-readings-for-topics-in-semantics" class="section level2">
-<h2><span class="header-section-number">2.4</span> Main readings for topics in semantics</h2>
+<div id="main-readings-for-topics-in-semantics" class="section level2" number="2.4">
+<h2 number="2.4"><span class="header-section-number">2.4</span> Main readings for topics in semantics</h2>
 <p>The two main semantics texts are;</p>
 <ol style="list-style-type: decimal">
 <li><em>Saeed, J. I. (2010). Semantics. John Wiley &amp; Sons.</em> <a href="https://libsearch.ncl.ac.uk/primo-explore/fulldisplay?docid=NCL_ALMA21122130560002411&amp;context=L&amp;vid=NEWUI&amp;lang=en_US&amp;search_scope=NotPC&amp;adaptor=Local%20Search%20Engine&amp;isFrbr=true&amp;tab=default_tab&amp;query=any,contains,semantics&amp;sortby=date&amp;facet=frbrgroupid,include,1443482684&amp;offset=0">library link</a></li>
@@ -348,35 +316,35 @@ div.tocify {
 <p>The Saeed book is better for topics in sentence meaning, e.g. propositions, arguments, tense and aspect. The Cruse book is better on lexical semantics (word meaning)</p>
 </div>
 </div>
-<div id="seminars" class="section level1">
-<h1><span class="header-section-number">3</span> Seminars</h1>
+<div id="seminars" class="section level1" number="3">
+<h1 number="3"><span class="header-section-number">3</span> Seminars</h1>
 <p>In Semester 1, there will be seminars on Friday 11 - 1 in weeks 3, 5, 8 and 10. I will upload exercises the week before.</p>
 <p>Friday 18th October: <a href="seminars/S01%20-%20Seminar%201.pdf">Questions</a> and <a href="seminars/S01%20-%20Seminar%201_plus_answers.pdf">Answers</a></p>
 <p>Friday 8th November: <a href="seminars/S02%20-%20Seminar%202.pdf">Questions</a> and <a href="seminars/S02%20-%20Seminar%202%20-%20plus%20answers.pdf">Answers</a></p>
 <p>Friday 22nd November: <a href="seminars/S03%20-%20Seminar%203.pdf">Questions</a> and <a href="seminars/S03%20-%20Seminar%203%20-%20plus%20answers.pdf">Answers</a></p>
 <p>Friday 6th December: <a href="seminars/S04%20-%20Seminar%204.pdf">Questions</a> and <a href="seminars/S04%20-%20Seminar%204%20-%20plus%20answers.pdf">Answers</a></p>
-<!-- Thursday 14th Feb: [Questions](seminars/S05 - Seminar 5.pdf) and [Answers](seminars/S05 - Seminar 5 - plus answers.pdf) -->
+<p>Thursday 13th Feb: <a href="seminars/S05%20-%20Seminar%205.pdf">Questions</a> and <a href="seminars/S05%20-%20Seminar%205%20-%20plus%20answers.pdf">Answers</a></p>
 <!-- Thursday 28th Feb: [Questions](seminars/S06 - Seminar 6.pdf) and [Answers](seminars/S06 - Seminar 6 - plus answers.pdf) -->
 <!-- Thursday 21st March: [Questions](seminars/S07 - Seminar 7.pdf) and [Answers](seminars/S07 - Seminar 7 - plu answers.pdf) -->
 <!-- Thursday 2nd May: [Questions](seminars/S08 - Seminar 8.pdf) and [Answers](seminars/S08 - Seminar 8 - plus answers.pdf) -->
 </div>
-<div id="assessment" class="section level1">
-<h1><span class="header-section-number">4</span> Assessment</h1>
-<div id="bscs" class="section level2">
-<h2><span class="header-section-number">4.1</span> BScs</h2>
+<div id="assessment" class="section level1" number="4">
+<h1 number="4"><span class="header-section-number">4</span> Assessment</h1>
+<div id="bscs" class="section level2" number="4.1">
+<h2 number="4.1"><span class="header-section-number">4.1</span> BScs</h2>
 <p>There will be <strong>two one-hour exams</strong>, one at the end of Semester 1 (January, 2019), and one at the end of Semester 2 (May 2019). Each will constitute 50% of the overall mark.</p>
 <p>Click <a href="other/Semester%201%20-%20mock%20exam.docx">here</a> to download the Semester 1 practice. <a href="other/LARSP%20symbols.pdf">This</a> is the list of symbols you will be given to use in the exam. The answers the practice exam are <a href="other/Semester%201%20-%20mock%20exam%20-%20plus%20answers.docx">here</a></p>
 <p>Click <a href="other/Semester%202%20-%20Practice%20Exam.docx">here</a> to download the Semester 2 practice exam. Click <a href="other/Semester%202%20-%20Practice%20Exam%20-%20plus%20answers.docx">here</a> for answers.</p>
 </div>
-<div id="mscs" class="section level2">
-<h2><span class="header-section-number">4.2</span> MScs</h2>
+<div id="mscs" class="section level2" number="4.2">
+<h2 number="4.2"><span class="header-section-number">4.2</span> MScs</h2>
 <p>MScs will do the <strong>exam in Semester 2 only</strong> (May 2019) which will constitute 35% of the overall mark. At the end of Semester 1, you will do a <em>Semantic Analysis exercise</em> (analysing the argument structure of sentences in clinical data), which will constitute 35% of the overall mark. The motivation for this additional assessment is that this is an important topic which does not appear in the Semester 2 exam. Click <a href="other/2021%20-%20MSc%20Semantic%20Analysis%20Exercise%20-%20changes%20in%20response%20to%20student%20queries%20-%20plus%20changes%20for%20next%20year%20-%20CHANGES%20ACCEPTED.docx">here</a> for the assessment (Deadline 17th January)</p>
 <!-- Here is the [original assignment brief](other/MSc Semantic Analysis Exercise.docx), and here is the [slightly modified brief](other/MSc Semantic Analysis Exercise - changes in response to student queries.docx) in response to student queries. -->
 <p>Click <a href="other/Semester%202%20-%20Practice%20Exam.docx">here</a> to download the Semester 2 practice exam. Click <a href="other/Semester%202%20-%20Practice%20Exam%20-%20plus%20answers.docx">here</a> for answers.</p>
 <p>The additional 30% of your grade will be made up by the bilingualism essay.</p>
 </div>
-<div id="exam-content" class="section level2">
-<h2><span class="header-section-number">4.3</span> Exam content</h2>
+<div id="exam-content" class="section level2" number="4.3">
+<h2 number="4.3"><span class="header-section-number">4.3</span> Exam content</h2>
 <p>The Semester 1 exam will contain questions on the following topics.</p>
 <ol style="list-style-type: decimal">
 <li>Labelling Word Classes</li>
@@ -400,11 +368,11 @@ div.tocify {
 <p>Later this semester, I will post up example questions for you to look at.</p>
 </div>
 </div>
-<div id="teaching-materials" class="section level1">
-<h1><span class="header-section-number">5</span> Teaching materials</h1>
+<div id="teaching-materials" class="section level1" number="5">
+<h1 number="5"><span class="header-section-number">5</span> Teaching materials</h1>
 <p>The topics are described below, with links to teaching materials and other resources.</p>
-<div id="semester-1" class="section level2">
-<h2><span class="header-section-number">5.1</span> Semester 1</h2>
+<div id="semester-1" class="section level2" number="5.1">
+<h2 number="5.1"><span class="header-section-number">5.1</span> Semester 1</h2>
 <p>NB where table row is dark pink, materials have not been updated for this year. You may click on links to view <em>last year’s materials</em> if you wish to plan ahead, but be aware that content may differ slightly from this year.</p>
 <style>
 
@@ -544,8 +512,8 @@ Sentence production
 </th>
 </table>
 </div>
-<div id="semester-2" class="section level2">
-<h2><span class="header-section-number">5.2</span> Semester 2</h2>
+<div id="semester-2" class="section level2" number="5.2">
+<h2 number="5.2"><span class="header-section-number">5.2</span> Semester 2</h2>
 <table style="width:100%">
 <tr>
 <th>
@@ -577,7 +545,7 @@ The syntax of events
 <th>
 <a href="slides/13%20-%20Syntax%20of%20events.pdf">slides</a> | <a href="handouts_word/13_-_the_syntax_of_events.docx">handout</a> | <a href="handouts_html/13_-_the_syntax_of_events.html">handout (web)</a> | <a href="webex/13/13.html">web exs</a> | <a href="Resources.html#13">resources</a>
 </th>
-<tr bgcolor="#e0c8bc">
+<tr>
 <th>
 14
 </th>
@@ -670,8 +638,8 @@ Linguistics in the Clinic
 </table>
 </div>
 </div>
-<div id="tables" class="section level1">
-<h1><span class="header-section-number">6</span> Tables</h1>
+<div id="tables" class="section level1" number="6">
+<h1 number="6"><span class="header-section-number">6</span> Tables</h1>
 <p>This section is for links to interactive tables which are used to demonstrate linguistic concepts.</p>
 <ol style="list-style-type: decimal">
 <li>A table on <a href="html/word_classes.html">word classes</a>.</li>
@@ -679,13 +647,13 @@ Linguistics in the Clinic
 <li>A table on <a href="html/linking_words.html">linking words</a></li>
 </ol>
 </div>
-<div id="linguistics-on-twitter" class="section level1">
-<h1><span class="header-section-number">7</span> Linguistics on Twitter</h1>
+<div id="linguistics-on-twitter" class="section level1" number="7">
+<h1 number="7"><span class="header-section-number">7</span> Linguistics on Twitter</h1>
 <p>Good hashtags to follow in Twitter are #slpeeps, the main hashtag for speech and language therapists, #lingthusiasm, by Gretchen McCulloch a self-employed internet linguist who does great podcasts and blogs, and #lynneguist, by Lynne Murphy who writes on the similarities and differences between British and American English.</p>
 <p>The world is your twoyster!</p>
 </div>
-<div id="mimo" class="section level1">
-<h1><span class="header-section-number">8</span> MiMo</h1>
+<div id="mimo" class="section level1" number="8">
+<h1 number="8"><span class="header-section-number">8</span> MiMo</h1>
 <p>MiMo is a tool I am developing which helps you to explore linguistic data. It can be found at <a href="https://mas-shiny.ncl.ac.uk/mimo/">https://mas-shiny.ncl.ac.uk/mimo/</a>.</p>
 <p>You can use it to learn word classes. You can either.</p>
 <ol style="list-style-type: decimal">
@@ -716,6 +684,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
