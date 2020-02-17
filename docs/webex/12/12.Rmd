@@ -23,7 +23,7 @@ The term "tense" refers to `r mcq(c(answer = "when an event happened in relation
 
 Lexical aspect refers to `r mcq(c("when an event happened in relation to the time of speaking", "our perspective on an event, e.g. internal versus external", answer = "the inherent temporal properties of a verb"))`. Which of the following is NOT a category used to describe lexical aspect? `r mcq(c("Event", "Activity", answer = "Succession", "Achievement", "Accomplishment"))`. Which of the following properties is not useful for defining aspectual categories? `r mcq(c("Dynamicity (internal structure)", "Telicity (endpoint)", answer = "Intensity"))`
 
-Grammatical aspect refers to `r mcq(c("when an event happened in relation to the time of speaking", answer = "our perspective on an event, e.g. internal versus external", "the inherent temporal properties of a verb"))`. It is expressed using the `r mcq(c(answer = "present participle (-ing form)", "past participle"))` to signal an internal perspective, and the `r mcq(c("present participle (-ing form)", answer = "past participle"))` to signal an external perspective (i.e. a completed event).
+Grammatical aspect refers to `r mcq(c("when an event happened in relation to the time of speaking", answer = "our perspective on an event; internal versus external", "the inherent temporal properties of a verb"))`. It is expressed using the `r mcq(c(answer = "present participle (-ing form)", "past participle"))` to signal an internal perspective, and the `r mcq(c("present participle (-ing form)", answer = "past participle"))` to signal an external perspective (i.e. a completed event).
 
 `r hide("Answers")`
 
