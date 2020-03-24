@@ -68,8 +68,6 @@ overflow: auto;
 margin-left: 2%;
 position: fixed;
 border: 1px solid #ccc;
-webkit-border-radius: 6px;
-moz-border-radius: 6px;
 border-radius: 6px;
 }
 
@@ -97,9 +95,14 @@ font-size: 12px;
 .tocify-subheader .tocify-subheader {
 text-indent: 30px;
 }
-
 .tocify-subheader .tocify-subheader .tocify-subheader {
 text-indent: 40px;
+}
+.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
+text-indent: 50px;
+}
+.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
+text-indent: 60px;
 }
 
 .tocify .tocify-item > a, .tocify .nav-list .nav-header {
@@ -503,13 +506,13 @@ float: none;
 
           item.append($("<a/>", {
 
-            "text": self.text()
+            "html": self.html()
 
           }));
 
         } else {
 
-          item.text(self.text());
+          item.html(self.html());
 
         }
 
@@ -1326,9 +1329,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -1353,21 +1354,82 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -1445,8 +1507,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -1455,6 +1515,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -1516,18 +1586,26 @@ div.tocify {
 <h2><span class="header-section-number">3.3</span> Declarative Mood</h2>
 <p>In most discourses, most sentences will be in the declarative mood. This exhibits the canonical word order of a language. In English this is Subject + Verb + Complement of the verb (optional)</p>
 <ol style="list-style-type: decimal">
-<li>She <span class="math inline">\(_{Subj.}\)</span> is <span class="math inline">\(_{Vb.}\)</span> late for work <span class="math inline">\(_{Comp. (Cs)}​\)</span></li>
+<li>She <span class="math inline">\(_{Subj.}\)</span> is <span class="math inline">\(_{Vb.}\)</span> late for work <span class="math inline">\(_{Comp. (Cs)}\)</span></li>
 <li>The cat <span class="math inline">\(_{Subj.}\)</span> ate <span class="math inline">\(_{Vb.}\)</span> the fish <span class="math inline">\(_{Comp. (Od)}\)</span></li>
 </ol>
 </div>
 <div id="interrogative-mood" class="section level2">
 <h2><span class="header-section-number">3.4</span> Interrogative Mood</h2>
+<p>Interrogatives can either use “wh-words” (sometimes called “open questions”, “wh-questions”), e.g.</p>
+<ol style="list-style-type: decimal">
+<li><strong>Who</strong> did you see?</li>
+</ol>
+<p>… or they can be closed questions, e.g.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Did you like the book I gave you?</li>
+</ol>
 <p>There are two main processes:</p>
 <ol style="list-style-type: decimal">
 <li>Wh-movement</li>
 <li>Inversion of auxiliary or copula</li>
 </ol>
-<p>These processes are only found in Non-subject questions.</p>
+<p>These processes are only found in questions where the wh-word does <strong>not refer to the subject</strong> (these are called non-subject questions)</p>
 <p>Here are some examples:</p>
 <ol style="list-style-type: decimal">
 <li>What is he _ doing? (Non-subject question demonstrating wh-movement and auxiliary inversion)</li>
@@ -1597,7 +1675,7 @@ div.tocify {
 <div id="will" class="section level3">
 <h3><span class="header-section-number">4.2.2</span> “Will”</h3>
 <p>“Will” is often described as a modal verb because it exhibits all the syntactic characterstics of modal verbs, e.g. no inflection for tense/agreement, followed by infinitive and inverted to make a question.</p>
-<p>However, “will” very rarely expresses a modal meaning (e.g. <em>You will not smoke in here!</em> = You can’t smoke in here). In contexts where it does not have a modeal meaning it should not be categorised as a modal verb.</p>
+<p>However, “will” very rarely expresses a modal meaning (e.g. <em>You will not smoke in here!</em> = You can’t smoke in here). In contexts where it does not have a modeal meaning it should not be categorised as a modal verb (though many grammar texts actually do this!).</p>
 </div>
 <div id="can" class="section level3">
 <h3><span class="header-section-number">4.2.3</span> “Can”</h3>
@@ -1690,6 +1768,14 @@ div.tocify {
 <li>The horse raced past the barn fell</li>
 </ol>
 <p>Can you create a discourse context where the sentence makes sense.</p>
+</div>
+<div id="bibliography" class="section level1">
+<h1><span class="header-section-number">7</span> Bibliography</h1>
+<p>Friedmann, N., Novogrodsky, R. (2011). Which questions are most difficult to understand?: The comprehension of Wh questions in three subtypes of SLI. Lingua, 121, 367ˆa382.</p>
+<p>Jyotishi, M., Fein, D., &amp; Naigles, L. (2017). Investigating the Grammatical and Pragmatic Origins of Wh-Questions in Children with Autism Spectrum Disorders. Frontiers in Psychology, 8. <a href="https://doi.org/10.3389/fpsyg.2017.00319" class="uri">https://doi.org/10.3389/fpsyg.2017.00319</a></p>
+<p>Papafragou, A. (1998). The Acquisition of Modality: Implications for Theories of Semantic Representation. Mind &amp; Language, 13(3), 370-399. <a href="https://doi.org/10.1111/1468-0017.00082" class="uri">https://doi.org/10.1111/1468-0017.00082</a></p>
+<p>van der Lely, H. K. J. (1996). Specifically language impaired and normally developing children: Verbal passive vs adjectival passive sentence interpretation. Lingua, 98, 243-272.</p>
+<p>van der Lely, H. K. J., &amp; Battel, J. (2003). Wh-movement in children with grammatical SLI: A test of the RDDR hypothesis. Language, 79, 153-181.</p>
 </div>
 
 
